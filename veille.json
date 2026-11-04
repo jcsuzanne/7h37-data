@@ -529,7 +529,7 @@
      "label": "Côté créatif",
      "items": [
       {
-       "titre": "Poster Expo : 50 affiches en 21 jours, le making-of",
+        "titre": "Poster Expo : 50 affiches en 21 jours, le making-of",
        "resume": "Making-of Codrops d'un défi perso né d'un blocage créatif, sans brief : 50 affiches en 21 jours.",
        "url": "https://tympanus.net/codrops/2026/10/29/poster-expo/",
        "source": "Codrops",
@@ -556,7 +556,7 @@
      "label": "Buzz / bad buzz",
      "items": [
       {
-       "titre": "Claude Code refuse désormais de recréer des jeux existants",
+        "titre": "Claude Code refuse désormais de recréer des jeux existants",
        "resume": "Une règle poussée côté serveur oriente le modèle vers des jeux originaux ; ça grince sur HN.",
        "url": "https://news.ycombinator.com/item?id=50304358",
        "source": "Hacker News",
@@ -590,7 +590,7 @@
       },
       {
        "titre": "Les container queries de style, cas d'usage concrets",
-       "resume": "Thèmes de cartes, variantes de composants et densité d'affichage pilotées par des custom properties du parent, exemples à copier.",
+       "resume": "Thèmes de cartes, variantes de composants et densité d'affichage pilotés par des custom properties du parent, exemples à copier.",
        "url": "https://web.dev/blog",
        "source": "web.dev",
        "important": false
@@ -674,7 +674,7 @@
       },
       {
        "titre": "Svelte 5 : un an après, les runes ont-elles tenu leurs promesses ?",
-       "resume": "Bilan chiffré sur trois applications en production : taille de bundle, bugs de réactivité, courbe d'apprentissage pour les nouveaux arrivants.",
+       "resume": "Bilan chiffré sur trois applications en production : taille de bundle, bugs de réactivité, courbe d'apprentissage pour les nouveau arrivants.",
        "url": "https://svelte.dev/blog",
        "source": "Svelte Blog",
        "important": false
