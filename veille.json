@@ -1,124 +1,865 @@
 {
-"maj": "2026-11-05T07:41:16+04:00",
-"jours": [
-{"date":"2026-11-05","titre":"Veille front — jeudi 5 novembre — Faille apt Debian · Gemini entraîne sur vos chats","sections":[
-{"id":"stack","label":"Ta stack","items":[
-{"titre":"WordPress 7.2 : beta 4 sortie, RC1 le 17 novembre","resume":"Rien de neuf côté Vite/VoidZero, Astro, Sanity ou Shopify ; côté WordPress, la beta 4 de la 7.2 est sortie le 3/11 (beta 5 le 10, RC1 le 17, version finale le 8 décembre avec un nouveau thème par défaut). Bon moment pour tester tes thèmes Timber/Block Studio sur une préprod.","url":"https://make.wordpress.org/core/7-2/","source":"Make WordPress Core","important":false}]},
-{"id":"essentiel","label":"L'essentiel","items":[
-{"titre":"Debian corrige une faille « man-in-the-middle » dans apt","resume":"Debian publie une mise à jour de sécurité d'apt : un bug logique permettrait à un attaquant placé sur le réseau d'injecter du code pendant les mises à jour (détails encore partiels). Si des sites clients tournent sur un VPS Debian, mets apt à jour en priorité ; surveille l'avis Ubuntu.","url":"https://lists.debian.org/debian-security-announce/2026/msg00526.html","source":"Debian Security / Hacker News","important":true},
-{"titre":"Gemini : les chats des abonnés perso servent à l'entraînement","resume":"Même payants, les comptes perso Google AI voient leurs conversations utilisées pour l'entraînement, voire relues par des humains ; seule parade : couper « Keep Activity » (historique effacé après 72 h) ou les chats temporaires. Évite d'y coller du code ou des données client.","url":"https://news.ycombinator.com/item?id=50363461","source":"Hacker News","important":false},
-{"titre":"Kimi K3.1 Pro : les poids sont publiés","resume":"Moonshot AI ouvre un très gros modèle (≈2,8T paramètres selon HN) sous licence payante au-delà d'un seuil de chiffre d'affaires ; benchmarks de code contestés. Pas utilisable en local, à suivre seulement via les API.","url":"https://huggingface.co/moonshotai/Kimi-K3.1-Pro","source":"Hugging Face","important":false}]},
-{"id":"communaute","label":"Ça parle chez les devs","items":[
-{"titre":"HN : « L'IA nous force à rembourser 40 ans de dette technique » (≈730 pts)","resume":"Article IEEE Spectrum autour de PHP2Shell, la double faille PHP trouvée par IA : le fil oppose l'IA qui déterre les vieilles failles à celle qui crée de la nouvelle dette. Rappel utile : vérifie que tes hébergements WordPress sont sur une version PHP patchée (correctif du 20 octobre).","url":"https://news.ycombinator.com/item?id=50364336","source":"Hacker News / IEEE Spectrum","important":false}]},
-{"id":"creatif","label":"Côté créatif","items":[
-{"titre":"« Hervé Was Supposed to Be a Flower Shop »","resume":"Le studio Hervé raconte sur Codrops la genèse de son identité et de son site (publié le 2 novembre), lecture inspi pour un portfolio de studio.","url":"https://tympanus.net/codrops/2026/11/02/herve-studio/","source":"Codrops","important":false}]},
-{"id":"siteinspire","label":"Siteinspire","items":[
-{"titre":"Blond","resume":"Ajouté le 29/10/2026 (catégorie non affichée) ; pas de nouvel ajout depuis le 29/10.","url":"https://blond.cc/","source":"Siteinspire","important":false},
-{"titre":"David McGillivray","resume":"Ajouté le 16/10/2026 (catégorie non affichée) ; pas de nouvel ajout depuis le 29/10.","url":"http://dmcg.co/","source":"Siteinspire","important":false},
-{"titre":"Royal Sites Ireland","resume":"Ajouté le 07/10/2026 (catégorie non affichée) ; pas de nouvel ajout depuis le 29/10.","url":"https://royalsites.ie/","source":"Siteinspire","important":false},
-{"titre":"SIHA","resume":"Ajouté le 07/10/2026 (catégorie non affichée) ; pas de nouvel ajout depuis le 29/10.","url":"https://siha.com.au/","source":"Siteinspire","important":false},
-{"titre":"Oath Biome","resume":"Ajouté le 07/10/2026 (catégorie non affichée) ; pas de nouvel ajout depuis le 29/10.","url":"https://www.oathbiome.com/","source":"Siteinspire","important":false}]},
-{"id":"buzz","label":"Buzz / bad buzz","items":[
-{"titre":"OpenAI rachète Pierre Computer","resume":"Annonce de la startup d'outillage de code sur X, discutée sur HN : OpenAI continue d'acheter des outils pour développeurs.","url":"https://news.ycombinator.com/item?id=50366863","source":"Hacker News","important":false},
-{"titre":"Nouvel incident GitHub : PR, opérations Git et issues perturbées","resume":"Encore une panne qui a bloqué push et pull requests (≈220 pts sur HN) ; pense à ne pas caler un déploiement client critique sur GitHub Actions sans plan B.","url":"https://news.ycombinator.com/item?id=50363378","source":"Hacker News","important":false}]}]},
-{"date":"2026-11-04","titre":"Veille front — mercredi 4 novembre — Safari force le dark mode · Postman dans Claude Code","sections":[
-{"id":"stack","label":"Ta stack","items":[
-{"titre":"Safari 27.3 bêta : « Adaptive Dark Mode » assombrit les sites qui n'ont pas de thème sombre","resume":"WebKit ajoute un mode sombre forcé (activé par l'utilisateur) qui recalcule les luminances des pages claires, logos et SVG compris. Pour tes sites à la DA soignée, prévois l'opt-out <meta name=\"color-scheme\" content=\"light only\"> ou color-scheme: light only sur :root (pas encore reconnu en bêta 1), et teste tes animations GSAP/canvas en mode sombre.","url":"https://webkit.org/blog/18541/introducing-adaptive-dark-mode/","source":"WebKit Blog","important":true}]},
-{"id":"essentiel","label":"L'essentiel","items":[
-{"titre":"Postman installe en douce des plugins et un hook dans Claude Code et Codex","resume":"Postman 12.33.4 (macOS) ajoute sans consentement un plugin Claude Code, un plugin Codex, un MCP distant et un hook de démarrage qui oriente l'agent vers ses skills. Si Postman est sur ta machine, vérifie ~/.claude/settings.json et tes plugins.","url":"https://github.com/postmanlabs/postman-app-support/issues/14370","source":"GitHub · Postman","important":true},
-{"titre":"GitBook piraté via des agents IA : tokens API à renouveler","resume":"Intrusion le 2 novembre : secrets Git Sync et tokens API potentiellement exposés, tous les tokens personnels révoqués. Si une doc client tourne sur GitBook, régénère tokens et connexion MCP.","url":"https://news.ycombinator.com/item?id=50354336","source":"Hacker News","important":false},
-{"titre":"Contact Form 7 : faille 9.8 dans Ultra Addons for CF7","resume":"CVE-2026-102435, suppression de fichiers arbitraires jusqu'à la 3.5.54, exploit public. Vérifie tes sites WordPress clients qui utilisent cet add-on, sinon désactive-le.","url":"https://thesmallbusinesscybersecurityguy.co.uk/blog/wordpress-router-vulnerabilities-uk-smb-november-2026-11-03/","source":"Small Business Cybersecurity Guy","important":false},
-{"titre":"Google dévoile Gemini 4 Carbon","resume":"Nouveau modèle en tête de l'Intelligence Index, mais derrière Claude Opus 5.5 en code ; accès réservé pour l'instant au programme cyber Fairwind. Rien à changer côté outils dans l'immédiat.","url":"https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reveals-new-gemini-4-carbon-ai-model-narrowly-beating-claude-opus-5-5-frontier-ai-model-is-also-the-least-likely-to-hallucinate-benchmarks-claim","source":"Tom's Hardware","important":false}]},
-{"id":"communaute","label":"Ça parle chez les devs","items":[
-{"titre":"HN : la fuite de consentement de Postman (≈970 pts)","resume":"Gros débat sur la confiance envers les outils qui s'auto-branchent sur les agents de code.","url":"https://news.ycombinator.com/item?id=50354960","source":"Hacker News","important":false},
-{"titre":"HN : Safari impose le dark mode à 90 % du web (≈210 pts)","resume":"Partagé entre utile pour l'accessibilité et cauchemar pour les designers ; les devs discutent de l'opt-out.","url":"https://news.ycombinator.com/item?id=50358562","source":"Hacker News","important":false},
-{"titre":"HN : « Laisser les agents IA penser à ta place est un piège » (≈300 pts)","resume":"Discussion sur la perte de compréhension du code quand on délègue trop aux agents.","url":"https://news.ycombinator.com/item?id=50323123","source":"Hacker News","important":false}]},
-{"id":"creatif","label":"Côté créatif","items":[
-{"titre":"Songs of Hyrule : un mini-jeu Three.js monté en quelques jours","resume":"Making-of d'un jeu musical WebGL fan-made, de l'idée au proto, avec les choix techniques.","url":"https://tympanus.net/codrops/?p=124794","source":"Codrops","important":false},
-{"titre":"Atelier UI : mélanger WebGL et DOM dans une lib React","resume":"Comment synchroniser des composants DOM accessibles et un rendu WebGL, transposable à Astro.","url":"https://tympanus.net/codrops/?p=124298","source":"Codrops","important":false}]},
-{"id":"siteinspire","label":"Siteinspire","items":[
-{"titre":"Blond","resume":"Ajouté le 29/10/2026 (catégorie non affichée).","url":"https://blond.cc/","source":"Siteinspire","important":false},
-{"titre":"David McGillivray","resume":"Ajouté le 16/10/2026 (catégorie non affichée).","url":"http://dmcg.co/","source":"Siteinspire","important":false},
-{"titre":"Royal Sites Ireland","resume":"Ajouté le 07/10/2026 (catégorie non affichée).","url":"https://royalsites.ie/","source":"Siteinspire","important":false},
-{"titre":"SIHA","resume":"Ajouté le 07/10/2026 (catégorie non affichée).","url":"https://siha.com.au/","source":"Siteinspire","important":false},
-{"titre":"Oath Biome","resume":"Ajouté le 07/10/2026 (catégorie non affichée).","url":"https://www.oathbiome.com/","source":"Siteinspire","important":false}]},
-{"id":"buzz","label":"Buzz / bad buzz","items":[
-{"titre":"OpenAI réactive l'entraînement sur les chats Codex d'utilisateurs qui avaient refusé","resume":"Signalé sur HN (≈420 pts) : à vérifier dans tes réglages si tu utilises Codex sur du code client.","url":"https://news.ycombinator.com/item?id=50352757","source":"Hacker News","important":false}]}]},
-{"date":"2026-11-03","titre":"Veille front — mardi 3 novembre — Ubuntu traîne sur une faille 9.8 · GSAP + agents","sections":[
-{"id":"essentiel","label":"L'essentiel","items":[
-{"titre":"Ubuntu n'a toujours pas patché une faille noyau TCP/IP notée 9.8","resume":"Deux semaines après sa divulgation, la CVE-2026-98432 reste sans correctif noyau chez Ubuntu (classée « High » sans explication), alors que Debian et Red Hat ont corrigé. Si des sites clients (WordPress, Node) tournent sur un VPS Ubuntu, surveille les mises à jour du noyau et redémarre dès qu'il sort.","url":"https://chalmovsky.com/posts/wtf-ubuntu","source":"chalmovsky.com / Hacker News","important":true},
-{"titre":"Journée calme sur ta stack","resume":"Rien de majeur côté Vite/VoidZero, Astro (7.4 date du 15 octobre, récap d'octobre déjà vu), Sanity, Shopify ou WordPress ces dernières 24 h.","url":"https://astro.build/blog/","source":"Astro Blog","important":false}]},
-{"id":"communaute","label":"Ça parle chez les devs","items":[
-{"titre":"HN : « WTF Ubuntu? » (≈960 pts)","resume":"Gros fil sur l'absence de justification d'Ubuntu, la gravité réelle de la faille et l'intérêt d'Ubuntu Pro face à Debian.","url":"https://news.ycombinator.com/item?id=50337608","source":"Hacker News","important":false},
-{"titre":"HN : « I Read the Clankers' Code »","resume":"Débat sur la qualité du code généré par IA : relecture, tests et CI comme garde-fous, et le risque de projets greenfield ingérables.","url":"https://news.ycombinator.com/item?id=50340362","source":"Hacker News","important":false}]},
-{"id":"creatif","label":"Côté créatif","items":[
-{"titre":"Animer avec des agents : un site de typo cinétique en GSAP","resume":"John Polacek construit un site de kinetic type avec GSAP et les « Animaxxing Skills » pour agents IA — pile ton combo GSAP + Claude.","url":"https://tympanus.net/codrops/?p=124792","source":"Codrops","important":false},
-{"titre":"What's !important #20 : effets de scroll GTA 6, scrollspy en CSS, random()","resume":"Décorticage des effets de scroll du site GTA 6, scrollspy en CSS moderne et démos de random() (Chrome 156, pas encore Firefox). La newsletter CSS-Tricks revient le 10 novembre.","url":"https://css-tricks.com/whats-important-20/","source":"CSS-Tricks","important":false}]},
-{"id":"siteinspire","label":"Siteinspire","items":[
-{"titre":"Blond","resume":"Ajouté le 29/10/2026 (catégorie non affichée).","url":"https://blond.cc/","source":"Siteinspire","important":false},
-{"titre":"David McGillivray","resume":"Ajouté le 16/10/2026 (catégorie non affichée).","url":"http://dmcg.co/","source":"Siteinspire","important":false},
-{"titre":"Royal Sites Ireland","resume":"Ajouté le 07/10/2026 (catégorie non affichée).","url":"https://royalsites.ie/","source":"Siteinspire","important":false},
-{"titre":"SIHA","resume":"Ajouté le 07/10/2026 (catégorie non affichée).","url":"https://siha.com.au/","source":"Siteinspire","important":false},
-{"titre":"Oath Biome","resume":"Ajouté le 07/10/2026 (catégorie non affichée).","url":"https://www.oathbiome.com/","source":"Siteinspire","important":false}]},
-{"id":"buzz","label":"Buzz / bad buzz","items":[
-{"titre":"L'usage interne d'IA chez Anthropic dépasserait sa masse salariale","resume":"Selon Business Insider, valorisé au prix public de l'API ; HN conteste la méthode et y voit surtout du marketing.","url":"https://news.ycombinator.com/item?id=50339494","source":"Hacker News / Business Insider","important":false}]}]},
-{"date":"2026-11-02","titre":"Veille front — lundi 2 novembre — Astro bon élève de l'IA · CSS-Tricks racheté","sections":[
-{"id":"essentiel","label":"L'essentiel","items":[
-{"titre":"Claude Code : le fast mode d'Opus 4.8 disparaît le 30 novembre","resume":"Annoncé dans Claude Code 2.1.316 : après le 30/11, les requêtes fast mode sur Opus 4.8 renverront une erreur, sans repli automatique. Si tu l'utilises (config, scripts, CI), bascule vers Opus 5.5 avant la date.","url":"https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-november-1-2026-15pn","source":"DEV Community","important":true},
-{"titre":"CSS-Tricks redevient indépendant, racheté par Geoff Graham","resume":"DigitalOcean (propriétaire depuis 2022) cède le site à son rédacteur en chef : plus d'auteurs invités, retour de la newsletter, abonnements et un cours HTML/CSS débutant. Bonne nouvelle pour une ressource de référence qui s'essoufflait.","url":"https://css-tricks.com/css-tricks-has-a-new-owner/","source":"CSS-Tricks","important":false}]},
-{"id":"communaute","label":"Ça parle chez les devs","items":[
-{"titre":"HN : « Le coût IA des frameworks JS » de Nolan Lawson (≈290 pts)","resume":"Même appli codée par Claude Code dans 12 frameworks : Astro est le 2e moins cher (≈2,76 $ médian, derrière Hono+htmx), SvelteKit et Angular les plus coûteux. Argument concret pour ta stack Astro, avec la réserve d'un échantillon petit et bruité.","url":"https://news.ycombinator.com/item?id=50323088","source":"Hacker News","important":false},
-{"titre":"HN : cinq Qwen3.8-27B orchestrés battraient Fable 5 sur LiveCodeBench Hard (≈420 pts)","resume":"Le harness open source GVS5H fait planifier et vérifier un petit modèle local via des fichiers partagés ; résultats annoncés par les auteurs, non vérifiés. À suivre si tu veux du code IA en local.","url":"https://news.ycombinator.com/item?id=50320995","source":"Hacker News","important":false}]},
-{"id":"creatif","label":"Côté créatif","items":[
-{"titre":"La « Frankenstein Table » : un <table> mis en page en CSS Grid","resume":"Garder le balisage sémantique d'un tableau mais le passer en display: grid (lignes et cellules en block/contents) pour des mises en page de données plus libres.","url":"https://css-tricks.com/the-frankenstein-table/","source":"CSS-Tricks","important":false},
-{"titre":"phoria2, petite lib WebGL 2 pour la 3D sur le web","resume":"Lib légère et rapide repérée sur HN, à tester pour des scènes 3D légères dans un site créatif.","url":"https://news.ycombinator.com/item?id=50314508","source":"Hacker News","important":false}]},
-{"id":"buzz","label":"Buzz / bad buzz","items":[
-{"titre":"Un faux modèle « Mythos » d'Anthropic sur Hugging Face retiré pour malware","resume":"Un dépôt se présentant comme un modèle Anthropic fuité a été supprimé après détection de code malveillant : ne télécharge pas de poids « leakés ».","url":"https://news.ycombinator.com/item?id=50326727","source":"Hacker News","important":false}]}]},
-{"date":"2026-11-01","titre":"Veille front — dimanche 1er novembre — WordPress : 63 000 attaques · Astro sur Oxygen","sections":[
-{"id":"stack","label":"Ta stack","items":[
-{"titre":"Faille WordPress 7.1.3 : près de 63 000 attaques en 24 h","resume":"Rebondissement de la RCE corrigée en 7.1.4 : Wordfence en a bloqué 62 969 tentatives en une journée (contre 18 500 avant-hier), avec des bots qui surveillent les sites pour frapper pendant la fenêtre de mise à jour. Si un site client n'est pas encore en 7.1.4, c'est aujourd'hui ; regarde aussi les requêtes vers wp-content/upgrade.","url":"https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html","source":"The Hacker News","important":true},
-{"titre":"Astro : le récap d'octobre signale astro-hydrogen pour déployer sur Shopify Oxygen","resume":"Le « What's new » d'octobre (publié le 31) met en avant astro-hydrogen, qui déploie un site Astro sur Oxygen avec un client Storefront API sur chaque page — piste à tester pour un front Astro headless sur Shopify. Aussi : nouveaux adaptateurs (Bun, SST/AWS) et astro-strict-csp.","url":"https://astro.build/blog/whats-new-october-2026/","source":"Astro Blog","important":false}]},
-{"id":"essentiel","label":"L'essentiel","items":[
-{"titre":"Prise de contrôle de comptes ChatGPT via un simple lien","resume":"Parameter.ai décrit une faille permettant de s'emparer d'un compte ChatGPT en faisant cliquer un lien. Si tu y as branché du code client ou des connecteurs, vigilance sur les liens reçus et les sessions actives.","url":"https://www.parameter.ai/labs/we-found-a-gap-at-openai","source":"Parameter.ai","important":false},
-{"titre":"Prospero, un nouveau « harness » natif pour agents de code","resume":"Appli GUI native (C++, style Dear ImGui) pour piloter des agents de code, en édition Community (Unlicense) et Pro payante. Alternative légère à Cursor/Zed à garder à l'œil.","url":"https://nullprogram.com/blog/2026/10/31/","source":"nullprogram","important":false}]},
-{"id":"communaute","label":"Ça parle chez les devs","items":[
-{"titre":"HN : Prospero et l'usage d'un abonnement Claude dans un outil tiers","resume":"Le gros du fil porte sur la question : abonnement Claude utilisable ou non hors des outils officiels (Agent SDK, mode headless, tarif API).","url":"https://news.ycombinator.com/item?id=50315226","source":"Hacker News","important":false},
-{"titre":"HN : une lib qui résout Cloudflare Turnstile sans navigateur headless (284 pts)","resume":"Si tes formulaires clients reposent uniquement sur Turnstile contre le spam, prévois une deuxième barrière (rate limiting, honeypot).","url":"https://news.ycombinator.com/item?id=50277379","source":"Hacker News","important":false},
-{"titre":"HN : « Casser le web ouvert n'arrêtera pas les mauvais bots » (320 pts)","resume":"Débat sur le blocage par user-agent, ASN ou captchas, et le coût pour les vrais utilisateurs et l'accessibilité.","url":"https://news.ycombinator.com/item?id=50263837","source":"Hacker News","important":false}]},
-{"id":"creatif","label":"Côté créatif","items":[
-{"titre":"Siteinspire E-commerce : Fume","resume":"Calme ce week-end côté créatif ; dernière sélection e-commerce de Siteinspire à parcourir pour l'inspi boutique.","url":"https://www.siteinspire.com/website/13651-fume","source":"Siteinspire","important":false}]},
-{"id":"buzz","label":"Buzz / bad buzz","items":[
-{"titre":"Fuite de données chez Scribd / Slideshare","resume":"Emails et infos de paiement partielles (4 derniers chiffres, expiration) possiblement exposés ; les notifications arrivent depuis le 26 octobre.","url":"https://news.ycombinator.com/item?id=50312756","source":"Hacker News","important":false}]}]},
-{"date":"2026-10-31","titre":"Veille front — samedi 31 octobre — Extension Claude Code piégée · RCE WordPress 7.1.4","sections":[
-{"id":"stack","label":"Ta stack","items":[
-{"titre":"WordPress 7.1.4 corrige une RCE non authentifiée déjà ciblée","resume":"Une faille (4.7 → 7.1.3, CVSS 8.1) permet d'exécuter l'installeur déposé dans wp-content/upgrade pendant une mise à jour du core ; Wordfence a vu plus de 18 500 tentatives en 21 h. Vérifie que tous tes sites clients Timber/Block Studio sont bien en 7.1.4 et jette un œil aux logs PHP sous wp-content/upgrade.","url":"https://gbhackers.com/wordpress-7-1-4-fixes-22-security-vulnerabilities/","source":"GBHackers","important":true}]},
-{"id":"essentiel","label":"L'essentiel","items":[
-{"titre":"Fausse extension Claude Code 2.1.313 avec backdoor SSH sur Cursor / Open VSX","resume":"Pendant environ 11 h le 29 octobre, une version piégée publiée sur le marketplace de Cursor ajoutait une clé SSH (« svc-telemetry ») et ouvrait un tunnel vers l'attaquant ; jusqu'à 5 000 utilisateurs touchés, le Marketplace Microsoft et les canaux officiels d'Anthropic ne sont pas concernés. Si tu utilises Cursor ou Windsurf : vérifie ~/.ssh/authorized_keys, désinstaller ne suffit pas.","url":"https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/","source":"Help Net Security","important":true},
-{"titre":"EMBRACE : failles dans les navigateurs intégrés de Cursor, Copilot, Codex, VS Code et Claude Desktop","resume":"Des chercheurs montrent exécution de code, vol de fichiers et usurpation de barre d'adresse via les navigateurs embarqués des outils de code IA. Cursor et Copilot ont corrigé, Codex et VS Code non à la publication : prudence avec les previews de pages non fiables dans l'éditeur.","url":"https://cybersecuritynews.com/popular-ai-embedded-browsers-hacked/","source":"Cyber Security News","important":false},
-{"titre":"Pico CSS arrête son développement, à cause de l'IA","resume":"Le mainteneur fige le framework en 2.1.1 et archive les dépôts, estimant que l'IA génère désormais le CSS minimal nécessaire. Le paquet npm et le CDN restent en ligne, mais plus de mises à jour : à remplacer si tu l'utilises dans un starter.","url":"https://github.com/picocss/pico/discussions/754","source":"GitHub · Pico CSS","important":false}]},
-{"id":"communaute","label":"Ça parle chez les devs","items":[
-{"titre":"HN : la backdoor de l'extension Claude Code (370+ points)","resume":"Gros fil sur la sécurité des marketplaces d'extensions alternatifs ; Anthropic précise que ses canaux officiels ne sont pas touchés.","url":"https://news.ycombinator.com/item?id=50300683","source":"Hacker News","important":false},
-{"titre":"HN : Northflank demande de considérer toutes les variables d'environnement comme déchiffrées","resume":"Incident de sécurité et panne majeure chez l'hébergeur PaaS : débat sur la gestion des secrets chez les plateformes de déploiement.","url":"https://news.ycombinator.com/item?id=50305025","source":"Hacker News","important":false},
-{"titre":"HN : la fin de Pico CSS relance le débat « l'IA tue-t-elle les petits frameworks ? »","resume":"Discussion sur l'avenir des frameworks CSS légers face à la génération de code.","url":"https://news.ycombinator.com/item?id=50298964","source":"Hacker News","important":false}]},
-{"id":"creatif","label":"Côté créatif","items":[
-{"titre":"Poster Expo : 50 affiches en 21 jours, le making-of","resume":"Making-of Codrops d'un défi perso né d'un blocage créatif, sans brief : 50 affiches en 21 jours.","url":"https://tympanus.net/codrops/2026/10/29/poster-expo/","source":"Codrops","important":false},
-{"titre":"Construire des mondes 3D avec l'IA : Meshy × Chrona","resume":"Codrops revient sur la génération d'environnements 3D par IA présentée à la SF Tech Week.","url":"https://tympanus.net/codrops/2026/10/30/sf-tech-week-3d-worlds/","source":"Codrops","important":false},
-{"titre":"Blond, studio de product design (sélection Siteinspire du 29/10)","resume":"Site de studio sélectionné par Siteinspire, catégories Product Design et Agences.","url":"https://www.siteinspire.com/website/11135-blond","source":"Siteinspire","important":false}]},
-{"id":"buzz","label":"Buzz / bad buzz","items":[
-{"titre":"Claude Code refuse désormais de recréer des jeux existants","resume":"Une règle poussée côté serveur oriente le modèle vers des jeux originaux ; ça grince sur HN.","url":"https://news.ycombinator.com/item?id=50304358","source":"Hacker News","important":false}]}]},
-{"date":"2026-10-30","titre":"Anchor positioning partout, Vite 8.1 et un <dialog> enfin accessible","sections":[
-{"id":"css","label":"CSS & UI","items":[
-{"titre":"Anchor positioning : Firefox active la fonctionnalité par défaut","resume":"Avec Firefox, les trois moteurs supportent désormais anchor-name et position-area. Fini les librairies de positionnement pour les tooltips et menus simples.","url":"https://developer.mozilla.org/fr/docs/Web/CSS/CSS_anchor_positioning","source":"MDN","important":true},
-{"titre":"Pourquoi <dialog> + popover remplacent enfin vos modales maison","resume":"Tour d'horizon des pièges restants (focus, scroll lock, ::backdrop) et d'un pattern « modale & menu » sans une ligne de JS de gestion du focus.","url":"https://www.smashingmagazine.com/category/css/","source":"Smashing Magazine","important":false},
-{"titre":"Les container queries de style, cas d'usage concrets","resume":"Thèmes de cartes, variantes de composants et densité d'affichage pilotées par des custom properties du parent, exemples à copier.","url":"https://web.dev/blog","source":"web.dev","important":false}]},
-{"id":"js","label":"JavaScript & TypeScript","items":[
-{"titre":"TypeScript 6.0 RC : ce qui casse avant la bascule vers le compilateur natif","resume":"Options dépréciées supprimées, target ES5 retirée, moduleResolution node10 abandonnée. Checklist de migration en 10 points.","url":"https://devblogs.microsoft.com/typescript/","source":"TypeScript Blog","important":true},
-{"titre":"Temporal : guide pratique pour remplacer date-fns","resume":"PlainDate, ZonedDateTime, durées et fuseaux : les équivalents directs des fonctions les plus utilisées, avec les pièges de sérialisation.","url":"https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Temporal","source":"MDN","important":false}]},
-{"id":"outils","label":"Outillage","items":[
-{"titre":"Vite 8.1 : Rolldown stabilisé, builds 3× plus rapides sur les gros monorepos","resume":"Le bundler en Rust devient le seul chemin de build. Les plugins Rollup restent compatibles, quelques hooks avancés changent de signature.","url":"https://github.com/vitejs/vite/releases","source":"GitHub · vitejs/vite","important":true},
-{"titre":"Biome 2.3 apprend les règles de lint type-aware","resume":"Une partie des règles typescript-eslint qui nécessitaient le type checker sont maintenant disponibles sans tsc, avec un coût négligeable.","url":"https://biomejs.dev/blog/","source":"Biome","important":false}]},
-{"id":"perf-a11y","label":"Perf & accessibilité","items":[]},
-{"id":"a-lire","label":"À lire","items":[
-{"titre":"« Le design system n'est pas un produit, c'est un service »","resume":"Retour d'expérience d'une équipe de 4 personnes qui maintient les composants de 30 squads : gouvernance, contributions, versionnage.","url":"https://bradfrost.com/blog/","source":"Brad Frost","important":false}]}]}
-]
+ "maj": "2026-11-06T07:45:29+04:00",
+ "jours": [
+  {
+   "date": "2026-11-06",
+   "titre": "Veille front — vendredi 6 novembre — Conductor racheté par Meta · Images 2.6 en SVG",
+   "sections": [
+    {
+     "id": "essentiel",
+     "label": "L'essentiel",
+     "items": [
+      {
+       "titre": "Journée calme sur ta stack",
+       "resume": "Rien de majeur côté Vite/VoidZero, Astro (dernier billet le 31/10), Sanity, Shopify thèmes ou WordPress depuis hier. Seule nouveauté Shopify : IP allowlists obligatoires pour les apps publiques, sans impact sur les thèmes.",
+       "url": "https://shopify.dev/changelog/posts/ip-allowlists-are-now-required-for-public-apps",
+       "source": "Shopify Dev Changelog",
+       "important": false
+      },
+      {
+       "titre": "OpenAI Images 2.6 : sortie SVG et GIF animés natifs",
+       "resume": "Le nouveau modèle d'image génère directement du SVG et des GIF, 50 % plus vite au même tarif annoncé. Sur HN, le SVG semble être un raster vectorisé (pas d'<animate>) et les petites qualités consomment 3 à 4× plus de tokens : à tester pour des icônes ou illustrations, pas pour du SVG propre à animer en GSAP.",
+       "url": "https://openai.com/index/introducing-images-2-6/",
+       "source": "OpenAI / Hacker News",
+       "important": false
+      },
+      {
+       "titre": "Ripple-65B, modèle open-weight Apache 2.0 orienté code agentique",
+       "resume": "Ricursive publie un modèle dense de 65B (80,5 sur Terminal Bench 2.1) sous licence Apache 2.0. Benchmarks jugés sélectifs et modèle lent en local : à surveiller seulement si tu veux un modèle de code auto-hébergé.",
+       "url": "https://news.ycombinator.com/item?id=50369925",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "Smashing : « Modern CSS Might Make Your Front-End More Complex »",
+       "resume": "Article qui nuance l'enthousiasme pour le CSS moderne : chaque nouvelle feature ajoute des fallbacks et de la charge mentale. Bonne lecture avant d'intégrer trop de nouveautés dans ton starter.",
+       "url": "https://www.smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+       "source": "Smashing Magazine",
+       "important": false
+      },
+      {
+       "titre": "Ben's Bites : Craft and taste",
+       "resume": "Il enchaîne les agents par étapes (Codex pour récupérer les données, Opus pour la dataviz, puis des agents sans contexte pour relire) afin d'attraper les erreurs. Il défend une UI singulière plutôt qu'un vernis générique, et pense aussi l'« agent experience ».",
+       "url": "https://www.bensbites.com/p/craft-and-taste",
+       "source": "Ben's Bites",
+       "important": false
+      },
+      {
+       "titre": "Ben's Bites : Finding my thing",
+       "resume": "Quelques outils pour que tes agents produisent de meilleures UI (Stageshow, BoardUI, Looseleaf), et un conseil : construire pour soi et ajouter une boîte de feedback pour itérer.",
+       "url": "https://www.bensbites.com/p/if-you-feel-behind-right-now-dont",
+       "source": "Ben's Bites",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "communaute",
+     "label": "Ça parle chez les devs",
+     "items": [
+      {
+       "titre": "Ask HN : « Quel est ton setup agentique actuel ? » (≈310 pts, 330 com.)",
+       "resume": "Tendance nette : Claude Code ou Codex en pilote, un modèle bon marché pour l'implémentation, des worktrees ou tmux en parallèle, et des agents isolés (Docker, VM) avec relecture humaine avant merge.",
+       "url": "https://news.ycombinator.com/item?id=50366117",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "HN : des Lemmings en CSS qui marchent sur ta page (≈150 pts)",
+       "resume": "Hommage au jeu en animations CSS : les lemmings marchent sur les titres et rebondissent au scroll, des milliers peuvent tourner sans ralentir.",
+       "url": "https://news.ycombinator.com/item?id=50375354",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "creatif",
+     "label": "Côté créatif",
+     "items": [
+      {
+       "titre": "Old Specimens, New Pixels : une collection de minéraux en shaders",
+       "resume": "Stephanie Bruce raconte comment elle a construit une collection de minéraux en shaders sur Codrops, idéal comme inspi WebGL pour un site muséal ou un portfolio.",
+       "url": "https://tympanus.net/codrops/2026/11/03/mineral-collection/",
+       "source": "Codrops",
+       "important": false
+      },
+      {
+       "titre": "Spreading Liquid with Three.js",
+       "resume": "Démo interactive d'un liquide (fond de teint) qui s'étale et se mélange, avec l'explication de la simulation et du mélange de couleurs.",
+       "url": "https://mofu-dev.com/en/blog/fluid-foundation/",
+       "source": "mofu-dev",
+       "important": false
+      },
+      {
+       "titre": "Taming Typography : un reset CSS typographique moderne",
+       "resume": "tidy-typography.css s'appuie sur text-wrap, text-box-trim, les unités de container et les réglages de fontes variables ; support inégal, à adopter avec des fallbacks.",
+       "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
+       "source": "CSS-Tricks",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "siteinspire",
+     "label": "Siteinspire",
+     "items": [
+      {
+       "titre": "Blond",
+       "resume": "Ajouté le 29/10/2026 (Engine / BLOND) ; pas de nouvel ajout depuis.",
+       "url": "https://blond.cc/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "David McGillivray",
+       "resume": "Ajouté le 16/10/2026 (catégorie non affichée).",
+       "url": "http://dmcg.co/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "Royal Sites Ireland",
+       "resume": "Ajouté le 07/10/2026 (Estd).",
+       "url": "https://royalsites.ie/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "SIHA",
+       "resume": "Ajouté le 07/10/2026 (Allan Pooley).",
+       "url": "https://siha.com.au/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "Oath Biome",
+       "resume": "Ajouté le 07/10/2026 (Landscape).",
+       "url": "https://www.oathbiome.com/",
+       "source": "Siteinspire",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "buzz",
+     "label": "Buzz / bad buzz",
+     "items": [
+      {
+       "titre": "Conductor rejoint Meta et ferme",
+       "resume": "L'app d'agents de code en parallèle (worktrees) ferme les inscriptions ; Conductor Cloud passe en lecture seule le 13/11 et s'arrête le 20/11 ; la version locale tient jusqu'au début 2027. Si tu l'utilises, exporte tes données avant le 20.",
+       "url": "https://www.conductor.build/announcement",
+       "source": "Conductor / Hacker News",
+       "important": false
+      },
+      {
+       "titre": "OpenAI : des agents IA ont produit des exploits root sur le noyau Linux",
+       "resume": "Billet « A thousand fewer paths to root » (≈470 pts sur HN) : 166 exploits d'élévation de privilèges développés par des agents ont été analysés. Raison de plus pour tenir à jour le noyau de tes VPS clients.",
+       "url": "https://news.ycombinator.com/item?id=50372929",
+       "source": "OpenAI / Hacker News",
+       "important": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "titre": "Veille front — jeudi 5 novembre — Faille apt Debian · Gemini entraîne sur vos chats",
+   "sections": [
+    {
+     "id": "stack",
+     "label": "Ta stack",
+     "items": [
+      {
+       "titre": "WordPress 7.2 : beta 4 sortie, RC1 le 17 novembre",
+       "resume": "Rien de neuf côté Vite/VoidZero, Astro, Sanity ou Shopify ; côté WordPress, la beta 4 de la 7.2 est sortie le 3/11 (beta 5 le 10, RC1 le 17, version finale le 8 décembre avec un nouveau thème par défaut). Bon moment pour tester tes thèmes Timber/Block Studio sur une préprod.",
+       "url": "https://make.wordpress.org/core/7-2/",
+       "source": "Make WordPress Core",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "essentiel",
+     "label": "L'essentiel",
+     "items": [
+      {
+       "titre": "Debian corrige une faille « man-in-the-middle » dans apt",
+       "resume": "Debian publie une mise à jour de sécurité d'apt : un bug logique permettrait à un attaquant placé sur le réseau d'injecter du code pendant les mises à jour (détails encore partiels). Si des sites clients tournent sur un VPS Debian, mets apt à jour en priorité ; surveille l'avis Ubuntu.",
+       "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
+       "source": "Debian Security / Hacker News",
+       "important": true
+      },
+      {
+       "titre": "Gemini : les chats des abonnés perso servent à l'entraînement",
+       "resume": "Même payants, les comptes perso Google AI voient leurs conversations utilisées pour l'entraînement, voire relues par des humains ; seule parade : couper « Keep Activity » (historique effacé après 72 h) ou les chats temporaires. Évite d'y coller du code ou des données client.",
+       "url": "https://news.ycombinator.com/item?id=50363461",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "Kimi K3.1 Pro : les poids sont publiés",
+       "resume": "Moonshot AI ouvre un très gros modèle (≈2,8T paramètres selon HN) sous licence payante au-delà d'un seuil de chiffre d'affaires ; benchmarks de code contestés. Pas utilisable en local, à suivre seulement via les API.",
+       "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+       "source": "Hugging Face",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "communaute",
+     "label": "Ça parle chez les devs",
+     "items": [
+      {
+       "titre": "HN : « L'IA nous force à rembourser 40 ans de dette technique » (≈730 pts)",
+       "resume": "Article IEEE Spectrum autour de PHP2Shell, la double faille PHP trouvée par IA : le fil oppose l'IA qui déterre les vieilles failles à celle qui crée de la nouvelle dette. Rappel utile : vérifie que tes hébergements WordPress sont sur une version PHP patchée (correctif du 20 octobre).",
+       "url": "https://news.ycombinator.com/item?id=50364336",
+       "source": "Hacker News / IEEE Spectrum",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "creatif",
+     "label": "Côté créatif",
+     "items": [
+      {
+       "titre": "« Hervé Was Supposed to Be a Flower Shop »",
+       "resume": "Le studio Hervé raconte sur Codrops la genèse de son identité et de son site (publié le 2 novembre), lecture inspi pour un portfolio de studio.",
+       "url": "https://tympanus.net/codrops/2026/11/02/herve-studio/",
+       "source": "Codrops",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "siteinspire",
+     "label": "Siteinspire",
+     "items": [
+      {
+       "titre": "Blond",
+       "resume": "Ajouté le 29/10/2026 (catégorie non affichée) ; pas de nouvel ajout depuis le 29/10.",
+       "url": "https://blond.cc/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "David McGillivray",
+       "resume": "Ajouté le 16/10/2026 (catégorie non affichée) ; pas de nouvel ajout depuis le 29/10.",
+       "url": "http://dmcg.co/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "Royal Sites Ireland",
+       "resume": "Ajouté le 07/10/2026 (catégorie non affichée) ; pas de nouvel ajout depuis le 29/10.",
+       "url": "https://royalsites.ie/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "SIHA",
+       "resume": "Ajouté le 07/10/2026 (catégorie non affichée) ; pas de nouvel ajout depuis le 29/10.",
+       "url": "https://siha.com.au/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "Oath Biome",
+       "resume": "Ajouté le 07/10/2026 (catégorie non affichée) ; pas de nouvel ajout depuis le 29/10.",
+       "url": "https://www.oathbiome.com/",
+       "source": "Siteinspire",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "buzz",
+     "label": "Buzz / bad buzz",
+     "items": [
+      {
+       "titre": "OpenAI rachète Pierre Computer",
+       "resume": "Annonce de la startup d'outillage de code sur X, discutée sur HN : OpenAI continue d'acheter des outils pour développeurs.",
+       "url": "https://news.ycombinator.com/item?id=50366863",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "Nouvel incident GitHub : PR, opérations Git et issues perturbées",
+       "resume": "Encore une panne qui a bloqué push et pull requests (≈220 pts sur HN) ; pense à ne pas caler un déploiement client critique sur GitHub Actions sans plan B.",
+       "url": "https://news.ycombinator.com/item?id=50363378",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "titre": "Veille front — mercredi 4 novembre — Safari force le dark mode · Postman dans Claude Code",
+   "sections": [
+    {
+     "id": "stack",
+     "label": "Ta stack",
+     "items": [
+      {
+       "titre": "Safari 27.3 bêta : « Adaptive Dark Mode » assombrit les sites qui n'ont pas de thème sombre",
+       "resume": "WebKit ajoute un mode sombre forcé (activé par l'utilisateur) qui recalcule les luminances des pages claires, logos et SVG compris. Pour tes sites à la DA soignée, prévois l'opt-out <meta name=\"color-scheme\" content=\"light only\"> ou color-scheme: light only sur :root (pas encore reconnu en bêta 1), et teste tes animations GSAP/canvas en mode sombre.",
+       "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+       "source": "WebKit Blog",
+       "important": true
+      }
+     ]
+    },
+    {
+     "id": "essentiel",
+     "label": "L'essentiel",
+     "items": [
+      {
+       "titre": "Postman installe en douce des plugins et un hook dans Claude Code et Codex",
+       "resume": "Postman 12.33.4 (macOS) ajoute sans consentement un plugin Claude Code, un plugin Codex, un MCP distant et un hook de démarrage qui oriente l'agent vers ses skills. Si Postman est sur ta machine, vérifie ~/.claude/settings.json et tes plugins.",
+       "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+       "source": "GitHub · Postman",
+       "important": true
+      },
+      {
+       "titre": "GitBook piraté via des agents IA : tokens API à renouveler",
+       "resume": "Intrusion le 2 novembre : secrets Git Sync et tokens API potentiellement exposés, tous les tokens personnels révoqués. Si une doc client tourne sur GitBook, régénère tokens et connexion MCP.",
+       "url": "https://news.ycombinator.com/item?id=50354336",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "Contact Form 7 : faille 9.8 dans Ultra Addons for CF7",
+       "resume": "CVE-2026-102435, suppression de fichiers arbitraires jusqu'à la 3.5.54, exploit public. Vérifie tes sites WordPress clients qui utilisent cet add-on, sinon désactive-le.",
+       "url": "https://thesmallbusinesscybersecurityguy.co.uk/blog/wordpress-router-vulnerabilities-uk-smb-november-2026-11-03/",
+       "source": "Small Business Cybersecurity Guy",
+       "important": false
+      },
+      {
+       "titre": "Google dévoile Gemini 4 Carbon",
+       "resume": "Nouveau modèle en tête de l'Intelligence Index, mais derrière Claude Opus 5.5 en code ; accès réservé pour l'instant au programme cyber Fairwind. Rien à changer côté outils dans l'immédiat.",
+       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reveals-new-gemini-4-carbon-ai-model-narrowly-beating-claude-opus-5-5-frontier-ai-model-is-also-the-least-likely-to-hallucinate-benchmarks-claim",
+       "source": "Tom's Hardware",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "communaute",
+     "label": "Ça parle chez les devs",
+     "items": [
+      {
+       "titre": "HN : la fuite de consentement de Postman (≈970 pts)",
+       "resume": "Gros débat sur la confiance envers les outils qui s'auto-branchent sur les agents de code.",
+       "url": "https://news.ycombinator.com/item?id=50354960",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "HN : Safari impose le dark mode à 90 % du web (≈210 pts)",
+       "resume": "Partagé entre utile pour l'accessibilité et cauchemar pour les designers ; les devs discutent de l'opt-out.",
+       "url": "https://news.ycombinator.com/item?id=50358562",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "HN : « Laisser les agents IA penser à ta place est un piège » (≈300 pts)",
+       "resume": "Discussion sur la perte de compréhension du code quand on délègue trop aux agents.",
+       "url": "https://news.ycombinator.com/item?id=50323123",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "creatif",
+     "label": "Côté créatif",
+     "items": [
+      {
+       "titre": "Songs of Hyrule : un mini-jeu Three.js monté en quelques jours",
+       "resume": "Making-of d'un jeu musical WebGL fan-made, de l'idée au proto, avec les choix techniques.",
+       "url": "https://tympanus.net/codrops/?p=124794",
+       "source": "Codrops",
+       "important": false
+      },
+      {
+       "titre": "Atelier UI : mélanger WebGL et DOM dans une lib React",
+       "resume": "Comment synchroniser des composants DOM accessibles et un rendu WebGL, transposable à Astro.",
+       "url": "https://tympanus.net/codrops/?p=124298",
+       "source": "Codrops",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "siteinspire",
+     "label": "Siteinspire",
+     "items": [
+      {
+       "titre": "Blond",
+       "resume": "Ajouté le 29/10/2026 (catégorie non affichée).",
+       "url": "https://blond.cc/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "David McGillivray",
+       "resume": "Ajouté le 16/10/2026 (catégorie non affichée).",
+       "url": "http://dmcg.co/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "Royal Sites Ireland",
+       "resume": "Ajouté le 07/10/2026 (catégorie non affichée).",
+       "url": "https://royalsites.ie/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "SIHA",
+       "resume": "Ajouté le 07/10/2026 (catégorie non affichée).",
+       "url": "https://siha.com.au/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "Oath Biome",
+       "resume": "Ajouté le 07/10/2026 (catégorie non affichée).",
+       "url": "https://www.oathbiome.com/",
+       "source": "Siteinspire",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "buzz",
+     "label": "Buzz / bad buzz",
+     "items": [
+      {
+       "titre": "OpenAI réactive l'entraînement sur les chats Codex d'utilisateurs qui avaient refusé",
+       "resume": "Signalé sur HN (≈420 pts) : à vérifier dans tes réglages si tu utilises Codex sur du code client.",
+       "url": "https://news.ycombinator.com/item?id=50352757",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "titre": "Veille front — mardi 3 novembre — Ubuntu traîne sur une faille 9.8 · GSAP + agents",
+   "sections": [
+    {
+     "id": "essentiel",
+     "label": "L'essentiel",
+     "items": [
+      {
+       "titre": "Ubuntu n'a toujours pas patché une faille noyau TCP/IP notée 9.8",
+       "resume": "Deux semaines après sa divulgation, la CVE-2026-98432 reste sans correctif noyau chez Ubuntu (classée « High » sans explication), alors que Debian et Red Hat ont corrigé. Si des sites clients (WordPress, Node) tournent sur un VPS Ubuntu, surveille les mises à jour du noyau et redémarre dès qu'il sort.",
+       "url": "https://chalmovsky.com/posts/wtf-ubuntu",
+       "source": "chalmovsky.com / Hacker News",
+       "important": true
+      },
+      {
+       "titre": "Journée calme sur ta stack",
+       "resume": "Rien de majeur côté Vite/VoidZero, Astro (7.4 date du 15 octobre, récap d'octobre déjà vu), Sanity, Shopify ou WordPress ces dernières 24 h.",
+       "url": "https://astro.build/blog/",
+       "source": "Astro Blog",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "communaute",
+     "label": "Ça parle chez les devs",
+     "items": [
+      {
+       "titre": "HN : « WTF Ubuntu? » (≈960 pts)",
+       "resume": "Gros fil sur l'absence de justification d'Ubuntu, la gravité réelle de la faille et l'intérêt d'Ubuntu Pro face à Debian.",
+       "url": "https://news.ycombinator.com/item?id=50337608",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "HN : « I Read the Clankers' Code »",
+       "resume": "Débat sur la qualité du code généré par IA : relecture, tests et CI comme garde-fous, et le risque de projets greenfield ingérables.",
+       "url": "https://news.ycombinator.com/item?id=50340362",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "creatif",
+     "label": "Côté créatif",
+     "items": [
+      {
+       "titre": "Animer avec des agents : un site de typo cinétique en GSAP",
+       "resume": "John Polacek construit un site de kinetic type avec GSAP et les « Animaxxing Skills » pour agents IA — pile ton combo GSAP + Claude.",
+       "url": "https://tympanus.net/codrops/?p=124792",
+       "source": "Codrops",
+       "important": false
+      },
+      {
+       "titre": "What's !important #20 : effets de scroll GTA 6, scrollspy en CSS, random()",
+       "resume": "Décorticage des effets de scroll du site GTA 6, scrollspy en CSS moderne et démos de random() (Chrome 156, pas encore Firefox). La newsletter CSS-Tricks revient le 10 novembre.",
+       "url": "https://css-tricks.com/whats-important-20/",
+       "source": "CSS-Tricks",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "siteinspire",
+     "label": "Siteinspire",
+     "items": [
+      {
+       "titre": "Blond",
+       "resume": "Ajouté le 29/10/2026 (catégorie non affichée).",
+       "url": "https://blond.cc/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "David McGillivray",
+       "resume": "Ajouté le 16/10/2026 (catégorie non affichée).",
+       "url": "http://dmcg.co/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "Royal Sites Ireland",
+       "resume": "Ajouté le 07/10/2026 (catégorie non affichée).",
+       "url": "https://royalsites.ie/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "SIHA",
+       "resume": "Ajouté le 07/10/2026 (catégorie non affichée).",
+       "url": "https://siha.com.au/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "Oath Biome",
+       "resume": "Ajouté le 07/10/2026 (catégorie non affichée).",
+       "url": "https://www.oathbiome.com/",
+       "source": "Siteinspire",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "buzz",
+     "label": "Buzz / bad buzz",
+     "items": [
+      {
+       "titre": "L'usage interne d'IA chez Anthropic dépasserait sa masse salariale",
+       "resume": "Selon Business Insider, valorisé au prix public de l'API ; HN conteste la méthode et y voit surtout du marketing.",
+       "url": "https://news.ycombinator.com/item?id=50339494",
+       "source": "Hacker News / Business Insider",
+       "important": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "titre": "Veille front — lundi 2 novembre — Astro bon élève de l'IA · CSS-Tricks racheté",
+   "sections": [
+    {
+     "id": "essentiel",
+     "label": "L'essentiel",
+     "items": [
+      {
+       "titre": "Claude Code : le fast mode d'Opus 4.8 disparaît le 30 novembre",
+       "resume": "Annoncé dans Claude Code 2.1.316 : après le 30/11, les requêtes fast mode sur Opus 4.8 renverront une erreur, sans repli automatique. Si tu l'utilises (config, scripts, CI), bascule vers Opus 5.5 avant la date.",
+       "url": "https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-november-1-2026-15pn",
+       "source": "DEV Community",
+       "important": true
+      },
+      {
+       "titre": "CSS-Tricks redevient indépendant, racheté par Geoff Graham",
+       "resume": "DigitalOcean (propriétaire depuis 2022) cède le site à son rédacteur en chef : plus d'auteurs invités, retour de la newsletter, abonnements et un cours HTML/CSS débutant. Bonne nouvelle pour une ressource de référence qui s'essoufflait.",
+       "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+       "source": "CSS-Tricks",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "communaute",
+     "label": "Ça parle chez les devs",
+     "items": [
+      {
+       "titre": "HN : « Le coût IA des frameworks JS » de Nolan Lawson (≈290 pts)",
+       "resume": "Même appli codée par Claude Code dans 12 frameworks : Astro est le 2e moins cher (≈2,76 $ médian, derrière Hono+htmx), SvelteKit et Angular les plus coûteux. Argument concret pour ta stack Astro, avec la réserve d'un échantillon petit et bruité.",
+       "url": "https://news.ycombinator.com/item?id=50323088",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "HN : cinq Qwen3.8-27B orchestrés battraient Fable 5 sur LiveCodeBench Hard (≈420 pts)",
+       "resume": "Le harness open source GVS5H fait planifier et vérifier un petit modèle local via des fichiers partagés ; résultats annoncés par les auteurs, non vérifiés. À suivre si tu veux du code IA en local.",
+       "url": "https://news.ycombinator.com/item?id=50320995",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "creatif",
+     "label": "Côté créatif",
+     "items": [
+      {
+       "titre": "La « Frankenstein Table » : un <table> mis en page en CSS Grid",
+       "resume": "Garder le balisage sémantique d'un tableau mais le passer en display: grid (lignes et cellules en block/contents) pour des mises en page de données plus libres.",
+       "url": "https://css-tricks.com/the-frankenstein-table/",
+       "source": "CSS-Tricks",
+       "important": false
+      },
+      {
+       "titre": "phoria2, petite lib WebGL 2 pour la 3D sur le web",
+       "resume": "Lib légère et rapide repérée sur HN, à tester pour des scènes 3D légères dans un site créatif.",
+       "url": "https://news.ycombinator.com/item?id=50314508",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "buzz",
+     "label": "Buzz / bad buzz",
+     "items": [
+      {
+       "titre": "Un faux modèle « Mythos » d'Anthropic sur Hugging Face retiré pour malware",
+       "resume": "Un dépôt se présentant comme un modèle Anthropic fuité a été supprimé après détection de code malveillant : ne télécharge pas de poids « leakés ».",
+       "url": "https://news.ycombinator.com/item?id=50326727",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-01",
+   "titre": "Veille front — dimanche 1er novembre — WordPress : 63 000 attaques · Astro sur Oxygen",
+   "sections": [
+    {
+     "id": "stack",
+     "label": "Ta stack",
+     "items": [
+      {
+       "titre": "Faille WordPress 7.1.3 : près de 63 000 attaques en 24 h",
+       "resume": "Rebondissement de la RCE corrigée en 7.1.4 : Wordfence en a bloqué 62 969 tentatives en une journée (contre 18 500 avant-hier), avec des bots qui surveillent les sites pour frapper pendant la fenêtre de mise à jour. Si un site client n'est pas encore en 7.1.4, c'est aujourd'hui ; regarde aussi les requêtes vers wp-content/upgrade.",
+       "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+       "source": "The Hacker News",
+       "important": true
+      },
+      {
+       "titre": "Astro : le récap d'octobre signale astro-hydrogen pour déployer sur Shopify Oxygen",
+       "resume": "Le « What's new » d'octobre (publié le 31) met en avant astro-hydrogen, qui déploie un site Astro sur Oxygen avec un client Storefront API sur chaque page — piste à tester pour un front Astro headless sur Shopify. Aussi : nouveaux adaptateurs (Bun, SST/AWS) et astro-strict-csp.",
+       "url": "https://astro.build/blog/whats-new-october-2026/",
+       "source": "Astro Blog",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "essentiel",
+     "label": "L'essentiel",
+     "items": [
+      {
+       "titre": "Prise de contrôle de comptes ChatGPT via un simple lien",
+       "resume": "Parameter.ai décrit une faille permettant de s'emparer d'un compte ChatGPT en faisant cliquer un lien. Si tu y as branché du code client ou des connecteurs, vigilance sur les liens reçus et les sessions actives.",
+       "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+       "source": "Parameter.ai",
+       "important": false
+      },
+      {
+       "titre": "Prospero, un nouveau « harness » natif pour agents de code",
+       "resume": "Appli GUI native (C++, style Dear ImGui) pour piloter des agents de code, en édition Community (Unlicense) et Pro payante. Alternative légère à Cursor/Zed à garder à l'œil.",
+       "url": "https://nullprogram.com/blog/2026/10/31/",
+       "source": "nullprogram",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "communaute",
+     "label": "Ça parle chez les devs",
+     "items": [
+      {
+       "titre": "HN : Prospero et l'usage d'un abonnement Claude dans un outil tiers",
+       "resume": "Le gros du fil porte sur la question : abonnement Claude utilisable ou non hors des outils officiels (Agent SDK, mode headless, tarif API).",
+       "url": "https://news.ycombinator.com/item?id=50315226",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "HN : une lib qui résout Cloudflare Turnstile sans navigateur headless (284 pts)",
+       "resume": "Si tes formulaires clients reposent uniquement sur Turnstile contre le spam, prévois une deuxième barrière (rate limiting, honeypot).",
+       "url": "https://news.ycombinator.com/item?id=50277379",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "HN : « Casser le web ouvert n'arrêtera pas les mauvais bots » (320 pts)",
+       "resume": "Débat sur le blocage par user-agent, ASN ou captchas, et le coût pour les vrais utilisateurs et l'accessibilité.",
+       "url": "https://news.ycombinator.com/item?id=50263837",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "creatif",
+     "label": "Côté créatif",
+     "items": [
+      {
+       "titre": "Siteinspire E-commerce : Fume",
+       "resume": "Calme ce week-end côté créatif ; dernière sélection e-commerce de Siteinspire à parcourir pour l'inspi boutique.",
+       "url": "https://www.siteinspire.com/website/13651-fume",
+       "source": "Siteinspire",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "buzz",
+     "label": "Buzz / bad buzz",
+     "items": [
+      {
+       "titre": "Fuite de données chez Scribd / Slideshare",
+       "resume": "Emails et infos de paiement partielles (4 derniers chiffres, expiration) possiblement exposés ; les notifications arrivent depuis le 26 octobre.",
+       "url": "https://news.ycombinator.com/item?id=50312756",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "Veille front — samedi 31 octobre — Extension Claude Code piégée · RCE WordPress 7.1.4",
+   "sections": [
+    {
+     "id": "stack",
+     "label": "Ta stack",
+     "items": [
+      {
+       "titre": "WordPress 7.1.4 corrige une RCE non authentifiée déjà ciblée",
+       "resume": "Une faille (4.7 → 7.1.3, CVSS 8.1) permet d'exécuter l'installeur déposé dans wp-content/upgrade pendant une mise à jour du core ; Wordfence a vu plus de 18 500 tentatives en 21 h. Vérifie que tous tes sites clients Timber/Block Studio sont bien en 7.1.4 et jette un œil aux logs PHP sous wp-content/upgrade.",
+       "url": "https://gbhackers.com/wordpress-7-1-4-fixes-22-security-vulnerabilities/",
+       "source": "GBHackers",
+       "important": true
+      }
+     ]
+    },
+    {
+     "id": "essentiel",
+     "label": "L'essentiel",
+     "items": [
+      {
+       "titre": "Fausse extension Claude Code 2.1.313 avec backdoor SSH sur Cursor / Open VSX",
+       "resume": "Pendant environ 11 h le 29 octobre, une version piégée publiée sur le marketplace de Cursor ajoutait une clé SSH (« svc-telemetry ») et ouvrait un tunnel vers l'attaquant ; jusqu'à 5 000 utilisateurs touchés, le Marketplace Microsoft et les canaux officiels d'Anthropic ne sont pas concernés. Si tu utilises Cursor ou Windsurf : vérifie ~/.ssh/authorized_keys, désinstaller ne suffit pas.",
+       "url": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/",
+       "source": "Help Net Security",
+       "important": true
+      },
+      {
+       "titre": "EMBRACE : failles dans les navigateurs intégrés de Cursor, Copilot, Codex, VS Code et Claude Desktop",
+       "resume": "Des chercheurs montrent exécution de code, vol de fichiers et usurpation de barre d'adresse via les navigateurs embarqués des outils de code IA. Cursor et Copilot ont corrigé, Codex et VS Code non à la publication : prudence avec les previews de pages non fiables dans l'éditeur.",
+       "url": "https://cybersecuritynews.com/popular-ai-embedded-browsers-hacked/",
+       "source": "Cyber Security News",
+       "important": false
+      },
+      {
+       "titre": "Pico CSS arrête son développement, à cause de l'IA",
+       "resume": "Le mainteneur fige le framework en 2.1.1 et archive les dépôts, estimant que l'IA génère désormais le CSS minimal nécessaire. Le paquet npm et le CDN restent en ligne, mais plus de mises à jour : à remplacer si tu l'utilises dans un starter.",
+       "url": "https://github.com/picocss/pico/discussions/754",
+       "source": "GitHub · Pico CSS",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "communaute",
+     "label": "Ça parle chez les devs",
+     "items": [
+      {
+       "titre": "HN : la backdoor de l'extension Claude Code (370+ points)",
+       "resume": "Gros fil sur la sécurité des marketplaces d'extensions alternatifs ; Anthropic précise que ses canaux officiels ne sont pas touchés.",
+       "url": "https://news.ycombinator.com/item?id=50300683",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "HN : Northflank demande de considérer toutes les variables d'environnement comme déchiffrées",
+       "resume": "Incident de sécurité et panne majeure chez l'hébergeur PaaS : débat sur la gestion des secrets chez les plateformes de déploiement.",
+       "url": "https://news.ycombinator.com/item?id=50305025",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "HN : la fin de Pico CSS relance le débat « l'IA tue-t-elle les petits frameworks ? »",
+       "resume": "Discussion sur l'avenir des frameworks CSS légers face à la génération de code.",
+       "url": "https://news.ycombinator.com/item?id=50298964",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "creatif",
+     "label": "Côté créatif",
+     "items": [
+      {
+       "titre": "Poster Expo : 50 affiches en 21 jours, le making-of",
+       "resume": "Making-of Codrops d'un défi perso né d'un blocage créatif, sans brief : 50 affiches en 21 jours.",
+       "url": "https://tympanus.net/codrops/2026/10/29/poster-expo/",
+       "source": "Codrops",
+       "important": false
+      },
+      {
+       "titre": "Construire des mondes 3D avec l'IA : Meshy × Chrona",
+       "resume": "Codrops revient sur la génération d'environnements 3D par IA présentée à la SF Tech Week.",
+       "url": "https://tympanus.net/codrops/2026/10/30/sf-tech-week-3d-worlds/",
+       "source": "Codrops",
+       "important": false
+      },
+      {
+       "titre": "Blond, studio de product design (sélection Siteinspire du 29/10)",
+       "resume": "Site de studio sélectionné par Siteinspire, catégories Product Design et Agences.",
+       "url": "https://www.siteinspire.com/website/11135-blond",
+       "source": "Siteinspire",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "buzz",
+     "label": "Buzz / bad buzz",
+     "items": [
+      {
+       "titre": "Claude Code refuse désormais de recréer des jeux existants",
+       "resume": "Une règle poussée côté serveur oriente le modèle vers des jeux originaux ; ça grince sur HN.",
+       "url": "https://news.ycombinator.com/item?id=50304358",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
