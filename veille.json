@@ -1,6 +1,140 @@
 {
- "maj": "2026-11-06T07:45:29+04:00",
+ "maj": "2026-11-07T07:40:54+04:00",
  "jours": [
+  {
+   "date": "2026-11-07",
+   "titre": "Veille front — samedi 7 novembre — 15 579 sites infectés par du JS malveillant",
+   "sections": [
+    {
+     "id": "essentiel",
+     "label": "L'essentiel",
+     "items": [
+      {
+       "titre": "Journée calme sur ta stack",
+       "resume": "Rien de majeur côté Vite/VoidZero, Astro (dernière version : 7.4 le 15 octobre), Sanity, thèmes Shopify, GSAP ou Lenis. Prochain jalon : WordPress 7.2 RC1 le 17 novembre.",
+       "url": "https://astro.build/blog/",
+       "source": "Astro blog",
+       "important": false
+      },
+      {
+       "titre": "15 579 sites confirmés infectés par du JavaScript malveillant",
+       "resume": "Report URI (Scott Helme) recense skimmers de carte (Magecart), faux captchas « ClickFix » et redirections, injectés via failles WordPress, scripts tiers compromis ou domaines expirés encore appelés (« DeadTag »). Bon réflexe : auditer les scripts externes de tes sites clients et poser une CSP.",
+       "url": "https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/",
+       "source": "Scott Helme",
+       "important": true
+      },
+      {
+       "titre": "Gemini Omni 1.2 Flash : vidéo IA moins chère et plus longue",
+       "resume": "Le modèle vidéo de Google passe à 15 s par clip, avec édition multi-tours et 30 % de baisse de prix (0,07 $/s en 720p), dispo dans l'API Gemini. Utile pour générer des loops ou visuels d'ambiance pour des sites créatifs.",
+       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+       "source": "Google",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "communaute",
+     "label": "Ça parle chez les devs",
+     "items": [
+      {
+       "titre": "HN : Rune, framework UI Rust rendu GPU… qui n'accepte que des issues traitées par des agents",
+       "resume": "Le débat porte moins sur la techno (concurrent de GPUI/egui, cible aussi le web) que sur le modèle « pas de PR humaines, les agents codent ».",
+       "url": "https://news.ycombinator.com/item?id=50394569",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "HN : comment prévenir 15 579 sites infectés ?",
+       "resume": "Discussion autour du billet de Scott Helme : security.txt quasi absent, mails ignorés, rôle des CERT.",
+       "url": "https://news.ycombinator.com/item?id=50396064",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "creatif",
+     "label": "Côté créatif",
+     "items": [
+      {
+       "titre": "Mathias Adolfsson ’26 : carrousel courbe et galerie en tonneau",
+       "resume": "Making-of d'un portfolio avec slides disposées sur un arc, galerie « barrel » et un motion très organique.",
+       "url": "https://tympanus.net/codrops/2026/11/05/mathias-adolfsson-portfolio/",
+       "source": "Codrops",
+       "important": false
+      },
+      {
+       "titre": "Rendre les chats LLM immersifs accessibles",
+       "resume": "Une seule live region annoncée à la fin du streaming, statut « Loading » différé, titres masqués par message et option de réduire les animations.",
+       "url": "https://www.smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/",
+       "source": "Smashing Magazine",
+       "important": false
+      },
+      {
+       "titre": "Réimplémenter :nth-child() en CSS moderne",
+       "resume": "Exercice malin qui reconstruit le sélecteur avec les nouveautés CSS, bon moyen de voir ce qu'elles débloquent.",
+       "url": "https://css-tricks.com/re-implementing-nth-child-with-modern-css/",
+       "source": "CSS-Tricks",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "siteinspire",
+     "label": "Siteinspire",
+     "items": [
+      {
+       "titre": "Blond",
+       "resume": "Studio de product design — ajouté le 29/10/2026",
+       "url": "https://blond.cc/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "David McGillivray",
+       "resume": "Ajouté le 16/10/2026",
+       "url": "http://dmcg.co/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "Royal Sites Ireland",
+       "resume": "Ajouté le 07/10/2026",
+       "url": "https://royalsites.ie/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "SIHA",
+       "resume": "Ajouté le 07/10/2026",
+       "url": "https://siha.com.au/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "Oath Biome",
+       "resume": "Ajouté le 07/10/2026",
+       "url": "https://www.oathbiome.com/",
+       "source": "Siteinspire",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "buzz",
+     "label": "Buzz / bad buzz",
+     "items": [
+      {
+       "titre": "IPO d'Anthropic : la valorisation discutée retomberait à 1 300 Md$",
+       "resume": "Rumeur relayée sur HN, alors que le S-1 révisé fait déjà beaucoup parler.",
+       "url": "https://news.ycombinator.com/item?id=50395318",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    }
+   ]
+  },
   {
    "date": "2026-11-06",
    "titre": "Veille front — vendredi 6 novembre — Conductor racheté par Meta · Images 2.6 en SVG",
@@ -741,119 +875,6 @@
        "titre": "Fuite de données chez Scribd / Slideshare",
        "resume": "Emails et infos de paiement partielles (4 derniers chiffres, expiration) possiblement exposés ; les notifications arrivent depuis le 26 octobre.",
        "url": "https://news.ycombinator.com/item?id=50312756",
-       "source": "Hacker News",
-       "important": false
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "date": "2026-10-31",
-   "titre": "Veille front — samedi 31 octobre — Extension Claude Code piégée · RCE WordPress 7.1.4",
-   "sections": [
-    {
-     "id": "stack",
-     "label": "Ta stack",
-     "items": [
-      {
-       "titre": "WordPress 7.1.4 corrige une RCE non authentifiée déjà ciblée",
-       "resume": "Une faille (4.7 → 7.1.3, CVSS 8.1) permet d'exécuter l'installeur déposé dans wp-content/upgrade pendant une mise à jour du core ; Wordfence a vu plus de 18 500 tentatives en 21 h. Vérifie que tous tes sites clients Timber/Block Studio sont bien en 7.1.4 et jette un œil aux logs PHP sous wp-content/upgrade.",
-       "url": "https://gbhackers.com/wordpress-7-1-4-fixes-22-security-vulnerabilities/",
-       "source": "GBHackers",
-       "important": true
-      }
-     ]
-    },
-    {
-     "id": "essentiel",
-     "label": "L'essentiel",
-     "items": [
-      {
-       "titre": "Fausse extension Claude Code 2.1.313 avec backdoor SSH sur Cursor / Open VSX",
-       "resume": "Pendant environ 11 h le 29 octobre, une version piégée publiée sur le marketplace de Cursor ajoutait une clé SSH (« svc-telemetry ») et ouvrait un tunnel vers l'attaquant ; jusqu'à 5 000 utilisateurs touchés, le Marketplace Microsoft et les canaux officiels d'Anthropic ne sont pas concernés. Si tu utilises Cursor ou Windsurf : vérifie ~/.ssh/authorized_keys, désinstaller ne suffit pas.",
-       "url": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/",
-       "source": "Help Net Security",
-       "important": true
-      },
-      {
-       "titre": "EMBRACE : failles dans les navigateurs intégrés de Cursor, Copilot, Codex, VS Code et Claude Desktop",
-       "resume": "Des chercheurs montrent exécution de code, vol de fichiers et usurpation de barre d'adresse via les navigateurs embarqués des outils de code IA. Cursor et Copilot ont corrigé, Codex et VS Code non à la publication : prudence avec les previews de pages non fiables dans l'éditeur.",
-       "url": "https://cybersecuritynews.com/popular-ai-embedded-browsers-hacked/",
-       "source": "Cyber Security News",
-       "important": false
-      },
-      {
-       "titre": "Pico CSS arrête son développement, à cause de l'IA",
-       "resume": "Le mainteneur fige le framework en 2.1.1 et archive les dépôts, estimant que l'IA génère désormais le CSS minimal nécessaire. Le paquet npm et le CDN restent en ligne, mais plus de mises à jour : à remplacer si tu l'utilises dans un starter.",
-       "url": "https://github.com/picocss/pico/discussions/754",
-       "source": "GitHub · Pico CSS",
-       "important": false
-      }
-     ]
-    },
-    {
-     "id": "communaute",
-     "label": "Ça parle chez les devs",
-     "items": [
-      {
-       "titre": "HN : la backdoor de l'extension Claude Code (370+ points)",
-       "resume": "Gros fil sur la sécurité des marketplaces d'extensions alternatifs ; Anthropic précise que ses canaux officiels ne sont pas touchés.",
-       "url": "https://news.ycombinator.com/item?id=50300683",
-       "source": "Hacker News",
-       "important": false
-      },
-      {
-       "titre": "HN : Northflank demande de considérer toutes les variables d'environnement comme déchiffrées",
-       "resume": "Incident de sécurité et panne majeure chez l'hébergeur PaaS : débat sur la gestion des secrets chez les plateformes de déploiement.",
-       "url": "https://news.ycombinator.com/item?id=50305025",
-       "source": "Hacker News",
-       "important": false
-      },
-      {
-       "titre": "HN : la fin de Pico CSS relance le débat « l'IA tue-t-elle les petits frameworks ? »",
-       "resume": "Discussion sur l'avenir des frameworks CSS légers face à la génération de code.",
-       "url": "https://news.ycombinator.com/item?id=50298964",
-       "source": "Hacker News",
-       "important": false
-      }
-     ]
-    },
-    {
-     "id": "creatif",
-     "label": "Côté créatif",
-     "items": [
-      {
-       "titre": "Poster Expo : 50 affiches en 21 jours, le making-of",
-       "resume": "Making-of Codrops d'un défi perso né d'un blocage créatif, sans brief : 50 affiches en 21 jours.",
-       "url": "https://tympanus.net/codrops/2026/10/29/poster-expo/",
-       "source": "Codrops",
-       "important": false
-      },
-      {
-       "titre": "Construire des mondes 3D avec l'IA : Meshy × Chrona",
-       "resume": "Codrops revient sur la génération d'environnements 3D par IA présentée à la SF Tech Week.",
-       "url": "https://tympanus.net/codrops/2026/10/30/sf-tech-week-3d-worlds/",
-       "source": "Codrops",
-       "important": false
-      },
-      {
-       "titre": "Blond, studio de product design (sélection Siteinspire du 29/10)",
-       "resume": "Site de studio sélectionné par Siteinspire, catégories Product Design et Agences.",
-       "url": "https://www.siteinspire.com/website/11135-blond",
-       "source": "Siteinspire",
-       "important": false
-      }
-     ]
-    },
-    {
-     "id": "buzz",
-     "label": "Buzz / bad buzz",
-     "items": [
-      {
-       "titre": "Claude Code refuse désormais de recréer des jeux existants",
-       "resume": "Une règle poussée côté serveur oriente le modèle vers des jeux originaux ; ça grince sur HN.",
-       "url": "https://news.ycombinator.com/item?id=50304358",
        "source": "Hacker News",
        "important": false
       }
