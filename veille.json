@@ -1,6 +1,133 @@
 {
- "maj": "2026-11-07T07:40:54+04:00",
+ "maj": "2026-11-08T07:39:48+04:00",
  "jours": [
+  {
+   "date": "2026-11-08",
+   "titre": "Veille front — dimanche 8 novembre — Claude Code : 2 539 secrets exposés sur GitHub",
+   "sections": [
+    {
+     "id": "essentiel",
+     "label": "L'essentiel",
+     "items": [
+      {
+       "titre": "Claude Code : « Don't ask again » a exposé 2 539 secrets sur GitHub",
+       "resume": "Apiiro a trouvé des mots de passe et tokens en clair dans 1 122 fichiers .claude/settings.local.json publics : les commandes approuvées avec « Yes, and don't ask again » y sont enregistrées telles quelles, secrets compris. Vérifie que ce fichier est dans le .gitignore de chaque projet, et fais tourner tout identifiant qui aurait été commité.",
+       "url": "https://cybersecuritynews.com/claude-codes-yes-and-dont-ask-again/",
+       "source": "Cybersecurity News",
+       "important": true
+      },
+      {
+       "titre": "Journée calme sur ta stack",
+       "resume": "Rien de majeur côté Vite/VoidZero, Astro (dernière version : 7.4 le 15 octobre), Sanity, Shopify, GSAP ou Lenis ce week-end. Prochain repère : WordPress 7.2 RC1 le 17 novembre.",
+       "url": "https://astro.build/blog/",
+       "source": "Astro blog",
+       "important": false
+      },
+      {
+       "titre": "MaxxBench remet en cause les scores DeepSWE des petits modèles",
+       "resume": "En modifiant légèrement les tâches du benchmark DeepSWE, MaxxBench fait chuter surtout les modèles « flash » et compacts. À garder en tête avant de confier du vrai code à un modèle bon marché sur la foi d'un score.",
+       "url": "https://news.ycombinator.com/item?id=50406222",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "communaute",
+     "label": "Ça parle chez les devs",
+     "items": [
+      {
+       "titre": "HN : la fuite de secrets via les approbations de Claude Code",
+       "resume": "Le fil sur l'étude Apiiro monte vite (≈200 pts, 140 com.) : débat sur les permissions persistantes des agents.",
+       "url": "https://news.ycombinator.com/item?id=50407882",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "HN : Need for Speed Underground 2 jouable dans le navigateur (≈840 pts)",
+       "resume": "Démo spectaculaire de ce que le web peut faire tourner aujourd'hui, et fil riche sur le portage.",
+       "url": "https://news.ycombinator.com/item?id=50403052",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "HN : « Chaque app Windows 11 devrait abandonner Electron » (≈230 pts)",
+       "resume": "Le cas Discord relance le débat apps web empaquetées contre natif.",
+       "url": "https://news.ycombinator.com/item?id=50403507",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "creatif",
+     "label": "Côté créatif",
+     "items": [
+      {
+       "titre": "Golden at Sunset, Olive at Night : le making-of du portfolio de Brandon Yasin",
+       "resume": "Étude de cas Codrops sur un portfolio dont l'ambiance change entre coucher de soleil et nuit.",
+       "url": "https://tympanus.net/codrops/2026/11/04/brandon-yasin-portfolio/",
+       "source": "Codrops",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "siteinspire",
+     "label": "Siteinspire",
+     "items": [
+      {
+       "titre": "Blond",
+       "resume": "Catégorie non précisée — ajouté le 29 octobre 2026.",
+       "url": "https://blond.cc/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "David McGillivray",
+       "resume": "Catégorie non précisée — ajouté le 16 octobre 2026.",
+       "url": "http://dmcg.co/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "Royal Sites Ireland",
+       "resume": "Catégorie non précisée — ajouté le 7 octobre 2026.",
+       "url": "https://royalsites.ie/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "SIHA",
+       "resume": "Catégorie non précisée — ajouté le 7 octobre 2026.",
+       "url": "https://siha.com.au/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "Oath Biome",
+       "resume": "Catégorie non précisée — ajouté le 7 octobre 2026.",
+       "url": "https://www.oathbiome.com/",
+       "source": "Siteinspire",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "buzz",
+     "label": "Buzz / bad buzz",
+     "items": [
+      {
+       "titre": "Microsoft ferme son groupe de recherche AI Frontiers",
+       "resume": "John Langford (Vowpal Wabbit) quitte Microsoft ; les commentateurs y voient un repli de la recherche IA interne au profit des investissements dans d'autres labos.",
+       "url": "https://news.ycombinator.com/item?id=50406563",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    }
+   ]
+  },
   {
    "date": "2026-11-07",
    "titre": "Veille front — samedi 7 novembre — 15 579 sites infectés par du JS malveillant",
@@ -776,105 +903,6 @@
        "titre": "Un faux modèle « Mythos » d'Anthropic sur Hugging Face retiré pour malware",
        "resume": "Un dépôt se présentant comme un modèle Anthropic fuité a été supprimé après détection de code malveillant : ne télécharge pas de poids « leakés ».",
        "url": "https://news.ycombinator.com/item?id=50326727",
-       "source": "Hacker News",
-       "important": false
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "date": "2026-11-01",
-   "titre": "Veille front — dimanche 1er novembre — WordPress : 63 000 attaques · Astro sur Oxygen",
-   "sections": [
-    {
-     "id": "stack",
-     "label": "Ta stack",
-     "items": [
-      {
-       "titre": "Faille WordPress 7.1.3 : près de 63 000 attaques en 24 h",
-       "resume": "Rebondissement de la RCE corrigée en 7.1.4 : Wordfence en a bloqué 62 969 tentatives en une journée (contre 18 500 avant-hier), avec des bots qui surveillent les sites pour frapper pendant la fenêtre de mise à jour. Si un site client n'est pas encore en 7.1.4, c'est aujourd'hui ; regarde aussi les requêtes vers wp-content/upgrade.",
-       "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-       "source": "The Hacker News",
-       "important": true
-      },
-      {
-       "titre": "Astro : le récap d'octobre signale astro-hydrogen pour déployer sur Shopify Oxygen",
-       "resume": "Le « What's new » d'octobre (publié le 31) met en avant astro-hydrogen, qui déploie un site Astro sur Oxygen avec un client Storefront API sur chaque page — piste à tester pour un front Astro headless sur Shopify. Aussi : nouveaux adaptateurs (Bun, SST/AWS) et astro-strict-csp.",
-       "url": "https://astro.build/blog/whats-new-october-2026/",
-       "source": "Astro Blog",
-       "important": false
-      }
-     ]
-    },
-    {
-     "id": "essentiel",
-     "label": "L'essentiel",
-     "items": [
-      {
-       "titre": "Prise de contrôle de comptes ChatGPT via un simple lien",
-       "resume": "Parameter.ai décrit une faille permettant de s'emparer d'un compte ChatGPT en faisant cliquer un lien. Si tu y as branché du code client ou des connecteurs, vigilance sur les liens reçus et les sessions actives.",
-       "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-       "source": "Parameter.ai",
-       "important": false
-      },
-      {
-       "titre": "Prospero, un nouveau « harness » natif pour agents de code",
-       "resume": "Appli GUI native (C++, style Dear ImGui) pour piloter des agents de code, en édition Community (Unlicense) et Pro payante. Alternative légère à Cursor/Zed à garder à l'œil.",
-       "url": "https://nullprogram.com/blog/2026/10/31/",
-       "source": "nullprogram",
-       "important": false
-      }
-     ]
-    },
-    {
-     "id": "communaute",
-     "label": "Ça parle chez les devs",
-     "items": [
-      {
-       "titre": "HN : Prospero et l'usage d'un abonnement Claude dans un outil tiers",
-       "resume": "Le gros du fil porte sur la question : abonnement Claude utilisable ou non hors des outils officiels (Agent SDK, mode headless, tarif API).",
-       "url": "https://news.ycombinator.com/item?id=50315226",
-       "source": "Hacker News",
-       "important": false
-      },
-      {
-       "titre": "HN : une lib qui résout Cloudflare Turnstile sans navigateur headless (284 pts)",
-       "resume": "Si tes formulaires clients reposent uniquement sur Turnstile contre le spam, prévois une deuxième barrière (rate limiting, honeypot).",
-       "url": "https://news.ycombinator.com/item?id=50277379",
-       "source": "Hacker News",
-       "important": false
-      },
-      {
-       "titre": "HN : « Casser le web ouvert n'arrêtera pas les mauvais bots » (320 pts)",
-       "resume": "Débat sur le blocage par user-agent, ASN ou captchas, et le coût pour les vrais utilisateurs et l'accessibilité.",
-       "url": "https://news.ycombinator.com/item?id=50263837",
-       "source": "Hacker News",
-       "important": false
-      }
-     ]
-    },
-    {
-     "id": "creatif",
-     "label": "Côté créatif",
-     "items": [
-      {
-       "titre": "Siteinspire E-commerce : Fume",
-       "resume": "Calme ce week-end côté créatif ; dernière sélection e-commerce de Siteinspire à parcourir pour l'inspi boutique.",
-       "url": "https://www.siteinspire.com/website/13651-fume",
-       "source": "Siteinspire",
-       "important": false
-      }
-     ]
-    },
-    {
-     "id": "buzz",
-     "label": "Buzz / bad buzz",
-     "items": [
-      {
-       "titre": "Fuite de données chez Scribd / Slideshare",
-       "resume": "Emails et infos de paiement partielles (4 derniers chiffres, expiration) possiblement exposés ; les notifications arrivent depuis le 26 octobre.",
-       "url": "https://news.ycombinator.com/item?id=50312756",
        "source": "Hacker News",
        "important": false
       }
