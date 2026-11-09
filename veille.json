@@ -1,6 +1,133 @@
 {
- "maj": "2026-11-08T07:39:48+04:00",
+ "maj": "2026-11-09T07:42:05+04:00",
  "jours": [
+  {
+   "date": "2026-11-09",
+   "titre": "Veille front — lundi 9 novembre — Goldman bride Claude Code · Firefox et rel=next",
+   "sections": [
+    {
+     "id": "essentiel",
+     "label": "L'essentiel",
+     "items": [
+      {
+       "titre": "Journée calme sur ta stack",
+       "resume": "Rien de majeur côté Vite/VoidZero, Astro (dernière version : 7.4 mi-octobre), Sanity, WordPress, Shopify ou GSAP depuis hier.",
+       "url": "https://astro.build/blog/",
+       "source": "Astro",
+       "important": false
+      },
+      {
+       "titre": "Firefox précharge les pages annoncées par un header Link rel=next",
+       "resume": "Simon Willison a découvert que Firefox traite l'en-tête HTTP Link rel=\"next\" comme un prefetch : chaque visite déclenche le rendu serveur de la page suivante, souvent pour rien. À vérifier sur tes sites paginés (archives WP, collections) si tu envoies ce header.",
+       "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+       "source": "Simon Willison",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "communaute",
+     "label": "Ça parle chez les devs",
+     "items": [
+      {
+       "titre": "HN : « Goodbye Claude, hello Pi » (≈590 pts, 380 com.)",
+       "resume": "Un dev quitte Claude Code pour Pi, un harnais d'agent multi-modèles ; le fil compare Pi, ohmypi et opencode, et relance le débat AGENTS.md vs CLAUDE.md.",
+       "url": "https://news.ycombinator.com/item?id=50410107",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "HN : « Agent memory needs its OpenTelemetry moment » (≈140 pts)",
+       "resume": "Plaidoyer pour un standard commun de mémoire des agents IA, au lieu de formats propriétaires par outil.",
+       "url": "https://news.ycombinator.com/item?id=50411467",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "creatif",
+     "label": "Côté créatif",
+     "items": [
+      {
+       "titre": "Declarative Dragging : du drag-and-drop par rendu spéculatif",
+       "resume": "Un système qui calcule plusieurs issues possibles du glisser en parallèle, avec une version HTML basée sur FLIP ; ≈230 pts sur HN.",
+       "url": "https://declarative-dragging.github.io/",
+       "source": "Hacker News",
+       "important": false
+      },
+      {
+       "titre": "CSS-Tricks dévoile sa refonte",
+       "resume": "Premier aperçu du nouveau design du site, soft-launché après son rachat par Geoff Graham ; write-up complet à venir.",
+       "url": "https://css-tricks.com/css-tricks-redesign-preview/",
+       "source": "CSS-Tricks",
+       "important": false
+      },
+      {
+       "titre": "Tasfer : un éditeur de texte entièrement dessiné en canvas 2D",
+       "resume": "Rendu texte sans DOM, intéressant pour qui fait du p5.js/canvas typographique.",
+       "url": "https://news.ycombinator.com/item?id=50358094",
+       "source": "Hacker News",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "siteinspire",
+     "label": "Siteinspire",
+     "items": [
+      {
+       "titre": "Blond",
+       "resume": "29 octobre 2026 — crédits : Engine, BLOND.",
+       "url": "https://blond.cc/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "David McGillivray",
+       "resume": "16 octobre 2026.",
+       "url": "http://dmcg.co/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "Royal Sites Ireland",
+       "resume": "7 octobre 2026 — crédits : Estd.",
+       "url": "https://royalsites.ie/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "SIHA",
+       "resume": "7 octobre 2026 — crédits : Allan Pooley.",
+       "url": "https://siha.com.au/",
+       "source": "Siteinspire",
+       "important": false
+      },
+      {
+       "titre": "Oath Biome",
+       "resume": "7 octobre 2026 — crédits : Landscape.",
+       "url": "https://www.oathbiome.com/",
+       "source": "Siteinspire",
+       "important": false
+      }
+     ]
+    },
+    {
+     "id": "buzz",
+     "label": "Buzz / bad buzz",
+     "items": [
+      {
+       "titre": "Goldman Sachs réserve Claude Code et les outils IA de GitHub à ses ingénieurs",
+       "resume": "Selon Bloomberg, les traders et banquiers qui « vibe-codaient » leurs outils en perdent l'accès ; vif débat sur HN sur le code produit par des non-devs.",
+       "url": "https://news.ycombinator.com/item?id=50415628",
+       "source": "Hacker News / Bloomberg",
+       "important": false
+      }
+     ]
+    }
+   ]
+  },
   {
    "date": "2026-11-08",
    "titre": "Veille front — dimanche 8 novembre — Claude Code : 2 539 secrets exposés sur GitHub",
@@ -825,85 +952,6 @@
        "resume": "Selon Business Insider, valorisé au prix public de l'API ; HN conteste la méthode et y voit surtout du marketing.",
        "url": "https://news.ycombinator.com/item?id=50339494",
        "source": "Hacker News / Business Insider",
-       "important": false
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "date": "2026-11-02",
-   "titre": "Veille front — lundi 2 novembre — Astro bon élève de l'IA · CSS-Tricks racheté",
-   "sections": [
-    {
-     "id": "essentiel",
-     "label": "L'essentiel",
-     "items": [
-      {
-       "titre": "Claude Code : le fast mode d'Opus 4.8 disparaît le 30 novembre",
-       "resume": "Annoncé dans Claude Code 2.1.316 : après le 30/11, les requêtes fast mode sur Opus 4.8 renverront une erreur, sans repli automatique. Si tu l'utilises (config, scripts, CI), bascule vers Opus 5.5 avant la date.",
-       "url": "https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-november-1-2026-15pn",
-       "source": "DEV Community",
-       "important": true
-      },
-      {
-       "titre": "CSS-Tricks redevient indépendant, racheté par Geoff Graham",
-       "resume": "DigitalOcean (propriétaire depuis 2022) cède le site à son rédacteur en chef : plus d'auteurs invités, retour de la newsletter, abonnements et un cours HTML/CSS débutant. Bonne nouvelle pour une ressource de référence qui s'essoufflait.",
-       "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
-       "source": "CSS-Tricks",
-       "important": false
-      }
-     ]
-    },
-    {
-     "id": "communaute",
-     "label": "Ça parle chez les devs",
-     "items": [
-      {
-       "titre": "HN : « Le coût IA des frameworks JS » de Nolan Lawson (≈290 pts)",
-       "resume": "Même appli codée par Claude Code dans 12 frameworks : Astro est le 2e moins cher (≈2,76 $ médian, derrière Hono+htmx), SvelteKit et Angular les plus coûteux. Argument concret pour ta stack Astro, avec la réserve d'un échantillon petit et bruité.",
-       "url": "https://news.ycombinator.com/item?id=50323088",
-       "source": "Hacker News",
-       "important": false
-      },
-      {
-       "titre": "HN : cinq Qwen3.8-27B orchestrés battraient Fable 5 sur LiveCodeBench Hard (≈420 pts)",
-       "resume": "Le harness open source GVS5H fait planifier et vérifier un petit modèle local via des fichiers partagés ; résultats annoncés par les auteurs, non vérifiés. À suivre si tu veux du code IA en local.",
-       "url": "https://news.ycombinator.com/item?id=50320995",
-       "source": "Hacker News",
-       "important": false
-      }
-     ]
-    },
-    {
-     "id": "creatif",
-     "label": "Côté créatif",
-     "items": [
-      {
-       "titre": "La « Frankenstein Table » : un <table> mis en page en CSS Grid",
-       "resume": "Garder le balisage sémantique d'un tableau mais le passer en display: grid (lignes et cellules en block/contents) pour des mises en page de données plus libres.",
-       "url": "https://css-tricks.com/the-frankenstein-table/",
-       "source": "CSS-Tricks",
-       "important": false
-      },
-      {
-       "titre": "phoria2, petite lib WebGL 2 pour la 3D sur le web",
-       "resume": "Lib légère et rapide repérée sur HN, à tester pour des scènes 3D légères dans un site créatif.",
-       "url": "https://news.ycombinator.com/item?id=50314508",
-       "source": "Hacker News",
-       "important": false
-      }
-     ]
-    },
-    {
-     "id": "buzz",
-     "label": "Buzz / bad buzz",
-     "items": [
-      {
-       "titre": "Un faux modèle « Mythos » d'Anthropic sur Hugging Face retiré pour malware",
-       "resume": "Un dépôt se présentant comme un modèle Anthropic fuité a été supprimé après détection de code malveillant : ne télécharge pas de poids « leakés ».",
-       "url": "https://news.ycombinator.com/item?id=50326727",
-       "source": "Hacker News",
        "important": false
       }
      ]
