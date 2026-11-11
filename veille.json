@@ -1,6 +1,160 @@
 {
-  "maj": "2026-11-10T07:39:48+04:00",
+  "maj": "2026-11-11T07:40:23+04:00",
   "jours": [
+    {
+      "date": "2026-11-11",
+      "titre": "Veille front — mercredi 11 novembre — Skill web moderne de Chrome · Val Town ferme",
+      "sections": [
+        {
+          "id": "stack",
+          "label": "Ta stack",
+          "items": [
+            {
+              "titre": "Chrome lance modern-web-guidance 1.0 : un skill pour sortir ton agent du JS de 2019",
+              "resume": "200+ guides (dialog, field-sizing, CSS.highlights…), un skill + CLI de recherche et une commande legacy-scan qui repère le code à moderniser ; co-écrit avec Firefox, MDN et Edge. Taux de réussite des agents de 55 % à 92 % sur leurs tests : à brancher dans Claude Code pour éviter les ResizeObserver là où une ligne de CSS suffit.",
+              "url": "https://github.com/GoogleChrome/modern-web-guidance",
+              "source": "GitHub / Google Chrome",
+              "important": true
+            }
+          ]
+        },
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "Journée calme sur Vite, Astro, Sanity, Shopify et WordPress",
+              "resume": "Pas de version majeure ni de faille nouvelle ; côté WordPress, assure-toi juste que tes sites sont bien en 7.1.4 (faille du core toujours ciblée).",
+              "url": "https://astro.build/blog/",
+              "source": "Veille",
+              "important": false
+            },
+            {
+              "titre": "Astuce Claude Fable 5.2 : dire à l'agent que le code est le sien",
+              "resume": "Selon la doc de prompting d'Anthropic relevée par Simon Willison, préciser que le code a été écrit par Claude le pousse davantage à factoriser le code dupliqué — utile lors de refactos de thèmes.",
+              "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+              "source": "Simon Willison",
+              "important": false
+            },
+            {
+              "titre": "Amazon remplace Sonnet 4.6 par un petit modèle open source, Strands Decider",
+              "resume": "Pour classer ses tickets, Amazon économise des millions avec un modèle de décision spécialisé : rappel qu'un LLM généraliste n'est pas toujours le bon outil pour une tâche répétitive.",
+              "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+              "source": "Strands Agents",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : « Get your coding agent off ~2019 JavaScript » (Paul Irish)",
+              "resume": "Le lancement de modern-web-guidance lance le débat : les bonnes pratiques comptent-elles encore si plus personne ne relit le code généré ?",
+              "url": "https://news.ycombinator.com/item?id=50443812",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : « AI usage generates a fragile codebase » (≈180 pts, 230 com.)",
+              "resume": "Témoignages contradictoires : les uns voient la dette s'accumuler, d'autres maintiennent de grosses apps à l'IA sans souci ; le consensus pointe la revue humaine.",
+              "url": "https://news.ycombinator.com/item?id=50438318",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : Amazon et Strands Decider (≈635 pts)",
+              "resume": "Débat classifieur classique vs LLM pour les tâches simples, et calculs d'économies.",
+              "url": "https://news.ycombinator.com/item?id=50436640",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "Inside Au-rel.io : un portfolio construit autour de la grille et du mouvement",
+              "resume": "Making-of d'Andrea Aurelio Napoli : grille stricte et motion design au service de la navigation.",
+              "url": "https://tympanus.net/codrops/2026/11/09/au-rel-io/",
+              "source": "Codrops",
+              "important": false
+            },
+            {
+              "titre": "UDJO : déclarer chaque propriété CSS une seule fois, toujours pertinent ?",
+              "resume": "Dédupliquer les déclarations répétées reste utile pour la maintenabilité et le poids des feuilles de style.",
+              "url": "https://css-tricks.com/css-using-declarations-just-once/",
+              "source": "CSS-Tricks",
+              "important": false
+            },
+            {
+              "titre": "Blender 5.3 gère les Gaussian Splats",
+              "resume": "Pratique pour préparer des scènes splat avant de les intégrer en WebGL/Three.js.",
+              "url": "https://news.ycombinator.com/item?id=50442426",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "Tacaloa",
+              "resume": "Ajouté le 10 novembre 2026.",
+              "url": "https://www.tacaloa.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Coaika",
+              "resume": "Ajouté le 10 novembre 2026.",
+              "url": "https://www.coaika.co/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "LED",
+              "resume": "Ajouté le 10 novembre 2026.",
+              "url": "https://ledboise.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Who The Fuck Is Sarah Sey ?",
+              "resume": "Ajouté le 10 novembre 2026.",
+              "url": "https://whothefuckissarahsey.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Wedge",
+              "resume": "Ajouté le 10 novembre 2026.",
+              "url": "https://www.wedge.work/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz / bad buzz",
+          "items": [
+            {
+              "titre": "Val Town ferme",
+              "resume": "Inscriptions closes, lecture seule le 10 décembre, arrêt le 10 janvier, code open-sourcé le 1er février 2027 : migre tes vals vers Cloudflare, Vercel ou Netlify si tu en utilises.",
+              "url": "https://blog.val.town/winding-down",
+              "source": "Val Town",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-10",
       "titre": "Veille front — mardi 10 novembre — Claude Fable 5.2 · Faille WordPress exploitée",
@@ -810,160 +964,6 @@
               "titre": "Nouvel incident GitHub : PR, opérations Git et issues perturbées",
               "resume": "Encore une panne qui a bloqué push et pull requests (≈220 pts sur HN) ; pense à ne pas caler un déploiement client critique sur GitHub Actions sans plan B.",
               "url": "https://news.ycombinator.com/item?id=50363378",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "titre": "Veille front — mercredi 4 novembre — Safari force le dark mode · Postman dans Claude Code",
-      "sections": [
-        {
-          "id": "stack",
-          "label": "Ta stack",
-          "items": [
-            {
-              "titre": "Safari 27.3 bêta : « Adaptive Dark Mode » assombrit les sites qui n'ont pas de thème sombre",
-              "resume": "WebKit ajoute un mode sombre forcé (activé par l'utilisateur) qui recalcule les luminances des pages claires, logos et SVG compris. Pour tes sites à la DA soignée, prévois l'opt-out <meta name=\"color-scheme\" content=\"light only\"> ou color-scheme: light only sur :root (pas encore reconnu en bêta 1), et teste tes animations GSAP/canvas en mode sombre.",
-              "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
-              "source": "WebKit Blog",
-              "important": true
-            }
-          ]
-        },
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "Postman installe en douce des plugins et un hook dans Claude Code et Codex",
-              "resume": "Postman 12.33.4 (macOS) ajoute sans consentement un plugin Claude Code, un plugin Codex, un MCP distant et un hook de démarrage qui oriente l'agent vers ses skills. Si Postman est sur ta machine, vérifie ~/.claude/settings.json et tes plugins.",
-              "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-              "source": "GitHub · Postman",
-              "important": true
-            },
-            {
-              "titre": "GitBook piraté via des agents IA : tokens API à renouveler",
-              "resume": "Intrusion le 2 novembre : secrets Git Sync et tokens API potentiellement exposés, tous les tokens personnels révoqués. Si une doc client tourne sur GitBook, régénère tokens et connexion MCP.",
-              "url": "https://news.ycombinator.com/item?id=50354336",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "Contact Form 7 : faille 9.8 dans Ultra Addons for CF7",
-              "resume": "CVE-2026-102435, suppression de fichiers arbitraires jusqu'à la 3.5.54, exploit public. Vérifie tes sites WordPress clients qui utilisent cet add-on, sinon désactive-le.",
-              "url": "https://thesmallbusinesscybersecurityguy.co.uk/blog/wordpress-router-vulnerabilities-uk-smb-november-2026-11-03/",
-              "source": "Small Business Cybersecurity Guy",
-              "important": false
-            },
-            {
-              "titre": "Google dévoile Gemini 4 Carbon",
-              "resume": "Nouveau modèle en tête de l'Intelligence Index, mais derrière Claude Opus 5.5 en code ; accès réservé pour l'instant au programme cyber Fairwind. Rien à changer côté outils dans l'immédiat.",
-              "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reveals-new-gemini-4-carbon-ai-model-narrowly-beating-claude-opus-5-5-frontier-ai-model-is-also-the-least-likely-to-hallucinate-benchmarks-claim",
-              "source": "Tom's Hardware",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : la fuite de consentement de Postman (≈970 pts)",
-              "resume": "Gros débat sur la confiance envers les outils qui s'auto-branchent sur les agents de code.",
-              "url": "https://news.ycombinator.com/item?id=50354960",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : Safari impose le dark mode à 90 % du web (≈210 pts)",
-              "resume": "Partagé entre utile pour l'accessibilité et cauchemar pour les designers ; les devs discutent de l'opt-out.",
-              "url": "https://news.ycombinator.com/item?id=50358562",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : « Laisser les agents IA penser à ta place est un piège » (≈300 pts)",
-              "resume": "Discussion sur la perte de compréhension du code quand on délègue trop aux agents.",
-              "url": "https://news.ycombinator.com/item?id=50323123",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "Songs of Hyrule : un mini-jeu Three.js monté en quelques jours",
-              "resume": "Making-of d'un jeu musical WebGL fan-made, de l'idée au proto, avec les choix techniques.",
-              "url": "https://tympanus.net/codrops/?p=124794",
-              "source": "Codrops",
-              "important": false
-            },
-            {
-              "titre": "Atelier UI : mélanger WebGL et DOM dans une lib React",
-              "resume": "Comment synchroniser des composants DOM accessibles et un rendu WebGL, transposable à Astro.",
-              "url": "https://tympanus.net/codrops/?p=124298",
-              "source": "Codrops",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Blond",
-              "resume": "Ajouté le 29/10/2026 (catégorie non affichée).",
-              "url": "https://blond.cc/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "David McGillivray",
-              "resume": "Ajouté le 16/10/2026 (catégorie non affichée).",
-              "url": "http://dmcg.co/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Royal Sites Ireland",
-              "resume": "Ajouté le 07/10/2026 (catégorie non affichée).",
-              "url": "https://royalsites.ie/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "SIHA",
-              "resume": "Ajouté le 07/10/2026 (catégorie non affichée).",
-              "url": "https://siha.com.au/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Oath Biome",
-              "resume": "Ajouté le 07/10/2026 (catégorie non affichée).",
-              "url": "https://www.oathbiome.com/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz / bad buzz",
-          "items": [
-            {
-              "titre": "OpenAI réactive l'entraînement sur les chats Codex d'utilisateurs qui avaient refusé",
-              "resume": "Signalé sur HN (≈420 pts) : à vérifier dans tes réglages si tu utilises Codex sur du code client.",
-              "url": "https://news.ycombinator.com/item?id=50352757",
               "source": "Hacker News",
               "important": false
             }
