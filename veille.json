@@ -1,6 +1,140 @@
 {
-  "maj": "2026-11-11T07:40:23+04:00",
+  "maj": "2026-11-12T07:42:52+04:00",
   "jours": [
+    {
+      "date": "2026-11-12",
+      "titre": "Veille front — jeudi 12 novembre — Codex backdooré via GitHub Actions · Claude Sheets",
+      "sections": [
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "Journée calme sur ta stack",
+              "resume": "Rien de majeur côté Vite, Astro (7.4 reste la dernière version), Sanity, Shopify ou WordPress ces dernières 24 h.",
+              "url": "https://astro.build/blog/",
+              "source": "Astro",
+              "important": false
+            },
+            {
+              "titre": "Codex : une injection de prompt dans GitHub Actions menait au paquet npm officiel",
+              "resume": "Depi a enchaîné injection de prompt dans le workflow qui étiquette les issues, évasion de sandbox et empoisonnement du cache GitHub jusqu'au chemin de publication de @openai/codex ; OpenAI a corrigé. Si tu branches un agent IA sur tes issues ou PR, ses Actions ne doivent avoir ni secrets ni droits d'écriture.",
+              "url": "https://depi.security/blog/20261111-backdooring-codex/",
+              "source": "Depi Security",
+              "important": false
+            },
+            {
+              "titre": "Anthropic lance Claude Whiteboards et Sheets (beta) et Claude Data",
+              "resume": "Tableaux blancs partagés, tableurs que Claude construit et édite, dashboards devenus Claude Data avec partage en direct : de quoi produire des maquettes et des outils internes rapides pour tes clients sans passer par du code.",
+              "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+              "source": "Anthropic",
+              "important": false
+            },
+            {
+              "titre": "Ben's Bites : How I got seduced",
+              "resume": "Au-delà de l'analyse du marketing de Ramp : Fable 5.2 en raisonnement moyen ou bas suffit pour la plupart des tâches, et les UI skills d'Emil (exemples avant/après) aident à guider l'agent sur le design.",
+              "url": "https://www.bensbites.com/p/how-i-got-seduced",
+              "source": "Ben's Bites",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : Apple prépare une app Mac pour faire tourner des modèles IA en local (≈280 pts, 236 com.)",
+              "resume": "Le débat porte sur la place qui restera aux apps quand chacun pourra générer ses propres outils.",
+              "url": "https://news.ycombinator.com/item?id=50446520",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : Claude Sheets et Whiteboards face à Figma et Excel (≈240 pts, 170 com.)",
+              "resume": "Les avis se partagent entre outil pratique pour le travail rapide et crainte d'un jardin clos.",
+              "url": "https://news.ycombinator.com/item?id=50443716",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "CSS Anchor Positioning Guide",
+              "resume": "CSS-Tricks publie son guide de référence pour positionner tooltips et popovers en CSS pur.",
+              "url": "https://css-tricks.com/css-anchor-positioning-guide/",
+              "source": "CSS-Tricks",
+              "important": false
+            },
+            {
+              "titre": "Yonkers Rises : une animation Three.js générée avec Claude Fable 5.2",
+              "resume": "Yonkers se dresse en robot géant et traverse New York : un bon exemple de ce qu'un agent sort aujourd'hui en 3D web.",
+              "url": "https://tools.simonwillison.net/yonkers-rises",
+              "source": "Simon Willison",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "Frédéric Lord",
+              "resume": "Ajouté le 11/11/2026",
+              "url": "https://fredericlord.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Arrova",
+              "resume": "Ajouté le 11/11/2026",
+              "url": "https://arrova.eu/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Conwest Developments",
+              "resume": "Ajouté le 11/11/2026",
+              "url": "https://conwest.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Haikoo Studio",
+              "resume": "Ajouté le 11/11/2026",
+              "url": "https://www.haikoo.org/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Jon Pilkington",
+              "resume": "Ajouté le 11/11/2026",
+              "url": "https://www.jonpilkington.co.uk/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz / bad buzz",
+          "items": [
+            {
+              "titre": "VulnCheck juge décevantes les failles trouvées par l'IA d'Anthropic",
+              "resume": "D'après le décompte relayé sur HN, 0,5 % des 7 349 failles publiées par Glasswing/Mythos auraient été corrigées (≈400 pts sur HN).",
+              "url": "https://news.ycombinator.com/item?id=50447074",
+              "source": "VulnCheck / HN",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-11",
       "titre": "Veille front — mercredi 11 novembre — Skill web moderne de Chrome · Val Town ferme",
@@ -832,139 +966,6 @@
               "resume": "Billet « A thousand fewer paths to root » (≈470 pts sur HN) : 166 exploits d'élévation de privilèges développés par des agents ont été analysés. Raison de plus pour tenir à jour le noyau de tes VPS clients.",
               "url": "https://news.ycombinator.com/item?id=50372929",
               "source": "OpenAI / Hacker News",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "titre": "Veille front — jeudi 5 novembre — Faille apt Debian · Gemini entraîne sur vos chats",
-      "sections": [
-        {
-          "id": "stack",
-          "label": "Ta stack",
-          "items": [
-            {
-              "titre": "WordPress 7.2 : beta 4 sortie, RC1 le 17 novembre",
-              "resume": "Rien de neuf côté Vite/VoidZero, Astro, Sanity ou Shopify ; côté WordPress, la beta 4 de la 7.2 est sortie le 3/11 (beta 5 le 10, RC1 le 17, version finale le 8 décembre avec un nouveau thème par défaut). Bon moment pour tester tes thèmes Timber/Block Studio sur une préprod.",
-              "url": "https://make.wordpress.org/core/7-2/",
-              "source": "Make WordPress Core",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "Debian corrige une faille « man-in-the-middle » dans apt",
-              "resume": "Debian publie une mise à jour de sécurité d'apt : un bug logique permettrait à un attaquant placé sur le réseau d'injecter du code pendant les mises à jour (détails encore partiels). Si des sites clients tournent sur un VPS Debian, mets apt à jour en priorité ; surveille l'avis Ubuntu.",
-              "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
-              "source": "Debian Security / Hacker News",
-              "important": true
-            },
-            {
-              "titre": "Gemini : les chats des abonnés perso servent à l'entraînement",
-              "resume": "Même payants, les comptes perso Google AI voient leurs conversations utilisées pour l'entraînement, voire relues par des humains ; seule parade : couper « Keep Activity » (historique effacé après 72 h) ou les chats temporaires. Évite d'y coller du code ou des données client.",
-              "url": "https://news.ycombinator.com/item?id=50363461",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "Kimi K3.1 Pro : les poids sont publiés",
-              "resume": "Moonshot AI ouvre un très gros modèle (≈2,8T paramètres selon HN) sous licence payante au-delà d'un seuil de chiffre d'affaires ; benchmarks de code contestés. Pas utilisable en local, à suivre seulement via les API.",
-              "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-              "source": "Hugging Face",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : « L'IA nous force à rembourser 40 ans de dette technique » (≈730 pts)",
-              "resume": "Article IEEE Spectrum autour de PHP2Shell, la double faille PHP trouvée par IA : le fil oppose l'IA qui déterre les vieilles failles à celle qui crée de la nouvelle dette. Rappel utile : vérifie que tes hébergements WordPress sont sur une version PHP patchée (correctif du 20 octobre).",
-              "url": "https://news.ycombinator.com/item?id=50364336",
-              "source": "Hacker News / IEEE Spectrum",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "« Hervé Was Supposed to Be a Flower Shop »",
-              "resume": "Le studio Hervé raconte sur Codrops la genèse de son identité et de son site (publié le 2 novembre), lecture inspi pour un portfolio de studio.",
-              "url": "https://tympanus.net/codrops/2026/11/02/herve-studio/",
-              "source": "Codrops",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Blond",
-              "resume": "Ajouté le 29/10/2026 (catégorie non affichée) ; pas de nouvel ajout depuis le 29/10.",
-              "url": "https://blond.cc/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "David McGillivray",
-              "resume": "Ajouté le 16/10/2026 (catégorie non affichée) ; pas de nouvel ajout depuis le 29/10.",
-              "url": "http://dmcg.co/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Royal Sites Ireland",
-              "resume": "Ajouté le 07/10/2026 (catégorie non affichée) ; pas de nouvel ajout depuis le 29/10.",
-              "url": "https://royalsites.ie/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "SIHA",
-              "resume": "Ajouté le 07/10/2026 (catégorie non affichée) ; pas de nouvel ajout depuis le 29/10.",
-              "url": "https://siha.com.au/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Oath Biome",
-              "resume": "Ajouté le 07/10/2026 (catégorie non affichée) ; pas de nouvel ajout depuis le 29/10.",
-              "url": "https://www.oathbiome.com/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz / bad buzz",
-          "items": [
-            {
-              "titre": "OpenAI rachète Pierre Computer",
-              "resume": "Annonce de la startup d'outillage de code sur X, discutée sur HN : OpenAI continue d'acheter des outils pour développeurs.",
-              "url": "https://news.ycombinator.com/item?id=50366863",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "Nouvel incident GitHub : PR, opérations Git et issues perturbées",
-              "resume": "Encore une panne qui a bloqué push et pull requests (≈220 pts sur HN) ; pense à ne pas caler un déploiement client critique sur GitHub Actions sans plan B.",
-              "url": "https://news.ycombinator.com/item?id=50363378",
-              "source": "Hacker News",
               "important": false
             }
           ]
