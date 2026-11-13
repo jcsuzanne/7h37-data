@@ -1,6 +1,174 @@
 {
-  "maj": "2026-11-12T07:42:52+04:00",
+  "maj": "2026-11-13T08:05:00+04:00",
   "jours": [
+    {
+      "date": "2026-11-13",
+      "titre": "Veille front — vendredi 13 novembre — Ver npm wfx-loot · Gemini 4 Hydrogen",
+      "sections": [
+        {
+          "id": "stack",
+          "label": "Ta stack",
+          "items": [
+            {
+              "titre": "wfx-loot : 4 837 comptes GitHub piratés injectent un voleur de secrets via Actions et postinstall npm",
+              "resume": "Depuis le 11/11, des commits « chore: add ci helper » ajoutent un script lancé par les workflows ou par un hook postinstall à chaque npm install ; il aspire tokens npm, AWS/GCP, SSH. Campagne encore active : vérifie les commits récents de tes dépôts et lockfiles, et fais tourner tes tokens si un npm install a tourné sur un commit touché.",
+              "url": "https://www.ox.security/blog/thousands-of-github-accounts-hijacked-with-wfx-loot-ci-secret-stealing-malware-via-github-actions-npm/",
+              "source": "OX Security / The Hacker News",
+              "important": true
+            }
+          ]
+        },
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "Apache httpd : RCE critique dans mod_http2 (CVE-2026-119618)",
+              "resume": "Race condition dans HTTP/2 permettant une exécution de code à distance sans authentification, versions 2.4.55 à 2.4.70 ; corrigé en 2.4.71, pas d'exploit public pour l'instant. Sur tes VPS clients : mettre à jour, ou passer en « Protocols http/1.1 » en attendant (sur mutualisé OVH, c'est l'hébergeur qui patche).",
+              "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+              "source": "Wiz",
+              "important": true
+            },
+            {
+              "titre": "Google sort Gemini 4 Hydrogen, modèle rapide pour le code agentique",
+              "resume": "1,50 $/7,50 $ le million de tokens, contexte 1M, quatre niveaux de réflexion ; Google met en avant le prototypage UI et livre un skill « front end design » (démo de storefront WebGL + scrollytelling). Dispo dans l'API et AI Studio, Antigravity pour les abonnés payants.",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+              "source": "Google",
+              "important": false
+            },
+            {
+              "titre": "Cursor perd les modèles OpenAI depuis hier",
+              "resume": "La coupure annoncée après le rachat par SpaceX est effective au 12 novembre : plus de GPT dans Cursor, Claude et Gemini restent disponibles. Si tu as des réglages calés sur GPT-5.6 dans Cursor, bascule-les.",
+              "url": "https://catdoes.com/blog/chatgpt-vs-cursor",
+              "source": "CatDoes",
+              "important": false
+            },
+            {
+              "titre": "Journée calme sur Vite, Astro, Sanity, Shopify et WordPress",
+              "resume": "Seulement des patchs (Astro 7.4.8, Vite 8.3.x via Vite+) : rien de majeur à migrer.",
+              "url": "https://astro.build/blog/",
+              "source": "Astro",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : l'IPO d'Anthropic (≈670 pts, 680 com.)",
+              "resume": "Roadshow lancé, prix fixé le 18/11 et cotation le 19/11 ; le fil débat valorisation et crainte d'une hausse des tarifs des abonnements.",
+              "url": "https://news.ycombinator.com/item?id=50465829",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : Socratic Tutor, un skill d'agent publié par Jane Street (≈580 pts)",
+              "resume": "Un SKILL.md qui fait expliquer par questions plutôt que donner la réponse : bon modèle à adapter pour tes propres skills.",
+              "url": "https://news.ycombinator.com/item?id=50438261",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : Gemini 4 Hydrogen (≈200 pts, 125 com.)",
+              "resume": "Premiers retours sur le rapport vitesse/prix face à Claude et GPT pour les tâches de code courantes.",
+              "url": "https://news.ycombinator.com/item?id=50471431",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "Concevoir des produits avec un design system et des agents",
+              "resume": "Jakub Otcenas (Codrops) montre comment il cadre l'agent avec tokens, composants et docs avant de générer des écrans.",
+              "url": "https://tympanus.net/codrops/?p=124432",
+              "source": "Codrops",
+              "important": false
+            },
+            {
+              "titre": "Creating Worlds : runes et sorts génératifs",
+              "resume": "Sophia Wood (Fractal Kitty) construit un système de glyphes sur grilles carrée, hexagonale et polaire avec symétries et opérations booléennes, plus un outil à tester : de bonnes idées pour du p5.js.",
+              "url": "https://www.fractalkitty.com/creating-worlds-runes-and-spells/",
+              "source": "Fractal Kitty",
+              "important": false
+            },
+            {
+              "titre": "Hervé, le studio parisien qui devait être un fleuriste",
+              "resume": "Coulisses du branding et des expériences immersives pour Lucis, Scalingo, La Rosée et Richard Mille.",
+              "url": "https://tympanus.net/codrops/2026/11/02/herve-studio/",
+              "source": "Codrops",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "Frédéric Lord",
+              "resume": "Ajouté le 11/11/2026 (catégorie non affichée)",
+              "url": "https://fredericlord.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Arrova",
+              "resume": "Ajouté le 11/11/2026 (catégorie non affichée)",
+              "url": "https://arrova.eu/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Conwest Developments",
+              "resume": "Ajouté le 11/11/2026 (catégorie non affichée)",
+              "url": "https://conwest.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Haikoo Studio",
+              "resume": "Ajouté le 11/11/2026 (catégorie non affichée)",
+              "url": "https://www.haikoo.org/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Jon Pilkington",
+              "resume": "Ajouté le 11/11/2026 (catégorie non affichée)",
+              "url": "https://www.jonpilkington.co.uk/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz / bad buzz",
+          "items": [
+            {
+              "titre": "Jensen Huang quitte la direction de Nvidia",
+              "resume": "Annonce relayée par AP, sujet n°1 sur HN (≈1 900 pts), sur fond d'enquête à Singapour autour de la société Megaspeed.",
+              "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+              "source": "AP",
+              "important": false
+            },
+            {
+              "titre": "Panne Microsoft : Outlook et Azure tombent, la page de statut aussi",
+              "resume": "Incident en cours hier soir selon les fils HN.",
+              "url": "https://news.ycombinator.com/item?id=50471731",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-12",
       "titre": "Veille front — jeudi 12 novembre — Codex backdooré via GitHub Actions · Claude Sheets",
@@ -804,168 +972,6 @@
               "resume": "Rumeur relayée sur HN, alors que le S-1 révisé fait déjà beaucoup parler.",
               "url": "https://news.ycombinator.com/item?id=50395318",
               "source": "Hacker News",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "titre": "Veille front — vendredi 6 novembre — Conductor racheté par Meta · Images 2.6 en SVG",
-      "sections": [
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "Journée calme sur ta stack",
-              "resume": "Rien de majeur côté Vite/VoidZero, Astro (dernier billet le 31/10), Sanity, Shopify thèmes ou WordPress depuis hier. Seule nouveauté Shopify : IP allowlists obligatoires pour les apps publiques, sans impact sur les thèmes.",
-              "url": "https://shopify.dev/changelog/posts/ip-allowlists-are-now-required-for-public-apps",
-              "source": "Shopify Dev Changelog",
-              "important": false
-            },
-            {
-              "titre": "OpenAI Images 2.6 : sortie SVG et GIF animés natifs",
-              "resume": "Le nouveau modèle d'image génère directement du SVG et des GIF, 50 % plus vite au même tarif annoncé. Sur HN, le SVG semble être un raster vectorisé (pas d'<animate>) et les petites qualités consomment 3 à 4× plus de tokens : à tester pour des icônes ou illustrations, pas pour du SVG propre à animer en GSAP.",
-              "url": "https://openai.com/index/introducing-images-2-6/",
-              "source": "OpenAI / Hacker News",
-              "important": false
-            },
-            {
-              "titre": "Ripple-65B, modèle open-weight Apache 2.0 orienté code agentique",
-              "resume": "Ricursive publie un modèle dense de 65B (80,5 sur Terminal Bench 2.1) sous licence Apache 2.0. Benchmarks jugés sélectifs et modèle lent en local : à surveiller seulement si tu veux un modèle de code auto-hébergé.",
-              "url": "https://news.ycombinator.com/item?id=50369925",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "Smashing : « Modern CSS Might Make Your Front-End More Complex »",
-              "resume": "Article qui nuance l'enthousiasme pour le CSS moderne : chaque nouvelle feature ajoute des fallbacks et de la charge mentale. Bonne lecture avant d'intégrer trop de nouveautés dans ton starter.",
-              "url": "https://www.smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
-              "source": "Smashing Magazine",
-              "important": false
-            },
-            {
-              "titre": "Ben's Bites : Craft and taste",
-              "resume": "Il enchaîne les agents par étapes (Codex pour récupérer les données, Opus pour la dataviz, puis des agents sans contexte pour relire) afin d'attraper les erreurs. Il défend une UI singulière plutôt qu'un vernis générique, et pense aussi l'« agent experience ».",
-              "url": "https://www.bensbites.com/p/craft-and-taste",
-              "source": "Ben's Bites",
-              "important": false
-            },
-            {
-              "titre": "Ben's Bites : Finding my thing",
-              "resume": "Quelques outils pour que tes agents produisent de meilleures UI (Stageshow, BoardUI, Looseleaf), et un conseil : construire pour soi et ajouter une boîte de feedback pour itérer.",
-              "url": "https://www.bensbites.com/p/if-you-feel-behind-right-now-dont",
-              "source": "Ben's Bites",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "Ask HN : « Quel est ton setup agentique actuel ? » (≈310 pts, 330 com.)",
-              "resume": "Tendance nette : Claude Code ou Codex en pilote, un modèle bon marché pour l'implémentation, des worktrees ou tmux en parallèle, et des agents isolés (Docker, VM) avec relecture humaine avant merge.",
-              "url": "https://news.ycombinator.com/item?id=50366117",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : des Lemmings en CSS qui marchent sur ta page (≈150 pts)",
-              "resume": "Hommage au jeu en animations CSS : les lemmings marchent sur les titres et rebondissent au scroll, des milliers peuvent tourner sans ralentir.",
-              "url": "https://news.ycombinator.com/item?id=50375354",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "Old Specimens, New Pixels : une collection de minéraux en shaders",
-              "resume": "Stephanie Bruce raconte comment elle a construit une collection de minéraux en shaders sur Codrops, idéal comme inspi WebGL pour un site muséal ou un portfolio.",
-              "url": "https://tympanus.net/codrops/2026/11/03/mineral-collection/",
-              "source": "Codrops",
-              "important": false
-            },
-            {
-              "titre": "Spreading Liquid with Three.js",
-              "resume": "Démo interactive d'un liquide (fond de teint) qui s'étale et se mélange, avec l'explication de la simulation et du mélange de couleurs.",
-              "url": "https://mofu-dev.com/en/blog/fluid-foundation/",
-              "source": "mofu-dev",
-              "important": false
-            },
-            {
-              "titre": "Taming Typography : un reset CSS typographique moderne",
-              "resume": "tidy-typography.css s'appuie sur text-wrap, text-box-trim, les unités de container et les réglages de fontes variables ; support inégal, à adopter avec des fallbacks.",
-              "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
-              "source": "CSS-Tricks",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Blond",
-              "resume": "Ajouté le 29/10/2026 (Engine / BLOND) ; pas de nouvel ajout depuis.",
-              "url": "https://blond.cc/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "David McGillivray",
-              "resume": "Ajouté le 16/10/2026 (catégorie non affichée).",
-              "url": "http://dmcg.co/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Royal Sites Ireland",
-              "resume": "Ajouté le 07/10/2026 (Estd).",
-              "url": "https://royalsites.ie/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "SIHA",
-              "resume": "Ajouté le 07/10/2026 (Allan Pooley).",
-              "url": "https://siha.com.au/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Oath Biome",
-              "resume": "Ajouté le 07/10/2026 (Landscape).",
-              "url": "https://www.oathbiome.com/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz / bad buzz",
-          "items": [
-            {
-              "titre": "Conductor rejoint Meta et ferme",
-              "resume": "L'app d'agents de code en parallèle (worktrees) ferme les inscriptions ; Conductor Cloud passe en lecture seule le 13/11 et s'arrête le 20/11 ; la version locale tient jusqu'au début 2027. Si tu l'utilises, exporte tes données avant le 20.",
-              "url": "https://www.conductor.build/announcement",
-              "source": "Conductor / Hacker News",
-              "important": false
-            },
-            {
-              "titre": "OpenAI : des agents IA ont produit des exploits root sur le noyau Linux",
-              "resume": "Billet « A thousand fewer paths to root » (≈470 pts sur HN) : 166 exploits d'élévation de privilèges développés par des agents ont été analysés. Raison de plus pour tenir à jour le noyau de tes VPS clients.",
-              "url": "https://news.ycombinator.com/item?id=50372929",
-              "source": "OpenAI / Hacker News",
               "important": false
             }
           ]
