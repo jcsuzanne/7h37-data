@@ -1,6 +1,127 @@
 {
-  "maj": "2026-11-13T08:05:00+04:00",
+  "maj": "2026-11-14T07:42:51+04:00",
   "jours": [
+    {
+      "date": "2026-11-14",
+      "titre": "Veille front — samedi 14 novembre — Pannes Claude Code · Copilot retire Opus 4.8",
+      "sections": [
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "Journée calme sur ta stack",
+              "resume": "Rien de majeur côté Vite/VoidZero, Astro, Sanity, Shopify, WordPress, GSAP ou Lenis depuis hier. Prochain repère : WordPress 7.2 RC1 mardi 17 novembre.",
+              "url": "https://astro.build/blog/",
+              "source": "Astro",
+              "important": false
+            },
+            {
+              "titre": "Claude Code : deux pannes hier, 4 h 30 cumulées",
+              "resume": "Connexions impossibles de 13 h 58 à 15 h 58 (heure de La Réunion), puis erreurs sur l'API, Claude Code et les connecteurs de 17 h 09 à 19 h 38. Si une session ou un job tournait sur ces créneaux, reconnecte-toi et relance-le.",
+              "url": "https://www.datastudios.org/post/claude-outages-november-13-logins-claude-code-connectors",
+              "source": "Data Studios",
+              "important": false
+            },
+            {
+              "titre": "GitHub Copilot retire Claude Opus 4.8, Opus 5 et GPT-5.6 Terra lundi 16 novembre",
+              "resume": "Remplaçants : Opus 5.5, GPT-6.1 Sol ou GPT-6 Luna. Et le fast mode d'Opus 4.8 dans Claude Code s'arrête le 30 novembre (bascule sur Opus 5.5) : vérifie les modèles fixés dans tes réglages.",
+              "url": "https://enjoy.dev/blog/ai-models-shutting-down-november-2026/",
+              "source": "Enjoy Agentic Industries",
+              "important": false
+            },
+            {
+              "titre": "Ben's Bites : To the man with AI, everything looks like a task",
+              "resume": "Ben Tossell conseille un seul agent (lui : Droid avec Opus 5.5 en effort moyen, fast mode) pour faire ce qui était impossible avant, plutôt que d'optimiser chaque micro-tâche. Dans les brèves : Gemini 4 Carbon dispo dans l'API (2 $/10 $ le million de tokens, /swarm dans Antigravity).",
+              "url": "https://www.bensbites.com/p/to-the-man-with-ai-everything-looks",
+              "source": "Ben's Bites",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : la panne Claude du 13 novembre (≈460 pts, 370 com.)",
+              "resume": "Gros fil pendant l'incident, avec les retours des devs bloqués sur claude.ai, Claude Code et l'API.",
+              "url": "https://news.ycombinator.com/item?id=50481187",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : l'API Brave Search accepte les paiements d'agents via x402 (≈240 pts, 137 com.)",
+              "resume": "Un agent IA peut payer la recherche à la requête, sans clé ni abonnement : un aperçu de la facturation des API à l'ère des agents.",
+              "url": "https://news.ycombinator.com/item?id=50477649",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "Beyond 12 Columns : des mises en page avec du caractère",
+              "resume": "Andy Clarke part de l'histoire de la marque pour construire des grilles modulaires et composées plutôt que le sempiternel 12 colonnes.",
+              "url": "https://css-tricks.com/beyond-12-columns/",
+              "source": "CSS-Tricks",
+              "important": false
+            },
+            {
+              "titre": "Old Specimens, New Pixels : la Mineral Collection en shaders",
+              "resume": "Stephanie Bruce applique dithering, halftone et textures via les shaders de Paper à une série de posters de minéraux : de bonnes pistes pour traiter des images en WebGL.",
+              "url": "https://tympanus.net/codrops/2026/11/03/mineral-collection/",
+              "source": "Codrops",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "KOLFEST",
+              "resume": "Ajouté le 12/11/2026 (catégorie non affichée)",
+              "url": "https://kolfest.bermet.design/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "ETOILE",
+              "resume": "Ajouté le 12/11/2026 (catégorie non affichée)",
+              "url": "https://etoile.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Charles",
+              "resume": "Ajouté le 12/11/2026 (catégorie non affichée)",
+              "url": "https://www.charles.fr/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Primal Instinct",
+              "resume": "Ajouté le 12/11/2026 (catégorie non affichée)",
+              "url": "https://www.primal-instinct.net/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Frédéric Lord",
+              "resume": "Ajouté le 11/11/2026 (catégorie non affichée)",
+              "url": "https://fredericlord.com/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-13",
       "titre": "Veille front — vendredi 13 novembre — Ver npm wfx-loot · Gemini 4 Hydrogen",
@@ -837,140 +958,6 @@
               "titre": "Microsoft ferme son groupe de recherche AI Frontiers",
               "resume": "John Langford (Vowpal Wabbit) quitte Microsoft ; les commentateurs y voient un repli de la recherche IA interne au profit des investissements dans d'autres labos.",
               "url": "https://news.ycombinator.com/item?id=50406563",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "titre": "Veille front — samedi 7 novembre — 15 579 sites infectés par du JS malveillant",
-      "sections": [
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "Journée calme sur ta stack",
-              "resume": "Rien de majeur côté Vite/VoidZero, Astro (dernière version : 7.4 le 15 octobre), Sanity, thèmes Shopify, GSAP ou Lenis. Prochain jalon : WordPress 7.2 RC1 le 17 novembre.",
-              "url": "https://astro.build/blog/",
-              "source": "Astro blog",
-              "important": false
-            },
-            {
-              "titre": "15 579 sites confirmés infectés par du JavaScript malveillant",
-              "resume": "Report URI (Scott Helme) recense skimmers de carte (Magecart), faux captchas « ClickFix » et redirections, injectés via failles WordPress, scripts tiers compromis ou domaines expirés encore appelés (« DeadTag »). Bon réflexe : auditer les scripts externes de tes sites clients et poser une CSP.",
-              "url": "https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/",
-              "source": "Scott Helme",
-              "important": true
-            },
-            {
-              "titre": "Gemini Omni 1.2 Flash : vidéo IA moins chère et plus longue",
-              "resume": "Le modèle vidéo de Google passe à 15 s par clip, avec édition multi-tours et 30 % de baisse de prix (0,07 $/s en 720p), dispo dans l'API Gemini. Utile pour générer des loops ou visuels d'ambiance pour des sites créatifs.",
-              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-              "source": "Google",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : Rune, framework UI Rust rendu GPU… qui n'accepte que des issues traitées par des agents",
-              "resume": "Le débat porte moins sur la techno (concurrent de GPUI/egui, cible aussi le web) que sur le modèle « pas de PR humaines, les agents codent ».",
-              "url": "https://news.ycombinator.com/item?id=50394569",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : comment prévenir 15 579 sites infectés ?",
-              "resume": "Discussion autour du billet de Scott Helme : security.txt quasi absent, mails ignorés, rôle des CERT.",
-              "url": "https://news.ycombinator.com/item?id=50396064",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "Mathias Adolfsson ’26 : carrousel courbe et galerie en tonneau",
-              "resume": "Making-of d'un portfolio avec slides disposées sur un arc, galerie « barrel » et un motion très organique.",
-              "url": "https://tympanus.net/codrops/2026/11/05/mathias-adolfsson-portfolio/",
-              "source": "Codrops",
-              "important": false
-            },
-            {
-              "titre": "Rendre les chats LLM immersifs accessibles",
-              "resume": "Une seule live region annoncée à la fin du streaming, statut « Loading » différé, titres masqués par message et option de réduire les animations.",
-              "url": "https://www.smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/",
-              "source": "Smashing Magazine",
-              "important": false
-            },
-            {
-              "titre": "Réimplémenter :nth-child() en CSS moderne",
-              "resume": "Exercice malin qui reconstruit le sélecteur avec les nouveautés CSS, bon moyen de voir ce qu'elles débloquent.",
-              "url": "https://css-tricks.com/re-implementing-nth-child-with-modern-css/",
-              "source": "CSS-Tricks",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Blond",
-              "resume": "Studio de product design — ajouté le 29/10/2026",
-              "url": "https://blond.cc/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "David McGillivray",
-              "resume": "Ajouté le 16/10/2026",
-              "url": "http://dmcg.co/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Royal Sites Ireland",
-              "resume": "Ajouté le 07/10/2026",
-              "url": "https://royalsites.ie/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "SIHA",
-              "resume": "Ajouté le 07/10/2026",
-              "url": "https://siha.com.au/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Oath Biome",
-              "resume": "Ajouté le 07/10/2026",
-              "url": "https://www.oathbiome.com/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz / bad buzz",
-          "items": [
-            {
-              "titre": "IPO d'Anthropic : la valorisation discutée retomberait à 1 300 Md$",
-              "resume": "Rumeur relayée sur HN, alors que le S-1 révisé fait déjà beaucoup parler.",
-              "url": "https://news.ycombinator.com/item?id=50395318",
               "source": "Hacker News",
               "important": false
             }
