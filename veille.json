@@ -1,6 +1,133 @@
 {
-  "maj": "2026-11-14T07:42:51+04:00",
+  "maj": "2026-11-15T07:55:00+04:00",
   "jours": [
+    {
+      "date": "2026-11-15",
+      "titre": "Veille front — dimanche 15 novembre — Fuite Lovable · Railway : 740 k$ de clés IA volées",
+      "sections": [
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "Railway : des clés IA clients volées, 740 000 $ de facturation frauduleuse",
+              "resume": "Un attaquant a déchiffré les variables d'environnement de jusqu'à ~1,85 % des workspaces Railway et utilisé les clés OpenAI/Anthropic/Gemini volées. Si tu as des clés stockées chez un PaaS, c'est le rappel de les restreindre et de les faire tourner chez le fournisseur.",
+              "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+              "source": "The Hacker News",
+              "important": true
+            },
+            {
+              "titre": "Google Antigravity : /teamwork, des équipes d'agents coordonnés",
+              "resume": "Google Research montre ce que donne /teamwork (plusieurs agents à rôles) sur de gros chantiers ; sur HN on le trouve plus lent et on doute du gain face aux workflows de Claude. À suivre si tu compares les outils de code agentique.",
+              "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+              "source": "Google Research",
+              "important": false
+            },
+            {
+              "titre": "Journée calme sur ta stack",
+              "resume": "Rien de majeur côté Vite/VoidZero, Astro, Sanity, Shopify, WordPress, GSAP ou Lenis depuis hier. Rappel : Copilot retire Opus 4.8, Opus 5 et GPT-5.6 Terra demain lundi.",
+              "url": "https://astro.build/blog/",
+              "source": "Astro, VoidZero, Sanity",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : Claude supprime le syllabus d'un prof en renumérotant des pages (26 com.)",
+              "resume": "Un agent a effacé un an de notes sur une tâche anodine : le débat porte sur les permissions et les sauvegardes avant de lâcher un agent sur des fichiers.",
+              "url": "https://news.ycombinator.com/item?id=50499114",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : PyPI refait ses pages projet avec des signaux de sécurité (≈130 pts)",
+              "resume": "Provenance et attestations mises en avant : les commentaires espèrent la même chose côté npm après les vagues de vers supply chain.",
+              "url": "https://news.ycombinator.com/item?id=50497892",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "Mathias Adolfsson ’26 : carrousel courbe, galerie en tonneau et motion vivante",
+              "resume": "Making-of d'un portfolio avec un carrousel incurvé et une galerie cylindrique, une bonne base pour du WebGL/GSAP sur scroll.",
+              "url": "https://tympanus.net/codrops/?p=125103",
+              "source": "Codrops",
+              "important": false
+            },
+            {
+              "titre": "Le CSS moderne peut complexifier ton front",
+              "resume": "Déplacer de la logique du JS vers le CSS simplifie localement mais peut compliquer l'ensemble : pistes pour migrer sans se piéger.",
+              "url": "https://www.smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+              "source": "Smashing Magazine",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "Husk",
+              "resume": "Catégorie non indiquée — ajouté le 14/11/2026 (fiche : https://www.siteinspire.com/website/9116-husk)",
+              "url": "http://www.madebyhusk.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "KOLFEST",
+              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13684-kolfest)",
+              "url": "https://kolfest.bermet.design/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "ETOILE",
+              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13683-etoile)",
+              "url": "https://etoile.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Charles",
+              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13681-charles)",
+              "url": "https://www.charles.fr/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Primal Instinct",
+              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13682-primal-instinct)",
+              "url": "https://www.primal-instinct.net/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz / bad buzz",
+          "items": [
+            {
+              "titre": "Des apps Lovable exposent des passeports et plus de 200 000 messages privés",
+              "resume": "Une étude montre que des apps générées par Lovable laissent fuiter des données sensibles ; le vibe-coding sans revue de sécurité reprend un coup.",
+              "url": "https://www.crissyfield.de/research/lovable-en/",
+              "source": "crissyfield.de / Hacker News",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-14",
       "titre": "Veille front — samedi 14 novembre — Pannes Claude Code · Copilot retire Opus 4.8",
@@ -832,133 +959,6 @@
               "resume": "Selon Bloomberg, les traders et banquiers qui « vibe-codaient » leurs outils en perdent l'accès ; vif débat sur HN sur le code produit par des non-devs.",
               "url": "https://news.ycombinator.com/item?id=50415628",
               "source": "Hacker News / Bloomberg",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "titre": "Veille front — dimanche 8 novembre — Claude Code : 2 539 secrets exposés sur GitHub",
-      "sections": [
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "Claude Code : « Don't ask again » a exposé 2 539 secrets sur GitHub",
-              "resume": "Apiiro a trouvé des mots de passe et tokens en clair dans 1 122 fichiers .claude/settings.local.json publics : les commandes approuvées avec « Yes, and don't ask again » y sont enregistrées telles quelles, secrets compris. Vérifie que ce fichier est dans le .gitignore de chaque projet, et fais tourner tout identifiant qui aurait été commité.",
-              "url": "https://cybersecuritynews.com/claude-codes-yes-and-dont-ask-again/",
-              "source": "Cybersecurity News",
-              "important": true
-            },
-            {
-              "titre": "Journée calme sur ta stack",
-              "resume": "Rien de majeur côté Vite/VoidZero, Astro (dernière version : 7.4 le 15 octobre), Sanity, Shopify, GSAP ou Lenis ce week-end. Prochain repère : WordPress 7.2 RC1 le 17 novembre.",
-              "url": "https://astro.build/blog/",
-              "source": "Astro blog",
-              "important": false
-            },
-            {
-              "titre": "MaxxBench remet en cause les scores DeepSWE des petits modèles",
-              "resume": "En modifiant légèrement les tâches du benchmark DeepSWE, MaxxBench fait chuter surtout les modèles « flash » et compacts. À garder en tête avant de confier du vrai code à un modèle bon marché sur la foi d'un score.",
-              "url": "https://news.ycombinator.com/item?id=50406222",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : la fuite de secrets via les approbations de Claude Code",
-              "resume": "Le fil sur l'étude Apiiro monte vite (≈200 pts, 140 com.) : débat sur les permissions persistantes des agents.",
-              "url": "https://news.ycombinator.com/item?id=50407882",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : Need for Speed Underground 2 jouable dans le navigateur (≈840 pts)",
-              "resume": "Démo spectaculaire de ce que le web peut faire tourner aujourd'hui, et fil riche sur le portage.",
-              "url": "https://news.ycombinator.com/item?id=50403052",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : « Chaque app Windows 11 devrait abandonner Electron » (≈230 pts)",
-              "resume": "Le cas Discord relance le débat apps web empaquetées contre natif.",
-              "url": "https://news.ycombinator.com/item?id=50403507",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "Golden at Sunset, Olive at Night : le making-of du portfolio de Brandon Yasin",
-              "resume": "Étude de cas Codrops sur un portfolio dont l'ambiance change entre coucher de soleil et nuit.",
-              "url": "https://tympanus.net/codrops/2026/11/04/brandon-yasin-portfolio/",
-              "source": "Codrops",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Blond",
-              "resume": "Catégorie non précisée — ajouté le 29 octobre 2026.",
-              "url": "https://blond.cc/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "David McGillivray",
-              "resume": "Catégorie non précisée — ajouté le 16 octobre 2026.",
-              "url": "http://dmcg.co/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Royal Sites Ireland",
-              "resume": "Catégorie non précisée — ajouté le 7 octobre 2026.",
-              "url": "https://royalsites.ie/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "SIHA",
-              "resume": "Catégorie non précisée — ajouté le 7 octobre 2026.",
-              "url": "https://siha.com.au/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Oath Biome",
-              "resume": "Catégorie non précisée — ajouté le 7 octobre 2026.",
-              "url": "https://www.oathbiome.com/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz / bad buzz",
-          "items": [
-            {
-              "titre": "Microsoft ferme son groupe de recherche AI Frontiers",
-              "resume": "John Langford (Vowpal Wabbit) quitte Microsoft ; les commentateurs y voient un repli de la recherche IA interne au profit des investissements dans d'autres labos.",
-              "url": "https://news.ycombinator.com/item?id=50406563",
-              "source": "Hacker News",
               "important": false
             }
           ]
