@@ -1,6 +1,120 @@
 {
-  "maj": "2026-11-15T07:55:00+04:00",
+  "maj": "2026-11-16T07:55:00+04:00",
   "jours": [
+    {
+      "date": "2026-11-16",
+      "titre": "Veille front — lundi 16 novembre — Faille Cursor × Claude Code · MAJ Claude Code",
+      "sections": [
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "Cursor : une clé Fireworks volée a servi à pousser une extension Claude Code piégée",
+              "resume": "Cursor confirme que les versions 2.1.312 et 2.1.313 de l'extension Claude Code servies par son marketplace le 29 octobre (≈11 h) étaient trojanisées, jusqu'à 5 000 installs, après une fuite de clé chez Fireworks AI. Si tu utilises Cursor : vérifie la version installée ce jour-là ; désinstaller ne suffit pas (clé SSH et entrées de démarrage possibles), suis la procédure de Cursor et fais tourner tes clés.",
+              "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+              "source": "BleepingComputer",
+              "important": true
+            },
+            {
+              "titre": "Claude Code 2.1.321 → 2.1.325 : plusieurs contournements de permissions corrigés",
+              "resume": "Quatre versions du 9 au 13 novembre corrigent notamment des commandes « lecture seule » exécutées hors sandbox sans confirmation et des règles deny ignorées sur certaines commandes fichiers ; un Code Mode expérimental arrive aussi. Mets à jour aujourd'hui si tu laisses l'agent tourner en semi-autonomie.",
+              "url": "https://vibecodingweekly.substack.com/p/vibe-coding-weekly-55",
+              "source": "Vibe Coding Weekly",
+              "important": true
+            },
+            {
+              "titre": "Journée calme sur ta stack",
+              "resume": "Rien de majeur côté Vite/VoidZero, Astro (7.4.12, patch), Sanity, WordPress, GSAP ou Lenis. Rappel Shopify : les apps publiques sans IP allowlist seront délistées le 20 novembre, à vérifier seulement si tu publies des apps.",
+              "url": "https://shopify.dev/changelog",
+              "source": "Astro, Shopify, VoidZero",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : « All AI-generated code should be Open Source » (≈710 pts, 385 com.)",
+              "resume": "Gros débat sur la propriété et la licence du code produit par les agents, avec des arguments utiles pour tes contrats clients.",
+              "url": "https://news.ycombinator.com/item?id=50507303",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "dev.to : New in Vue — November 2026",
+              "resume": "Point sur l'écosystème Vite : Vite 8.3.8, Vite+ stable depuis fin septembre, Vitest 5.1 déjà sorti après la v5.",
+              "url": "https://dev.to/aloisseckar/new-in-vue-november-2026-4l2m",
+              "source": "DEV Community",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "Choreographing Kinetic Typography on Scroll with GSAP",
+              "resume": "Antoine Wodniack orchestre des lettres en traînée sur scroll avec SplitText, Physics2D et Lenis synchronisé au ticker GSAP : pile ta stack.",
+              "url": "https://tympanus.net/codrops/2026/11/10/kinetic-typography-gsap/",
+              "source": "Codrops",
+              "important": false
+            },
+            {
+              "titre": "text-decoration-inset : du padding pour les soulignements",
+              "resume": "Chrome 157 livre text-decoration-inset et text-overflow: <string> (pas encore Safari), pratique pour des liens soulignés plus fins.",
+              "url": "https://css-tricks.com/text-decoration-inset-is-like-padding-for-text-decorations/",
+              "source": "CSS-Tricks",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "Husk",
+              "resume": "Catégorie non indiquée — ajouté le 14/11/2026 (fiche : https://www.siteinspire.com/website/9116-husk)",
+              "url": "http://www.madebyhusk.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "KOLFEST",
+              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13684-kolfest)",
+              "url": "https://kolfest.bermet.design/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "ETOILE",
+              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13683-etoile)",
+              "url": "https://etoile.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Charles",
+              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13681-charles)",
+              "url": "https://www.charles.fr/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Primal Instinct",
+              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13682-primal-instinct)",
+              "url": "https://www.primal-instinct.net/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-15",
       "titre": "Veille front — dimanche 15 novembre — Fuite Lovable · Railway : 740 k$ de clés IA volées",
@@ -832,133 +946,6 @@
               "resume": "Un dépôt GitHub l'affirme et le sujet monte sur HN (≈250 pts), mais rien n'est confirmé à ce stade. Ça s'ajoute à la polémique de la semaine dernière sur l'entraînement à partir des chats Gemini.",
               "url": "https://news.ycombinator.com/item?id=50429426",
               "source": "Hacker News",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "titre": "Veille front — lundi 9 novembre — Goldman bride Claude Code · Firefox et rel=next",
-      "sections": [
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "Journée calme sur ta stack",
-              "resume": "Rien de majeur côté Vite/VoidZero, Astro (dernière version : 7.4 mi-octobre), Sanity, WordPress, Shopify ou GSAP depuis hier.",
-              "url": "https://astro.build/blog/",
-              "source": "Astro",
-              "important": false
-            },
-            {
-              "titre": "Firefox précharge les pages annoncées par un header Link rel=next",
-              "resume": "Simon Willison a découvert que Firefox traite l'en-tête HTTP Link rel=\"next\" comme un prefetch : chaque visite déclenche le rendu serveur de la page suivante, souvent pour rien. À vérifier sur tes sites paginés (archives WP, collections) si tu envoies ce header.",
-              "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
-              "source": "Simon Willison",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : « Goodbye Claude, hello Pi » (≈590 pts, 380 com.)",
-              "resume": "Un dev quitte Claude Code pour Pi, un harnais d'agent multi-modèles ; le fil compare Pi, ohmypi et opencode, et relance le débat AGENTS.md vs CLAUDE.md.",
-              "url": "https://news.ycombinator.com/item?id=50410107",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : « Agent memory needs its OpenTelemetry moment » (≈140 pts)",
-              "resume": "Plaidoyer pour un standard commun de mémoire des agents IA, au lieu de formats propriétaires par outil.",
-              "url": "https://news.ycombinator.com/item?id=50411467",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "Declarative Dragging : du drag-and-drop par rendu spéculatif",
-              "resume": "Un système qui calcule plusieurs issues possibles du glisser en parallèle, avec une version HTML basée sur FLIP ; ≈230 pts sur HN.",
-              "url": "https://declarative-dragging.github.io/",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "CSS-Tricks dévoile sa refonte",
-              "resume": "Premier aperçu du nouveau design du site, soft-launché après son rachat par Geoff Graham ; write-up complet à venir.",
-              "url": "https://css-tricks.com/css-tricks-redesign-preview/",
-              "source": "CSS-Tricks",
-              "important": false
-            },
-            {
-              "titre": "Tasfer : un éditeur de texte entièrement dessiné en canvas 2D",
-              "resume": "Rendu texte sans DOM, intéressant pour qui fait du p5.js/canvas typographique.",
-              "url": "https://news.ycombinator.com/item?id=50358094",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Blond",
-              "resume": "29 octobre 2026 — crédits : Engine, BLOND.",
-              "url": "https://blond.cc/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "David McGillivray",
-              "resume": "16 octobre 2026.",
-              "url": "http://dmcg.co/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Royal Sites Ireland",
-              "resume": "7 octobre 2026 — crédits : Estd.",
-              "url": "https://royalsites.ie/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "SIHA",
-              "resume": "7 octobre 2026 — crédits : Allan Pooley.",
-              "url": "https://siha.com.au/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Oath Biome",
-              "resume": "7 octobre 2026 — crédits : Landscape.",
-              "url": "https://www.oathbiome.com/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz / bad buzz",
-          "items": [
-            {
-              "titre": "Goldman Sachs réserve Claude Code et les outils IA de GitHub à ses ingénieurs",
-              "resume": "Selon Bloomberg, les traders et banquiers qui « vibe-codaient » leurs outils en perdent l'accès ; vif débat sur HN sur le code produit par des non-devs.",
-              "url": "https://news.ycombinator.com/item?id=50415628",
-              "source": "Hacker News / Bloomberg",
               "important": false
             }
           ]
