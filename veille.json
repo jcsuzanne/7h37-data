@@ -1,6 +1,139 @@
 {
-  "maj": "2026-11-16T07:55:00+04:00",
+  "maj": "2026-11-17T08:20:00+04:00",
   "jours": [
+    {
+      "date": "2026-11-17",
+      "titre": "Veille front — mardi 17 novembre — WordPress 7.2 RC1 · Copilot ajoute Fable 5.2",
+      "sections": [
+        {
+          "id": "stack",
+          "label": "Ta stack",
+          "items": [
+            {
+              "titre": "WordPress 7.2 RC1 prévu aujourd'hui : gel des fonctionnalités",
+              "resume": "La RC1 est attendue ce 17 novembre (sortie finale le 8 décembre) : à partir de là on ne vérifie plus que des correctifs. Teste tes blocs Timber/Block Studio, surtout les InnerBlocks avec la prop template (dépréciée) et les sorties passant par wp_kses() (nouveau parseur prévu en 7.2 ou 7.3).",
+              "url": "https://make.wordpress.org/core/7-2/",
+              "source": "Make WordPress Core",
+              "important": true
+            }
+          ]
+        },
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "Copilot : Claude Fable 5.2 et Gemini 4 Carbon arrivent, plus une boîte de réception d'agents dans VS Code",
+              "resume": "Les sorties Copilot de la semaine ajoutent Fable 5.2 et Gemini 4 Carbon au sélecteur de modèles, un « Agents inbox » qui remonte les sessions en attente et un outil expérimental « Compare Models ». Pratique pour comparer deux modèles sur une même tâche de thème avant d'en changer.",
+              "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+              "source": "AI Agent Store / GitHub Changelog",
+              "important": false
+            },
+            {
+              "titre": "Poppy, le protocole d'agents personnels de Sierra, soutenu par Shopify",
+              "resume": "Les entreprises publient un fichier /.well-known/poppy.json qui dit aux agents IA comment s'identifier, se connecter (OAuth) et ce qu'ils ont le droit de faire ; Shopify fait partie des partenaires de lancement. À suivre pour tes boutiques : le trafic d'agents sur les storefronts va se structurer.",
+              "url": "https://sierra.ai/blog/poppy",
+              "source": "Sierra",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : XSS universel dans uBlock Origin via le sélecteur d'éléments",
+              "resume": "Un site malveillant pouvait injecter des filtres de confiance dans la version Firefox MV2 : vérifie que l'extension est à jour sur tes navigateurs de dev.",
+              "url": "https://thefrontpage.dev/",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : Protomaps, héberger ses tuiles de carte devient simple et quasi gratuit",
+              "resume": "Un seul fichier PMTiles sur R2 ou S3, lu par requêtes HTTP Range : une alternative sans clé API à Mapbox ou Google Maps pour tes sites Astro sur Cloudflare.",
+              "url": "https://protomaps.com/",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : Claude Code et Codex rétro-ingénient l'ECU d'une Jeep de 1994",
+              "resume": "Vidéo très partagée d'agents qui décodent puis pilotent un calculateur via un Arduino à 3 $ : bon aperçu de ce que les agents savent faire en autonomie.",
+              "url": "https://www.daemonology.net/hn-daily/",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "Golden at Sunset, Olive at Night : le portfolio de Brandon Yasin",
+              "resume": "Chaque page est une carte découpée par un clip-path piloté par une variable CSS que GSAP anime avec l'échelle et la position, le tout sur une seule CustomEase : technique simple à réutiliser pour des transitions de pages.",
+              "url": "https://tympanus.net/codrops/?p=124097",
+              "source": "Codrops",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "Husk",
+              "resume": "Catégorie non indiquée — 14/11/2026 (fiche : https://www.siteinspire.com/website/9116-husk)",
+              "url": "http://www.madebyhusk.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "KOLFEST",
+              "resume": "Catégorie non indiquée — 12/11/2026 (fiche : https://www.siteinspire.com/website/13684-kolfest)",
+              "url": "https://kolfest.bermet.design/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "ETOILE",
+              "resume": "Catégorie non indiquée — 12/11/2026 (fiche : https://www.siteinspire.com/website/13683-etoile)",
+              "url": "https://etoile.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Charles",
+              "resume": "Catégorie non indiquée — 12/11/2026 (fiche : https://www.siteinspire.com/website/13681-charles)",
+              "url": "https://www.charles.fr/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Primal Instinct",
+              "resume": "Catégorie non indiquée — 12/11/2026 (fiche : https://www.siteinspire.com/website/13682-primal-instinct)",
+              "url": "https://www.primal-instinct.net/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz / bad buzz",
+          "items": [
+            {
+              "titre": "Google : des attaquants font écrire leurs exploits par des agents IA à partir des patchs",
+              "resume": "Le Threat Intelligence Group de Google décrit des frameworks multi-agents qui transforment une mise à jour publiée en exploit : le délai pour patcher tes WordPress clients se raccourcit encore.",
+              "url": "https://thehackernews.com/",
+              "source": "The Hacker News",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-16",
       "titre": "Veille front — lundi 16 novembre — Faille Cursor × Claude Code · MAJ Claude Code",
@@ -276,676 +409,6 @@
               "resume": "Ben Tossell conseille un seul agent (lui : Droid avec Opus 5.5 en effort moyen, fast mode) pour faire ce qui était impossible avant, plutôt que d'optimiser chaque micro-tâche. Dans les brèves : Gemini 4 Carbon dispo dans l'API (2 $/10 $ le million de tokens, /swarm dans Antigravity).",
               "url": "https://www.bensbites.com/p/to-the-man-with-ai-everything-looks",
               "source": "Ben's Bites",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : la panne Claude du 13 novembre (≈460 pts, 370 com.)",
-              "resume": "Gros fil pendant l'incident, avec les retours des devs bloqués sur claude.ai, Claude Code et l'API.",
-              "url": "https://news.ycombinator.com/item?id=50481187",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : l'API Brave Search accepte les paiements d'agents via x402 (≈240 pts, 137 com.)",
-              "resume": "Un agent IA peut payer la recherche à la requête, sans clé ni abonnement : un aperçu de la facturation des API à l'ère des agents.",
-              "url": "https://news.ycombinator.com/item?id=50477649",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "Beyond 12 Columns : des mises en page avec du caractère",
-              "resume": "Andy Clarke part de l'histoire de la marque pour construire des grilles modulaires et composées plutôt que le sempiternel 12 colonnes.",
-              "url": "https://css-tricks.com/beyond-12-columns/",
-              "source": "CSS-Tricks",
-              "important": false
-            },
-            {
-              "titre": "Old Specimens, New Pixels : la Mineral Collection en shaders",
-              "resume": "Stephanie Bruce applique dithering, halftone et textures via les shaders de Paper à une série de posters de minéraux : de bonnes pistes pour traiter des images en WebGL.",
-              "url": "https://tympanus.net/codrops/2026/11/03/mineral-collection/",
-              "source": "Codrops",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "KOLFEST",
-              "resume": "Ajouté le 12/11/2026 (catégorie non affichée)",
-              "url": "https://kolfest.bermet.design/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "ETOILE",
-              "resume": "Ajouté le 12/11/2026 (catégorie non affichée)",
-              "url": "https://etoile.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Charles",
-              "resume": "Ajouté le 12/11/2026 (catégorie non affichée)",
-              "url": "https://www.charles.fr/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Primal Instinct",
-              "resume": "Ajouté le 12/11/2026 (catégorie non affichée)",
-              "url": "https://www.primal-instinct.net/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Frédéric Lord",
-              "resume": "Ajouté le 11/11/2026 (catégorie non affichée)",
-              "url": "https://fredericlord.com/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "titre": "Veille front — vendredi 13 novembre — Ver npm wfx-loot · Gemini 4 Hydrogen",
-      "sections": [
-        {
-          "id": "stack",
-          "label": "Ta stack",
-          "items": [
-            {
-              "titre": "wfx-loot : 4 837 comptes GitHub piratés injectent un voleur de secrets via Actions et postinstall npm",
-              "resume": "Depuis le 11/11, des commits « chore: add ci helper » ajoutent un script lancé par les workflows ou par un hook postinstall à chaque npm install ; il aspire tokens npm, AWS/GCP, SSH. Campagne encore active : vérifie les commits récents de tes dépôts et lockfiles, et fais tourner tes tokens si un npm install a tourné sur un commit touché.",
-              "url": "https://www.ox.security/blog/thousands-of-github-accounts-hijacked-with-wfx-loot-ci-secret-stealing-malware-via-github-actions-npm/",
-              "source": "OX Security / The Hacker News",
-              "important": true
-            }
-          ]
-        },
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "Apache httpd : RCE critique dans mod_http2 (CVE-2026-119618)",
-              "resume": "Race condition dans HTTP/2 permettant une exécution de code à distance sans authentification, versions 2.4.55 à 2.4.70 ; corrigé en 2.4.71, pas d'exploit public pour l'instant. Sur tes VPS clients : mettre à jour, ou passer en « Protocols http/1.1 » en attendant (sur mutualisé OVH, c'est l'hébergeur qui patche).",
-              "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
-              "source": "Wiz",
-              "important": true
-            },
-            {
-              "titre": "Google sort Gemini 4 Hydrogen, modèle rapide pour le code agentique",
-              "resume": "1,50 $/7,50 $ le million de tokens, contexte 1M, quatre niveaux de réflexion ; Google met en avant le prototypage UI et livre un skill « front end design » (démo de storefront WebGL + scrollytelling). Dispo dans l'API et AI Studio, Antigravity pour les abonnés payants.",
-              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-              "source": "Google",
-              "important": false
-            },
-            {
-              "titre": "Cursor perd les modèles OpenAI depuis hier",
-              "resume": "La coupure annoncée après le rachat par SpaceX est effective au 12 novembre : plus de GPT dans Cursor, Claude et Gemini restent disponibles. Si tu as des réglages calés sur GPT-5.6 dans Cursor, bascule-les.",
-              "url": "https://catdoes.com/blog/chatgpt-vs-cursor",
-              "source": "CatDoes",
-              "important": false
-            },
-            {
-              "titre": "Journée calme sur Vite, Astro, Sanity, Shopify et WordPress",
-              "resume": "Seulement des patchs (Astro 7.4.8, Vite 8.3.x via Vite+) : rien de majeur à migrer.",
-              "url": "https://astro.build/blog/",
-              "source": "Astro",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : l'IPO d'Anthropic (≈670 pts, 680 com.)",
-              "resume": "Roadshow lancé, prix fixé le 18/11 et cotation le 19/11 ; le fil débat valorisation et crainte d'une hausse des tarifs des abonnements.",
-              "url": "https://news.ycombinator.com/item?id=50465829",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : Socratic Tutor, un skill d'agent publié par Jane Street (≈580 pts)",
-              "resume": "Un SKILL.md qui fait expliquer par questions plutôt que donner la réponse : bon modèle à adapter pour tes propres skills.",
-              "url": "https://news.ycombinator.com/item?id=50438261",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : Gemini 4 Hydrogen (≈200 pts, 125 com.)",
-              "resume": "Premiers retours sur le rapport vitesse/prix face à Claude et GPT pour les tâches de code courantes.",
-              "url": "https://news.ycombinator.com/item?id=50471431",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "Concevoir des produits avec un design system et des agents",
-              "resume": "Jakub Otcenas (Codrops) montre comment il cadre l'agent avec tokens, composants et docs avant de générer des écrans.",
-              "url": "https://tympanus.net/codrops/?p=124432",
-              "source": "Codrops",
-              "important": false
-            },
-            {
-              "titre": "Creating Worlds : runes et sorts génératifs",
-              "resume": "Sophia Wood (Fractal Kitty) construit un système de glyphes sur grilles carrée, hexagonale et polaire avec symétries et opérations booléennes, plus un outil à tester : de bonnes idées pour du p5.js.",
-              "url": "https://www.fractalkitty.com/creating-worlds-runes-and-spells/",
-              "source": "Fractal Kitty",
-              "important": false
-            },
-            {
-              "titre": "Hervé, le studio parisien qui devait être un fleuriste",
-              "resume": "Coulisses du branding et des expériences immersives pour Lucis, Scalingo, La Rosée et Richard Mille.",
-              "url": "https://tympanus.net/codrops/2026/11/02/herve-studio/",
-              "source": "Codrops",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Frédéric Lord",
-              "resume": "Ajouté le 11/11/2026 (catégorie non affichée)",
-              "url": "https://fredericlord.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Arrova",
-              "resume": "Ajouté le 11/11/2026 (catégorie non affichée)",
-              "url": "https://arrova.eu/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Conwest Developments",
-              "resume": "Ajouté le 11/11/2026 (catégorie non affichée)",
-              "url": "https://conwest.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Haikoo Studio",
-              "resume": "Ajouté le 11/11/2026 (catégorie non affichée)",
-              "url": "https://www.haikoo.org/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Jon Pilkington",
-              "resume": "Ajouté le 11/11/2026 (catégorie non affichée)",
-              "url": "https://www.jonpilkington.co.uk/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz / bad buzz",
-          "items": [
-            {
-              "titre": "Jensen Huang quitte la direction de Nvidia",
-              "resume": "Annonce relayée par AP, sujet n°1 sur HN (≈1 900 pts), sur fond d'enquête à Singapour autour de la société Megaspeed.",
-              "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-              "source": "AP",
-              "important": false
-            },
-            {
-              "titre": "Panne Microsoft : Outlook et Azure tombent, la page de statut aussi",
-              "resume": "Incident en cours hier soir selon les fils HN.",
-              "url": "https://news.ycombinator.com/item?id=50471731",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-12",
-      "titre": "Veille front — jeudi 12 novembre — Codex backdooré via GitHub Actions · Claude Sheets",
-      "sections": [
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "Journée calme sur ta stack",
-              "resume": "Rien de majeur côté Vite, Astro (7.4 reste la dernière version), Sanity, Shopify ou WordPress ces dernières 24 h.",
-              "url": "https://astro.build/blog/",
-              "source": "Astro",
-              "important": false
-            },
-            {
-              "titre": "Codex : une injection de prompt dans GitHub Actions menait au paquet npm officiel",
-              "resume": "Depi a enchaîné injection de prompt dans le workflow qui étiquette les issues, évasion de sandbox et empoisonnement du cache GitHub jusqu'au chemin de publication de @openai/codex ; OpenAI a corrigé. Si tu branches un agent IA sur tes issues ou PR, ses Actions ne doivent avoir ni secrets ni droits d'écriture.",
-              "url": "https://depi.security/blog/20261111-backdooring-codex/",
-              "source": "Depi Security",
-              "important": false
-            },
-            {
-              "titre": "Anthropic lance Claude Whiteboards et Sheets (beta) et Claude Data",
-              "resume": "Tableaux blancs partagés, tableurs que Claude construit et édite, dashboards devenus Claude Data avec partage en direct : de quoi produire des maquettes et des outils internes rapides pour tes clients sans passer par du code.",
-              "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
-              "source": "Anthropic",
-              "important": false
-            },
-            {
-              "titre": "Ben's Bites : How I got seduced",
-              "resume": "Au-delà de l'analyse du marketing de Ramp : Fable 5.2 en raisonnement moyen ou bas suffit pour la plupart des tâches, et les UI skills d'Emil (exemples avant/après) aident à guider l'agent sur le design.",
-              "url": "https://www.bensbites.com/p/how-i-got-seduced",
-              "source": "Ben's Bites",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : Apple prépare une app Mac pour faire tourner des modèles IA en local (≈280 pts, 236 com.)",
-              "resume": "Le débat porte sur la place qui restera aux apps quand chacun pourra générer ses propres outils.",
-              "url": "https://news.ycombinator.com/item?id=50446520",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : Claude Sheets et Whiteboards face à Figma et Excel (≈240 pts, 170 com.)",
-              "resume": "Les avis se partagent entre outil pratique pour le travail rapide et crainte d'un jardin clos.",
-              "url": "https://news.ycombinator.com/item?id=50443716",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "CSS Anchor Positioning Guide",
-              "resume": "CSS-Tricks publie son guide de référence pour positionner tooltips et popovers en CSS pur.",
-              "url": "https://css-tricks.com/css-anchor-positioning-guide/",
-              "source": "CSS-Tricks",
-              "important": false
-            },
-            {
-              "titre": "Yonkers Rises : une animation Three.js générée avec Claude Fable 5.2",
-              "resume": "Yonkers se dresse en robot géant et traverse New York : un bon exemple de ce qu'un agent sort aujourd'hui en 3D web.",
-              "url": "https://tools.simonwillison.net/yonkers-rises",
-              "source": "Simon Willison",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Frédéric Lord",
-              "resume": "Ajouté le 11/11/2026",
-              "url": "https://fredericlord.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Arrova",
-              "resume": "Ajouté le 11/11/2026",
-              "url": "https://arrova.eu/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Conwest Developments",
-              "resume": "Ajouté le 11/11/2026",
-              "url": "https://conwest.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Haikoo Studio",
-              "resume": "Ajouté le 11/11/2026",
-              "url": "https://www.haikoo.org/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Jon Pilkington",
-              "resume": "Ajouté le 11/11/2026",
-              "url": "https://www.jonpilkington.co.uk/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz / bad buzz",
-          "items": [
-            {
-              "titre": "VulnCheck juge décevantes les failles trouvées par l'IA d'Anthropic",
-              "resume": "D'après le décompte relayé sur HN, 0,5 % des 7 349 failles publiées par Glasswing/Mythos auraient été corrigées (≈400 pts sur HN).",
-              "url": "https://news.ycombinator.com/item?id=50447074",
-              "source": "VulnCheck / HN",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "titre": "Veille front — mercredi 11 novembre — Skill web moderne de Chrome · Val Town ferme",
-      "sections": [
-        {
-          "id": "stack",
-          "label": "Ta stack",
-          "items": [
-            {
-              "titre": "Chrome lance modern-web-guidance 1.0 : un skill pour sortir ton agent du JS de 2019",
-              "resume": "200+ guides (dialog, field-sizing, CSS.highlights…), un skill + CLI de recherche et une commande legacy-scan qui repère le code à moderniser ; co-écrit avec Firefox, MDN et Edge. Taux de réussite des agents de 55 % à 92 % sur leurs tests : à brancher dans Claude Code pour éviter les ResizeObserver là où une ligne de CSS suffit.",
-              "url": "https://github.com/GoogleChrome/modern-web-guidance",
-              "source": "GitHub / Google Chrome",
-              "important": true
-            }
-          ]
-        },
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "Journée calme sur Vite, Astro, Sanity, Shopify et WordPress",
-              "resume": "Pas de version majeure ni de faille nouvelle ; côté WordPress, assure-toi juste que tes sites sont bien en 7.1.4 (faille du core toujours ciblée).",
-              "url": "https://astro.build/blog/",
-              "source": "Veille",
-              "important": false
-            },
-            {
-              "titre": "Astuce Claude Fable 5.2 : dire à l'agent que le code est le sien",
-              "resume": "Selon la doc de prompting d'Anthropic relevée par Simon Willison, préciser que le code a été écrit par Claude le pousse davantage à factoriser le code dupliqué — utile lors de refactos de thèmes.",
-              "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
-              "source": "Simon Willison",
-              "important": false
-            },
-            {
-              "titre": "Amazon remplace Sonnet 4.6 par un petit modèle open source, Strands Decider",
-              "resume": "Pour classer ses tickets, Amazon économise des millions avec un modèle de décision spécialisé : rappel qu'un LLM généraliste n'est pas toujours le bon outil pour une tâche répétitive.",
-              "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
-              "source": "Strands Agents",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : « Get your coding agent off ~2019 JavaScript » (Paul Irish)",
-              "resume": "Le lancement de modern-web-guidance lance le débat : les bonnes pratiques comptent-elles encore si plus personne ne relit le code généré ?",
-              "url": "https://news.ycombinator.com/item?id=50443812",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : « AI usage generates a fragile codebase » (≈180 pts, 230 com.)",
-              "resume": "Témoignages contradictoires : les uns voient la dette s'accumuler, d'autres maintiennent de grosses apps à l'IA sans souci ; le consensus pointe la revue humaine.",
-              "url": "https://news.ycombinator.com/item?id=50438318",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : Amazon et Strands Decider (≈635 pts)",
-              "resume": "Débat classifieur classique vs LLM pour les tâches simples, et calculs d'économies.",
-              "url": "https://news.ycombinator.com/item?id=50436640",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "Inside Au-rel.io : un portfolio construit autour de la grille et du mouvement",
-              "resume": "Making-of d'Andrea Aurelio Napoli : grille stricte et motion design au service de la navigation.",
-              "url": "https://tympanus.net/codrops/2026/11/09/au-rel-io/",
-              "source": "Codrops",
-              "important": false
-            },
-            {
-              "titre": "UDJO : déclarer chaque propriété CSS une seule fois, toujours pertinent ?",
-              "resume": "Dédupliquer les déclarations répétées reste utile pour la maintenabilité et le poids des feuilles de style.",
-              "url": "https://css-tricks.com/css-using-declarations-just-once/",
-              "source": "CSS-Tricks",
-              "important": false
-            },
-            {
-              "titre": "Blender 5.3 gère les Gaussian Splats",
-              "resume": "Pratique pour préparer des scènes splat avant de les intégrer en WebGL/Three.js.",
-              "url": "https://news.ycombinator.com/item?id=50442426",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Tacaloa",
-              "resume": "Ajouté le 10 novembre 2026.",
-              "url": "https://www.tacaloa.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Coaika",
-              "resume": "Ajouté le 10 novembre 2026.",
-              "url": "https://www.coaika.co/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "LED",
-              "resume": "Ajouté le 10 novembre 2026.",
-              "url": "https://ledboise.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Who The Fuck Is Sarah Sey ?",
-              "resume": "Ajouté le 10 novembre 2026.",
-              "url": "https://whothefuckissarahsey.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Wedge",
-              "resume": "Ajouté le 10 novembre 2026.",
-              "url": "https://www.wedge.work/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz / bad buzz",
-          "items": [
-            {
-              "titre": "Val Town ferme",
-              "resume": "Inscriptions closes, lecture seule le 10 décembre, arrêt le 10 janvier, code open-sourcé le 1er février 2027 : migre tes vals vers Cloudflare, Vercel ou Netlify si tu en utilises.",
-              "url": "https://blog.val.town/winding-down",
-              "source": "Val Town",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "titre": "Veille front — mardi 10 novembre — Claude Fable 5.2 · Faille WordPress exploitée",
-      "sections": [
-        {
-          "id": "stack",
-          "label": "Ta stack",
-          "items": [
-            {
-              "titre": "WordPress : la faille de mise à jour du core (CVE-2026-119977) est exploitée",
-              "resume": "Une race condition pendant la mise à jour permet une RCE non authentifiée (WP 4.7 à 7.1.3) ; la CISA l'a ajoutée aux failles exploitées et Wordfence voit 240 000 tentatives. Sur tes sites clients : bloque l'accès web à wp-content/upgrade/ (vérifie le 403) AVANT de passer en 7.1.4, puis contrôle les admins et plugins inconnus.",
-              "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-              "source": "The Hacker News",
-              "important": true
-            },
-            {
-              "titre": "Sanity : sorties de novembre (singletons, MCP Media Library, TypeGen App SDK)",
-              "resume": "Les types singleton deviennent natifs dans la config (beta), le serveur MCP peut gérer la Media Library et TypeGen couvre les hooks de l'App SDK. Rien sur les tarifs ni le CDN images : utile surtout pour simplifier tes schémas Astro + Sanity.",
-              "url": "https://www.sanity.io/blog/november-releases-2026",
-              "source": "Blog Sanity",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "Anthropic sort Claude Fable 5.2 (et Mythos 5.2, accès restreint)",
-              "resume": "Fable 5.2 dépasse Opus 5.5 sur les benchs code (FrontierSWE v2 : 69,9 % contre 62,3 %) pour 8 $/40 $ le million de tokens, et il est déjà dans Claude Code. Anthropic conseille de garder Opus 5.5 au quotidien et de passer sur Fable pour les tâches complexes ; les abonnés ont des « resets » Fable bonus cette semaine.",
-              "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-              "source": "Anthropic",
-              "important": true
-            },
-            {
-              "titre": "Journée calme côté Vite, Astro et Shopify",
-              "resume": "Pas d'annonce majeure en 24 h : la dernière version d'Astro reste la 7.4 (15 octobre) et Vite+ 1.0 date de fin septembre.",
-              "url": "https://astro.build/blog/",
-              "source": "Astro",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : Claude Fable 5.2 et Mythos 5.2 (≈820 pts, 490 com.)",
-              "resume": "Le fil salue la baisse de prix, mais doute des comparaisons de benchmarks et du nommage 5.2 qui bat 5.5.",
-              "url": "https://news.ycombinator.com/item?id=50429906",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : « Opus 5.5 a-t-il été bridé le 3 novembre ? » (≈690 pts, 450 com.)",
-              "resume": "Des devs rapportent une baisse sur les tâches agentiques longues et une consommation de tokens en hausse ; d'autres pointent les trackers de benchs, qui ne montrent aucun changement.",
-              "url": "https://news.ycombinator.com/item?id=50422069",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "CSS-Tricks Version 20 : la refonte est en ligne",
-              "resume": "Les blobs au survol utilisent border-shape, shape() et random(), et le thème clair/sombre bascule avec une view transition : un bon terrain pour voir ces nouveautés CSS en production.",
-              "url": "https://css-tricks.com/css-tricks-version-20/",
-              "source": "CSS-Tricks",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Blond",
-              "resume": "Studio Engine / BLOND · 29 octobre 2026",
-              "url": "https://blond.cc/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "David McGillivray",
-              "resume": "Portfolio · 16 octobre 2026",
-              "url": "http://dmcg.co/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Royal Sites Ireland",
-              "resume": "Studio Estd · 7 octobre 2026",
-              "url": "https://royalsites.ie/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "SIHA",
-              "resume": "Allan Pooley · 7 octobre 2026",
-              "url": "https://siha.com.au/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Oath Biome",
-              "resume": "Studio Landscape · 7 octobre 2026",
-              "url": "https://www.oathbiome.com/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz / bad buzz",
-          "items": [
-            {
-              "titre": "Gemini enverrait des fichiers Drive et des emails perso à des annotateurs humains",
-              "resume": "Un dépôt GitHub l'affirme et le sujet monte sur HN (≈250 pts), mais rien n'est confirmé à ce stade. Ça s'ajoute à la polémique de la semaine dernière sur l'entraînement à partir des chats Gemini.",
-              "url": "https://news.ycombinator.com/item?id=50429426",
-              "source": "Hacker News",
               "important": false
             }
           ]
