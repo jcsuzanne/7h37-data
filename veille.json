@@ -1,6 +1,147 @@
 {
-  "maj": "2026-11-18T07:55:00+04:00",
+  "maj": "2026-11-19T07:48:00+04:00",
   "jours": [
+    {
+      "date": "2026-11-19",
+      "titre": "Veille front — jeudi 19 novembre — Faille RCE NGINX HTTP/2 · Gemini 4 Neon",
+      "sections": [
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "NGINX : deux failles HTTP/2 permettent d'exécuter du code sans authentification",
+              "resume": "CVE-2026-123633 et CVE-2026-123007 (CVSS 9.2) touchent tout NGINX avec HTTP/2 activé, même pour servir des fichiers statiques ; F5 a publié les correctifs le 18 novembre. Vérifie tes serveurs et VPS clients (OVH notamment) : mets NGINX à jour, ou coupe http2 en attendant.",
+              "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+              "source": "Wiz Research / Hacker News",
+              "important": true
+            },
+            {
+              "titre": "Google lance Gemini 4 Neon, orienté code et tâches multi-étapes",
+              "resume": "Contexte d'1 M de tokens à 3 $ / 15 $ le million de tokens, 3e de l'Artificial Analysis Intelligence Index ; Google annonce un coût par tâche 32 à 80 % plus bas que la concurrence. À comparer à Opus 5.5 sur tes tâches de thème, d'autant qu'un benchmark HN juge Gemini 4 Carbon très lent en correction de bugs.",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+              "source": "Google",
+              "important": false
+            },
+            {
+              "titre": "Journée calme sur ta stack",
+              "resume": "Rien de majeur côté Vite/VoidZero, Astro (7.4.12 reste la dernière), Sanity, Shopify, WordPress, GSAP ou Lenis depuis hier.",
+              "url": "https://astro.build/blog/",
+              "source": "Astro, VoidZero, Sanity",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : All About Berlin a perdu 75 % de son trafic à cause des AI Overviews (751 pts)",
+              "resume": "Témoignage relayé avec une étude randomisée : les AI Overviews réduisent d'environ 40 % les clics organiques. Utile pour cadrer les attentes SEO/GEO de tes clients.",
+              "url": "https://news.ycombinator.com/item?id=50542705",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : Gemini 4 Carbon met près d'une heure sur des bugs qu'Opus et Astra règlent en minutes (262 pts)",
+              "resume": "Benchmark privé de Kernel qui attribue l'écart à une inférence lente : à garder en tête avant de basculer un agent dessus.",
+              "url": "https://news.ycombinator.com/item?id=50541790",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : le domaine codeberg.org a disparu de son compte registrar (295 pts)",
+              "resume": "Site hors ligne sans renouvellement oublié ni connexion suspecte : rappel de verrouiller les domaines clients (registrar lock, 2FA).",
+              "url": "https://news.ycombinator.com/item?id=50544261",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "From One Drop of Blue Ink to a Complete Brand",
+              "resume": "Darius Dan construit une marque d'encre fictive, de la tache d'encre au logo, aux motifs et aux textures shader dans Paper.",
+              "url": "https://tympanus.net/codrops/2026/11/18/blue-ink-brand/",
+              "source": "Codrops",
+              "important": false
+            },
+            {
+              "titre": "Voyager : explorateur 3D interactif des sondes, jusqu'aux puces mémoire (HN, 140 pts)",
+              "resume": "Expérience web 3D avec positions en temps réel et zoom très profond : bonne référence pour un configurateur/visionneuse 3D.",
+              "url": "https://news.ycombinator.com/item?id=50548161",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "Sydopia",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13686-sydopia)",
+              "url": "https://sydopia.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "maximale",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13687-maximale)",
+              "url": "https://www.maximalestudio.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Martin Foucaut",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13685-martin-foucaut)",
+              "url": "https://www.martinfoucaut.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Husk",
+              "resume": "Catégorie non indiquée — 14/11/2026 (fiche : https://www.siteinspire.com/website/9116-husk)",
+              "url": "http://www.madebyhusk.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "KOLFEST",
+              "resume": "Catégorie non indiquée — 12/11/2026 (fiche : https://www.siteinspire.com/website/13684-kolfest)",
+              "url": "https://kolfest.bermet.design/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz / bad buzz",
+          "items": [
+            {
+              "titre": "Le paquet PyPI agent-framework de Microsoft compromis",
+              "resume": "Les versions 1.26.1 et 1.26.2 publiées le 17 novembre volaient identifiants et jetons cloud à chaque démarrage de Python ; elles sont en quarantaine.",
+              "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+              "source": "The Hacker News",
+              "important": false
+            },
+            {
+              "titre": "Des faux GPTBot et ClaudeBot scannent les sites à la recherche de clés IA (HN)",
+              "resume": "Trois scanners se font passer pour des crawlers IA pour trouver des clés exposées : vérifie qu'aucun .env ni fichier de config n'est servi publiquement.",
+              "url": "https://news.ycombinator.com/item?id=50550461",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-18",
       "titre": "Veille front — mercredi 18 novembre — Optimizely piraté · GPT-6.2 Astra et Sol",
