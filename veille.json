@@ -1,6 +1,146 @@
 {
-  "maj": "2026-11-19T07:48:00+04:00",
+  "maj": "2026-11-20T08:15:00+04:00",
   "jours": [
+    {
+      "date": "2026-11-20",
+      "titre": "Veille front — vendredi 20 novembre — PHP 8.6 sorti · Anthropic en Bourse",
+      "sections": [
+        {
+          "id": "stack",
+          "label": "Ta stack",
+          "items": [
+            {
+              "titre": "PHP 8.6 est sorti (19 novembre)",
+              "resume": "Nouvelle version majeure : application partielle de fonctions, clamp(), classe Duration, defaults readonly. Côté WordPress/Timber, n'upgrade pas encore les hébergements clients : le core fait encore échouer ses tests sous 8.6 et les sessions passent en SameSite=Lax/HttpOnly/strict mode par défaut, ce qui peut casser certains plugins.",
+              "url": "https://www.php.net/releases/8.6/en.php",
+              "source": "php.net",
+              "important": true
+            }
+          ]
+        },
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "Chrome : les fonctions IA consomment des centaines de Go par mois",
+              "resume": "Jeff Starr (Perishable Press) a vu sa conso de données exploser à cause des fonctions IA « On-device » de Chrome, actives par défaut ; tout désactiver dans Paramètres > AI innovations a coupé le trafic immédiatement. À vérifier sur ta machine si ta connexion est limitée.",
+              "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
+              "source": "Perishable Press",
+              "important": false
+            },
+            {
+              "titre": "Journée calme sur le reste de ta stack",
+              "resume": "Rien de majeur côté Vite/VoidZero, Astro, Sanity, Shopify, GSAP ou Lenis depuis hier ; pas de nouvel article Ben's Bites.",
+              "url": "https://astro.build/blog/",
+              "source": "Astro, VoidZero, Sanity, Shopify",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : What's New in PHP 8.6 (232 pts, 107 com.)",
+              "resume": "Le fil discute surtout l'application partielle et la vague de dépréciations.",
+              "url": "https://news.ycombinator.com/item?id=50557870",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "Launch HN : Onlook, éditeur visuel open source pour designers",
+              "resume": "Les designers éditent directement une app Next.js/Tailwind et le code suit ; débat sur la qualité du code généré.",
+              "url": "https://news.ycombinator.com/item?id=50562320",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : des zines de 8 pages pliables depuis une feuille A4, dans le navigateur (149 pts)",
+              "resume": "Joli outil d'impression/pliage web, bonne idée pour un site éditorial ou culturel.",
+              "url": "https://news.ycombinator.com/item?id=50559719",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "scroll-state() : changer le CSS selon l'état du scroll",
+              "resume": "Nouvelle fiche de l'almanach CSS-Tricks : header collé, carrousel snappé ou zone défilable stylés sans JS.",
+              "url": "https://css-tricks.com/almanac/functions/s/scroll-state/",
+              "source": "CSS-Tricks",
+              "important": false
+            },
+            {
+              "titre": "Échelonner des animations au scroll avec animation-range-start",
+              "resume": "Lee Meyer pilote un effet karaoké entier par une seule progression : alternative CSS native à certains ScrollTrigger.",
+              "url": "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/",
+              "source": "CSS-Tricks",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "Stripe Press",
+              "resume": "Catégorie non indiquée — 19/11/2026 (fiche : https://www.siteinspire.com/website/10454-stripe-press)",
+              "url": "https://stripe.press/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Sydopia",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13686-sydopia)",
+              "url": "https://sydopia.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "maximale",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13687-maximale)",
+              "url": "https://www.maximalestudio.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Martin Foucaut",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13685-martin-foucaut)",
+              "url": "https://www.martinfoucaut.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Husk",
+              "resume": "Catégorie non indiquée — 14/11/2026 (fiche : https://www.siteinspire.com/website/9116-husk)",
+              "url": "http://www.madebyhusk.com/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz / bad buzz",
+          "items": [
+            {
+              "titre": "Anthropic entre en Bourse sur le Nasdaq (ticker ANT)",
+              "resume": "Premier jour de cotation le 19 novembre ; Reuters titre sur une valorisation de 2 000 milliards de dollars. En tête de Hacker News (300 pts, 422 com.).",
+              "url": "https://news.ycombinator.com/item?id=50562754",
+              "source": "Reuters / Hacker News",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-19",
       "titre": "Veille front — jeudi 19 novembre — Faille RCE NGINX HTTP/2 · Gemini 4 Neon",
