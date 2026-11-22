@@ -1,6 +1,147 @@
 {
-  "maj": "2026-11-21T07:55:00+04:00",
+  "maj": "2026-11-22T07:51:34+04:00",
   "jours": [
+    {
+      "date": "2026-11-22",
+      "titre": "Veille front — dimanche 22 novembre — Inkling 2 Mini en local · Faille GPGME",
+      "sections": [
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "Inkling 2 Mini : un modèle de code open-weights qui tourne sur un Mac 32 Go",
+              "resume": "Thinking Machines a publié le 20 novembre un MoE de 26 milliards de paramètres (3,4 B actifs, ~20 Go en mémoire) qui mène les modèles ouverts de moins de 100 B sur SWE-bench Verified (79 %) et DeepSWE ; dispo via Ollama, llama.cpp et Hugging Face. Une vraie option pour un agent de code local, hors ligne ou sans facture d'API, sur des tâches de thème ou de refacto.",
+              "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+              "source": "Thinking Machines / Hacker News (1 265 pts)",
+              "important": false
+            },
+            {
+              "titre": "GPGME : double free critique, RCE possible (CVE-2026-129975)",
+              "resume": "Toutes les versions avant 2.3.1 sont touchées via une clé OpenPGP à user id très long ; concerne Gpg4win, la plupart des clients mail et Flatpak. Si tu signes ou chiffres sous Windows, passe à Gpg4win 5.1.2.",
+              "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+              "source": "GnuPG",
+              "important": true
+            },
+            {
+              "titre": "Journée calme sur ta stack",
+              "resume": "Rien de majeur côté Vite/VoidZero, Astro, Sanity, Shopify, WordPress, GSAP ou Lenis depuis hier ; pas de nouvel article Ben's Bites.",
+              "url": "https://astro.build/blog/",
+              "source": "Astro, VoidZero, Sanity, Shopify",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : « We promoted developers into architects without informing them » (543 pts, 296 com.)",
+              "resume": "Avec les agents, le travail devient de fixer l'architecture et le modèle de données et de refuser les demandes qui plombent les perfs, car l'IA ne le fera pas.",
+              "url": "https://news.ycombinator.com/item?id=50579331",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : un site d'art sous Astro, statique pour tous mais dynamique pour l'auteur (85 pts)",
+              "resume": "Pages rendues dans un Worker Cloudflare, cache CDN de 30 jours purgé en entier à chaque édition, images redimensionnées à l'upload dans R2 : un schéma proche de ton cache R2 devant Sanity.",
+              "url": "https://news.ycombinator.com/item?id=50577991",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : GPT-6.2 Astra et Sol décrochent sur SimpleBench (133 pts)",
+              "resume": "Confirme les retours tièdes de la semaine sur les nouveaux modèles OpenAI : pas de raison de quitter Claude pour tes thèmes.",
+              "url": "https://news.ycombinator.com/item?id=50588916",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "Firefox 162 Nightly teste random-item() et background-clip: border-area",
+              "resume": "De l'aléatoire natif en CSS et des dégradés limités à la bordure, sans JS ni SVG.",
+              "url": "https://css-tricks.com/byte-209/",
+              "source": "CSS-Tricks",
+              "important": false
+            },
+            {
+              "titre": "Andy Clarke répond à six questions sur « Standout Designs for the Web »",
+              "resume": "Pistes pour des sites mémorables quand tout finit par se ressembler.",
+              "url": "https://css-tricks.com/andy-clarke-standout-designs-for-the-web-interview/",
+              "source": "CSS-Tricks",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "Stripe Press",
+              "resume": "Catégorie non indiquée — 19/11/2026 (fiche : https://www.siteinspire.com/website/10454-stripe-press)",
+              "url": "https://stripe.press/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Sydopia",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13686-sydopia)",
+              "url": "https://sydopia.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "maximale",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13687-maximale)",
+              "url": "https://www.maximalestudio.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Martin Foucaut",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13685-martin-foucaut)",
+              "url": "https://www.martinfoucaut.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Husk",
+              "resume": "Catégorie non indiquée — 14/11/2026 (fiche : https://www.siteinspire.com/website/9116-husk)",
+              "url": "http://www.madebyhusk.com/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz / bad buzz",
+          "items": [
+            {
+              "titre": "Slopstrap, le framework CSS qui fait « vibecodé » (HN, 563 pts)",
+              "resume": "Parodie de tous les tics des sites générés par IA (orbes, bento, gradients, faux témoignages) : une bonne liste de ce qu'il faut éviter.",
+              "url": "https://slopstrap.mikelacher.com/",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "Le Nasdaq efface ses gains de 2026, la vente sur l'IA plombe le 2e jour d'Anthropic",
+              "resume": "Vente massive sur les valeurs IA juste après l'introduction en Bourse (HN, 467 pts, 806 com.).",
+              "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+              "source": "The Guardian",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-21",
       "titre": "Veille front — samedi 21 novembre — Faille RCE Vite dev server · OpenSSL CVSS 9.8",
@@ -805,133 +946,6 @@
               "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13682-primal-instinct)",
               "url": "https://www.primal-instinct.net/",
               "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "titre": "Veille front — dimanche 15 novembre — Fuite Lovable · Railway : 740 k$ de clés IA volées",
-      "sections": [
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "Railway : des clés IA clients volées, 740 000 $ de facturation frauduleuse",
-              "resume": "Un attaquant a déchiffré les variables d'environnement de jusqu'à ~1,85 % des workspaces Railway et utilisé les clés OpenAI/Anthropic/Gemini volées. Si tu as des clés stockées chez un PaaS, c'est le rappel de les restreindre et de les faire tourner chez le fournisseur.",
-              "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
-              "source": "The Hacker News",
-              "important": true
-            },
-            {
-              "titre": "Google Antigravity : /teamwork, des équipes d'agents coordonnés",
-              "resume": "Google Research montre ce que donne /teamwork (plusieurs agents à rôles) sur de gros chantiers ; sur HN on le trouve plus lent et on doute du gain face aux workflows de Claude. À suivre si tu compares les outils de code agentique.",
-              "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
-              "source": "Google Research",
-              "important": false
-            },
-            {
-              "titre": "Journée calme sur ta stack",
-              "resume": "Rien de majeur côté Vite/VoidZero, Astro, Sanity, Shopify, WordPress, GSAP ou Lenis depuis hier. Rappel : Copilot retire Opus 4.8, Opus 5 et GPT-5.6 Terra demain lundi.",
-              "url": "https://astro.build/blog/",
-              "source": "Astro, VoidZero, Sanity",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : Claude supprime le syllabus d'un prof en renumérotant des pages (26 com.)",
-              "resume": "Un agent a effacé un an de notes sur une tâche anodine : le débat porte sur les permissions et les sauvegardes avant de lâcher un agent sur des fichiers.",
-              "url": "https://news.ycombinator.com/item?id=50499114",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : PyPI refait ses pages projet avec des signaux de sécurité (≈130 pts)",
-              "resume": "Provenance et attestations mises en avant : les commentaires espèrent la même chose côté npm après les vagues de vers supply chain.",
-              "url": "https://news.ycombinator.com/item?id=50497892",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "Mathias Adolfsson ’26 : carrousel courbe, galerie en tonneau et motion vivante",
-              "resume": "Making-of d'un portfolio avec un carrousel incurvé et une galerie cylindrique, une bonne base pour du WebGL/GSAP sur scroll.",
-              "url": "https://tympanus.net/codrops/?p=125103",
-              "source": "Codrops",
-              "important": false
-            },
-            {
-              "titre": "Le CSS moderne peut complexifier ton front",
-              "resume": "Déplacer de la logique du JS vers le CSS simplifie localement mais peut compliquer l'ensemble : pistes pour migrer sans se piéger.",
-              "url": "https://www.smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
-              "source": "Smashing Magazine",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Husk",
-              "resume": "Catégorie non indiquée — ajouté le 14/11/2026 (fiche : https://www.siteinspire.com/website/9116-husk)",
-              "url": "http://www.madebyhusk.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "KOLFEST",
-              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13684-kolfest)",
-              "url": "https://kolfest.bermet.design/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "ETOILE",
-              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13683-etoile)",
-              "url": "https://etoile.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Charles",
-              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13681-charles)",
-              "url": "https://www.charles.fr/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Primal Instinct",
-              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13682-primal-instinct)",
-              "url": "https://www.primal-instinct.net/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz / bad buzz",
-          "items": [
-            {
-              "titre": "Des apps Lovable exposent des passeports et plus de 200 000 messages privés",
-              "resume": "Une étude montre que des apps générées par Lovable laissent fuiter des données sensibles ; le vibe-coding sans revue de sécurité reprend un coup.",
-              "url": "https://www.crissyfield.de/research/lovable-en/",
-              "source": "crissyfield.de / Hacker News",
               "important": false
             }
           ]
