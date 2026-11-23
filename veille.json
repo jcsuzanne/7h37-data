@@ -1,6 +1,140 @@
 {
-  "maj": "2026-11-22T07:51:34+04:00",
+  "maj": "2026-11-23T07:50:00+04:00",
   "jours": [
+    {
+      "date": "2026-11-23",
+      "titre": "Veille front — lundi 23 novembre — Fuites de prompts chez des hébergeurs IA",
+      "sections": [
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "OpenRouter retire 3 fournisseurs et 125 endpoints du « Zero Data Retention »",
+              "resume": "Des chercheurs (Dragos) ont montré avec des jetons canari que certains hébergeurs d'inférence ne respectaient pas leurs règles de données ; Together reconnaît une fuite de prompts sur des requêtes de juin-juillet 2026. Si tu passes par OpenRouter ou un hébergeur tiers pour tes agents, regarde tes notifications et n'y envoie pas de code ou de données client sensibles.",
+              "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+              "source": "OpenRouter",
+              "important": false
+            },
+            {
+              "titre": "Journée calme sur ta stack",
+              "resume": "Rien de majeur côté Vite/VoidZero, Astro, Sanity, Shopify, WordPress, GSAP ou Lenis ce week-end ; pas de nouvel article Ben's Bites.",
+              "url": "https://astro.build/blog/",
+              "source": "Astro, VoidZero, Sanity, Shopify",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : OpenAI publie ses mesures de perplexité et propose des limites communes (175 pts, 125 com.)",
+              "resume": "Jakub Pachocki dévoile la courbe interne d'OpenAI depuis GPT-3.5 et veut faire de la perplexité un indicateur partagé entre labos pour fixer des seuils de développement.",
+              "url": "https://news.ycombinator.com/item?id=50601525",
+              "source": "Hacker News / OpenAI",
+              "important": false
+            },
+            {
+              "titre": "Show HN : un jeu où tu joues le sous-agent d'un LLM (169 pts)",
+              "resume": "Façon ludique de mesurer la qualité des consignes qu'on délègue à un agent.",
+              "url": "https://news.ycombinator.com/item?id=50599762",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : Fast-Anything, « ne réécris pas tout en Rust, réécris les 5 % lents » (152 pts, 109 com.)",
+              "resume": "Débat sur l'optimisation ciblée plutôt que la réécriture complète d'un outil.",
+              "url": "https://news.ycombinator.com/item?id=50596155",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "Andy Bell : « When Everything Has Changed, What Do We Do Next? »",
+              "resume": "Que faire du métier de dev front après une année bouleversée par l'IA.",
+              "url": "https://css-tricks.com/when-everything-has-changed/",
+              "source": "CSS-Tricks",
+              "important": false
+            },
+            {
+              "titre": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+              "resume": "L'IA accélère le build mais les tests d'accessibilité ne suivent pas : pistes pour garder le jugement humain sans ralentir.",
+              "url": "https://www.smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+              "source": "Smashing Magazine",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "Stripe Press",
+              "resume": "Catégorie non indiquée — 19/11/2026 (fiche : https://www.siteinspire.com/website/10454-stripe-press)",
+              "url": "https://stripe.press/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Sydopia",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13686-sydopia)",
+              "url": "https://sydopia.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "maximale",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13687-maximale)",
+              "url": "https://www.maximalestudio.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Martin Foucaut",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13685-martin-foucaut)",
+              "url": "https://www.martinfoucaut.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Husk",
+              "resume": "Catégorie non indiquée — 14/11/2026 (fiche : https://www.siteinspire.com/website/9116-husk)",
+              "url": "http://www.madebyhusk.com/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz / bad buzz",
+          "items": [
+            {
+              "titre": "« 87 % de l'énergie d'Anthropic viendra du gaz et 11 % du charbon en 2028 » (HN, 613 pts)",
+              "resume": "Gros débat (684 commentaires) sur l'empreinte des datacenters IA.",
+              "url": "https://news.ycombinator.com/item?id=50597612",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "Backblaze : des clients craignent une revente de données après une mise à jour de politique",
+              "resume": "À relire si tu stockes des sauvegardes clients chez Backblaze.",
+              "url": "https://www.neowin.net/news/backblaze-customers-worried-of-personal-data-salesharing-after-policy-update/",
+              "source": "Neowin",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-22",
       "titre": "Veille front — dimanche 22 novembre — Inkling 2 Mini en local · Faille GPGME",
@@ -832,120 +966,6 @@
               "resume": "Le Threat Intelligence Group de Google décrit des frameworks multi-agents qui transforment une mise à jour publiée en exploit : le délai pour patcher tes WordPress clients se raccourcit encore.",
               "url": "https://thehackernews.com/",
               "source": "The Hacker News",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "titre": "Veille front — lundi 16 novembre — Faille Cursor × Claude Code · MAJ Claude Code",
-      "sections": [
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "Cursor : une clé Fireworks volée a servi à pousser une extension Claude Code piégée",
-              "resume": "Cursor confirme que les versions 2.1.312 et 2.1.313 de l'extension Claude Code servies par son marketplace le 29 octobre (≈11 h) étaient trojanisées, jusqu'à 5 000 installs, après une fuite de clé chez Fireworks AI. Si tu utilises Cursor : vérifie la version installée ce jour-là ; désinstaller ne suffit pas (clé SSH et entrées de démarrage possibles), suis la procédure de Cursor et fais tourner tes clés.",
-              "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
-              "source": "BleepingComputer",
-              "important": true
-            },
-            {
-              "titre": "Claude Code 2.1.321 → 2.1.325 : plusieurs contournements de permissions corrigés",
-              "resume": "Quatre versions du 9 au 13 novembre corrigent notamment des commandes « lecture seule » exécutées hors sandbox sans confirmation et des règles deny ignorées sur certaines commandes fichiers ; un Code Mode expérimental arrive aussi. Mets à jour aujourd'hui si tu laisses l'agent tourner en semi-autonomie.",
-              "url": "https://vibecodingweekly.substack.com/p/vibe-coding-weekly-55",
-              "source": "Vibe Coding Weekly",
-              "important": true
-            },
-            {
-              "titre": "Journée calme sur ta stack",
-              "resume": "Rien de majeur côté Vite/VoidZero, Astro (7.4.12, patch), Sanity, WordPress, GSAP ou Lenis. Rappel Shopify : les apps publiques sans IP allowlist seront délistées le 20 novembre, à vérifier seulement si tu publies des apps.",
-              "url": "https://shopify.dev/changelog",
-              "source": "Astro, Shopify, VoidZero",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : « All AI-generated code should be Open Source » (≈710 pts, 385 com.)",
-              "resume": "Gros débat sur la propriété et la licence du code produit par les agents, avec des arguments utiles pour tes contrats clients.",
-              "url": "https://news.ycombinator.com/item?id=50507303",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "dev.to : New in Vue — November 2026",
-              "resume": "Point sur l'écosystème Vite : Vite 8.3.8, Vite+ stable depuis fin septembre, Vitest 5.1 déjà sorti après la v5.",
-              "url": "https://dev.to/aloisseckar/new-in-vue-november-2026-4l2m",
-              "source": "DEV Community",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "Choreographing Kinetic Typography on Scroll with GSAP",
-              "resume": "Antoine Wodniack orchestre des lettres en traînée sur scroll avec SplitText, Physics2D et Lenis synchronisé au ticker GSAP : pile ta stack.",
-              "url": "https://tympanus.net/codrops/2026/11/10/kinetic-typography-gsap/",
-              "source": "Codrops",
-              "important": false
-            },
-            {
-              "titre": "text-decoration-inset : du padding pour les soulignements",
-              "resume": "Chrome 157 livre text-decoration-inset et text-overflow: <string> (pas encore Safari), pratique pour des liens soulignés plus fins.",
-              "url": "https://css-tricks.com/text-decoration-inset-is-like-padding-for-text-decorations/",
-              "source": "CSS-Tricks",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Husk",
-              "resume": "Catégorie non indiquée — ajouté le 14/11/2026 (fiche : https://www.siteinspire.com/website/9116-husk)",
-              "url": "http://www.madebyhusk.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "KOLFEST",
-              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13684-kolfest)",
-              "url": "https://kolfest.bermet.design/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "ETOILE",
-              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13683-etoile)",
-              "url": "https://etoile.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Charles",
-              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13681-charles)",
-              "url": "https://www.charles.fr/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Primal Instinct",
-              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13682-primal-instinct)",
-              "url": "https://www.primal-instinct.net/",
-              "source": "Siteinspire",
               "important": false
             }
           ]
