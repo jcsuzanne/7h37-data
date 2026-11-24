@@ -1,6 +1,146 @@
 {
-  "maj": "2026-11-23T07:50:00+04:00",
+  "maj": "2026-11-24T08:05:00+04:00",
   "jours": [
+    {
+      "date": "2026-11-24",
+      "titre": "Veille front — mardi 24 novembre — Backdoor WP bloquée · Ladybird en alpha",
+      "sections": [
+        {
+          "id": "stack",
+          "label": "Ta stack",
+          "items": [
+            {
+              "titre": "WordPress : 6 plugins WP connect backdoorés, stoppés avant diffusion",
+              "resume": "Le 22/11, le compte WordPress.org de l'éditeur (Air WP Sync, WP Sync for Notion, add-ons CF7 vers Airtable/Notion, Brevo pour Gravity Forms, Orders Sync to Airtable) a servi à pousser un module qui exécute du PHP à distance ; le délai de publication et le relecteur automatique de « Protect The Shire » l'ont bloqué et les 6 plugins sont fermés sans version corrigée. Si un client en utilise un, vérifie qu'aucune version listée n'est installée et prévois un remplaçant.",
+              "url": "https://www.wordfence.com/blog/2026/11/supply-chain-compromise-backdoors-six-wp-connect-plugins-blocked-by-wordpress-orgs-release-hold/",
+              "source": "Wordfence",
+              "important": false
+            },
+            {
+              "titre": "Rattrapage : WordPress 7.1.5, release de sécurité (18/11)",
+              "resume": "20 correctifs (SQL injection via le Customizer, XSS stockées, fuites d'e-mails par l'API REST…), rétroportés jusqu'à 4.7 : à appliquer sur tous tes sites clients si l'auto-update n'est pas actif. La 7.2 RC2 inclut les fixes, sortie finale prévue le 8 décembre.",
+              "url": "https://wordpress.org/news/2026/11/wordpress-7-1-5-release/",
+              "source": "WordPress.org",
+              "important": true
+            }
+          ]
+        },
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "Ladybird passe en alpha (macOS et Linux)",
+              "resume": "Premier navigateur avec un moteur entièrement neuf (pas un fork) utilisable sans compiler, avec mises à jour automatiques, WebDriver et protocole DevTools Firefox. Teste tes sites dedans et remonte ce qui casse depuis le navigateur.",
+              "url": "https://ladybird.org/posts/alpha/",
+              "source": "Ladybird",
+              "important": false
+            },
+            {
+              "titre": "GLM-5.4 de Z.ai, premier « loop transformer » orienté code",
+              "resume": "Environ 750 B paramètres dont 28 couches exécutées deux fois ; dispo seulement via le GLM Coding Plan (utilisable dans Claude Code avec le modèle glm-5.4), sans benchmarks publiés, API ni poids ouverts pour l'instant. À surveiller, pas de quoi changer d'outil aujourd'hui.",
+              "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+              "source": "Simon Willison",
+              "important": false
+            },
+            {
+              "titre": "Calme côté Vite/VoidZero, Astro, Sanity, Shopify, GSAP et Lenis",
+              "resume": "Aucune version majeure ni changement de tarif ou de licence depuis hier ; pas de nouvel article Ben's Bites.",
+              "url": "https://astro.build/blog/",
+              "source": "Astro, VoidZero, Sanity, Shopify",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : guide débutant pour l'IA locale avec Inkling, Qwen et Unsloth (700 pts, 280 com.)",
+              "resume": "Mise en route d'un modèle local pour coder sans API.",
+              "url": "https://news.ycombinator.com/item?id=50603845",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : « Don't keep your SSH keys on disk » (73 pts, 59 com.)",
+              "resume": "À méditer après les vers npm qui volent clés et tokens sur les postes de dev.",
+              "url": "https://news.ycombinator.com/item?id=50609579",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "Choreographing Kinetic Typography on Scroll with GSAP",
+              "resume": "Antoine Wodniack détaille une typo cinétique au scroll : ScrollTrigger, ease SlowMo, CustomEase, SplitText, traînées colorées et final Physics2D, avec Lenis.",
+              "url": "https://tympanus.net/codrops/?p=125579",
+              "source": "Codrops",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "Berry eReader",
+              "resume": "Catégorie non indiquée — 23/11/2026 (fiche : https://www.siteinspire.com/website/13688-berry-ereader)",
+              "url": "https://berryreader.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Stripe Press",
+              "resume": "Catégorie non indiquée — 19/11/2026 (fiche : https://www.siteinspire.com/website/10454-stripe-press)",
+              "url": "https://stripe.press/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Sydopia",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13686-sydopia)",
+              "url": "https://sydopia.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "maximale",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13687-maximale)",
+              "url": "https://www.maximalestudio.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Martin Foucaut",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13685-martin-foucaut)",
+              "url": "https://www.martinfoucaut.com/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz / bad buzz",
+          "items": [
+            {
+              "titre": "Nvidia réintègre Jensen Huang comme CEO",
+              "resume": "Sujet n°1 de Hacker News (1 162 pts, 2 247 com.).",
+              "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+              "source": "CNBC / Hacker News",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-23",
       "titre": "Veille front — lundi 23 novembre — Fuites de prompts chez des hébergeurs IA",
@@ -833,139 +973,6 @@
               "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13684-kolfest)",
               "url": "https://kolfest.bermet.design/",
               "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "titre": "Veille front — mardi 17 novembre — WordPress 7.2 RC1 · Copilot ajoute Fable 5.2",
-      "sections": [
-        {
-          "id": "stack",
-          "label": "Ta stack",
-          "items": [
-            {
-              "titre": "WordPress 7.2 RC1 prévu aujourd'hui : gel des fonctionnalités",
-              "resume": "La RC1 est attendue ce 17 novembre (sortie finale le 8 décembre) : à partir de là on ne vérifie plus que des correctifs. Teste tes blocs Timber/Block Studio, surtout les InnerBlocks avec la prop template (dépréciée) et les sorties passant par wp_kses() (nouveau parseur prévu en 7.2 ou 7.3).",
-              "url": "https://make.wordpress.org/core/7-2/",
-              "source": "Make WordPress Core",
-              "important": true
-            }
-          ]
-        },
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "Copilot : Claude Fable 5.2 et Gemini 4 Carbon arrivent, plus une boîte de réception d'agents dans VS Code",
-              "resume": "Les sorties Copilot de la semaine ajoutent Fable 5.2 et Gemini 4 Carbon au sélecteur de modèles, un « Agents inbox » qui remonte les sessions en attente et un outil expérimental « Compare Models ». Pratique pour comparer deux modèles sur une même tâche de thème avant d'en changer.",
-              "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-              "source": "AI Agent Store / GitHub Changelog",
-              "important": false
-            },
-            {
-              "titre": "Poppy, le protocole d'agents personnels de Sierra, soutenu par Shopify",
-              "resume": "Les entreprises publient un fichier /.well-known/poppy.json qui dit aux agents IA comment s'identifier, se connecter (OAuth) et ce qu'ils ont le droit de faire ; Shopify fait partie des partenaires de lancement. À suivre pour tes boutiques : le trafic d'agents sur les storefronts va se structurer.",
-              "url": "https://sierra.ai/blog/poppy",
-              "source": "Sierra",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : XSS universel dans uBlock Origin via le sélecteur d'éléments",
-              "resume": "Un site malveillant pouvait injecter des filtres de confiance dans la version Firefox MV2 : vérifie que l'extension est à jour sur tes navigateurs de dev.",
-              "url": "https://thefrontpage.dev/",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : Protomaps, héberger ses tuiles de carte devient simple et quasi gratuit",
-              "resume": "Un seul fichier PMTiles sur R2 ou S3, lu par requêtes HTTP Range : une alternative sans clé API à Mapbox ou Google Maps pour tes sites Astro sur Cloudflare.",
-              "url": "https://protomaps.com/",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : Claude Code et Codex rétro-ingénient l'ECU d'une Jeep de 1994",
-              "resume": "Vidéo très partagée d'agents qui décodent puis pilotent un calculateur via un Arduino à 3 $ : bon aperçu de ce que les agents savent faire en autonomie.",
-              "url": "https://www.daemonology.net/hn-daily/",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "Golden at Sunset, Olive at Night : le portfolio de Brandon Yasin",
-              "resume": "Chaque page est une carte découpée par un clip-path piloté par une variable CSS que GSAP anime avec l'échelle et la position, le tout sur une seule CustomEase : technique simple à réutiliser pour des transitions de pages.",
-              "url": "https://tympanus.net/codrops/?p=124097",
-              "source": "Codrops",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Husk",
-              "resume": "Catégorie non indiquée — 14/11/2026 (fiche : https://www.siteinspire.com/website/9116-husk)",
-              "url": "http://www.madebyhusk.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "KOLFEST",
-              "resume": "Catégorie non indiquée — 12/11/2026 (fiche : https://www.siteinspire.com/website/13684-kolfest)",
-              "url": "https://kolfest.bermet.design/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "ETOILE",
-              "resume": "Catégorie non indiquée — 12/11/2026 (fiche : https://www.siteinspire.com/website/13683-etoile)",
-              "url": "https://etoile.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Charles",
-              "resume": "Catégorie non indiquée — 12/11/2026 (fiche : https://www.siteinspire.com/website/13681-charles)",
-              "url": "https://www.charles.fr/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Primal Instinct",
-              "resume": "Catégorie non indiquée — 12/11/2026 (fiche : https://www.siteinspire.com/website/13682-primal-instinct)",
-              "url": "https://www.primal-instinct.net/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz / bad buzz",
-          "items": [
-            {
-              "titre": "Google : des attaquants font écrire leurs exploits par des agents IA à partir des patchs",
-              "resume": "Le Threat Intelligence Group de Google décrit des frameworks multi-agents qui transforment une mise à jour publiée en exploit : le délai pour patcher tes WordPress clients se raccourcit encore.",
-              "url": "https://thehackernews.com/",
-              "source": "The Hacker News",
               "important": false
             }
           ]
