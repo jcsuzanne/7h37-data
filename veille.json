@@ -1,6 +1,153 @@
 {
-  "maj": "2026-11-24T08:05:00+04:00",
+  "maj": "2026-11-25T07:51:00+04:00",
   "jours": [
+    {
+      "date": "2026-11-25",
+      "titre": "Veille front — mercredi 25 novembre — Riemann prouvé en Lean · Quad9 quitte la France",
+      "sections": [
+        {
+          "id": "stack",
+          "label": "Ta stack",
+          "items": [
+            {
+              "titre": "@sanity/astro 4.0 : ESM only et Visual Editing sans React (rattrapage du 16/11)",
+              "resume": "Nouvelle version majeure de l'intégration officielle Sanity pour Astro : le paquet passe en ESM uniquement, le Visual Editing ne dépend plus de React, avec en expérimental le rafraîchissement de l'aperçu en place et des loaders de collections live. La 4.1 (17/11) ajoute un composant <SanityImage> qui passe par astro:assets en respectant crop et hotspot du Studio. À tester sur ton projet Astro + Sanity avant de bumper : vérifie ta config CJS et ton cache R2 devant le CDN images.",
+              "url": "https://www.sanity.io/docs/changelog",
+              "source": "Sanity",
+              "important": true
+            }
+          ]
+        },
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "L'hypothèse de Riemann prouvée et vérifiée en Lean",
+              "resume": "Le 20/11, le mathématicien Levent Alpöge a publié une preuve de l'hypothèse de Riemann sous forme de bibliothèque Lean de 17 millions de lignes ; le Lean FRO et Mathlib certifient qu'elle est correcte. Ben's Bites la décrit comme six semaines de travail avec Claude : le signal le plus fort à ce jour sur ce que des agents de code peuvent tenir sur un très gros chantier vérifiable.",
+              "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+              "source": "Lean FRO / Mathlib",
+              "important": false
+            },
+            {
+              "titre": "Quad9 (9.9.9.9) coupé pour les utilisateurs français depuis hier 9 h",
+              "resume": "Condamné à bloquer des sites pirates pour beIN, le résolveur DNS refuse désormais toutes les requêtes géolocalisées en France (avec des erreurs de géoIP dans les deux sens). Si un poste, une box ou un serveur client en France pointe sur 9.9.9.9 ou 149.112.112.112, change de résolveur, sinon plus rien ne se résout.",
+              "url": "https://quad9.net/fr/news/blog/quad9-service-deactivation-in-france/",
+              "source": "Quad9",
+              "important": true
+            },
+            {
+              "titre": "Ben's Bites : Commitment issues (app edition)",
+              "resume": "Ben Tossell s'est fait ses propres petits outils (horloge multi-fuseaux en barre de menu, extension Chrome avec aperçu de liens, split view, sélecteur d'onglets) plutôt que d'enchaîner les apps. L'idée utile pour toi : un logiciel « pour une seule personne » se demande à l'agent, à qui on fait ensuite installer, utiliser et tester l'outil comme un vrai utilisateur.",
+              "url": "https://www.bensbites.com/p/commitment-issues-app-edition",
+              "source": "Ben's Bites",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : « LLM agents work for their parent companies, not for you » (720 pts, 306 com.)",
+              "resume": "Un dev raconte que Claude a refusé de contourner un challenge anti-bot de Bandcamp tout en acceptant de télécharger depuis YouTube ; gros débat sur les garde-fous des agents et les modèles locaux.",
+              "url": "https://news.ycombinator.com/item?id=50627340",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : « 2035 came early », Linux compilé en WebAssembly dans un onglet (841 pts)",
+              "resume": "trynix.dev passe sur unkernel : n'importe quel paquet Nix, y compris des apps graphiques et Firefox, tourne dans le navigateur avec WebGL2, son et réseau.",
+              "url": "https://news.ycombinator.com/item?id=50624497",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "Golden at Sunset, Olive at Night : le making-of du portfolio de Brandon Yasin",
+              "resume": "Site pensé comme un livre de cartes zoomables (clip-path piloté par une variable CSS animée par GSAP, une seule CustomEase) et thème qui suit l'heure locale : olive la nuit, doré au lever et au coucher du soleil.",
+              "url": "https://tympanus.net/codrops/?p=124097",
+              "source": "Codrops",
+              "important": false
+            },
+            {
+              "titre": "Using Fallbacks for a Robust Front-End",
+              "resume": "Steve Frenzel passe en revue les replis à prévoir (CSS, JS, réseau, contenu) pour qu'une erreur reste discrète ou soit clairement signalée à l'utilisateur.",
+              "url": "https://css-tricks.com/using-frontend-fallbacks/",
+              "source": "CSS-Tricks",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "Berry eReader",
+              "resume": "Catégorie non indiquée — 23/11/2026 (fiche : https://www.siteinspire.com/website/13688-berry-ereader)",
+              "url": "https://berryreader.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Stripe Press",
+              "resume": "Catégorie non indiquée — 19/11/2026 (fiche : https://www.siteinspire.com/website/10454-stripe-press)",
+              "url": "https://stripe.press/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Sydopia",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13686-sydopia)",
+              "url": "https://sydopia.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "maximale",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13687-maximale)",
+              "url": "https://www.maximalestudio.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Martin Foucaut",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13685-martin-foucaut)",
+              "url": "https://www.martinfoucaut.com/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz / bad buzz",
+          "items": [
+            {
+              "titre": "Le portage PC non officiel de GTA 6 (Leonida) banni de GitHub (HN, 287 pts, 490 com.)",
+              "resume": "Le dépôt du projet de recompilation a été retiré pendant que son développeur principal était en cours ; débat sur les DMCA et la dépendance à GitHub.",
+              "url": "https://news.ycombinator.com/item?id=50622638",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "Microsoft déclenche un « Code Red » après une panne historique",
+              "resume": "Selon des mémos internes cités par Reuters, la panne a poussé Microsoft à mobiliser ses équipes en urgence.",
+              "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
+              "source": "Reuters",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-24",
       "titre": "Veille front — mardi 24 novembre — Backdoor WP bloquée · Ladybird en alpha",
@@ -838,141 +985,6 @@
               "resume": "Trois scanners se font passer pour des crawlers IA pour trouver des clés exposées : vérifie qu'aucun .env ni fichier de config n'est servi publiquement.",
               "url": "https://news.ycombinator.com/item?id=50550461",
               "source": "Hacker News",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "titre": "Veille front — mercredi 18 novembre — Optimizely piraté · GPT-6.2 Astra et Sol",
-      "sections": [
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "Optimizely piraté : 178 grandes marques ont servi un skimmer de cartes depuis le CDN officiel",
-              "resume": "Le 16 novembre, du code malveillant a été injecté dans le « Project JavaScript » de 188 snippets Optimizely (Zoom, BBC, IKEA, HSBC…) : vol de numéros de carte saisis dans les formulaires du site, remplacement d'adresses crypto, vol de cookies non HttpOnly et exploits iOS, le tout servi par cdn.optimizely.com avec un certificat valide. Pour tes boutiques Shopify/WordPress avec scripts tiers (A/B test, GTM) : une CSP qui se contente d'autoriser le domaine du fournisseur ne protège pas, restreins connect-src et bannis 'unsafe-eval'.",
-              "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-              "source": "Report URI",
-              "important": true
-            },
-            {
-              "titre": "OpenAI annonce GPT-6.2 Astra et GPT-6.2 Sol",
-              "resume": "Nouvelle génération des deux modèles phares d'OpenAI, en tête de Hacker News (≈480 pts) avec des benchmarks jugés très bons pour leur coût ; la page d'annonce et la fiche système n'étaient pas encore lisibles ce matin. À tester dans Codex ou Copilot face à Opus 5.5 sur tes tâches de thème.",
-              "url": "https://news.ycombinator.com/item?id=50535230",
-              "source": "OpenAI / Hacker News",
-              "important": false
-            },
-            {
-              "titre": "Microsoft dévoile MAI Code 2 à Ignite",
-              "resume": "Modèle de code maison présenté comme presque au niveau de Claude et OpenAI pour « une fraction du coût », mais sans prix, benchmark ni date de dispo publiés. À surveiller s'il arrive dans Copilot et VS Code comme son prédécesseur MAI-Code-1-Flash.",
-              "url": "https://www.usnews.com/news/top-news/articles/2026-11-17/microsoft-unveils-ai-models-for-coding-cybersecurity-as-it-takes-on-anthropic-openai",
-              "source": "US News / Reuters",
-              "important": false
-            },
-            {
-              "titre": "Journée calme sur ta stack",
-              "resume": "Rien de majeur côté Vite/VoidZero, Astro (dernière version majeure : 7.4, octobre), Sanity, Shopify, WordPress, GSAP ou Lenis depuis hier.",
-              "url": "https://astro.build/blog/",
-              "source": "Astro, VoidZero, Sanity",
-              "important": false
-            },
-            {
-              "titre": "Ben's Bites : Productiv-icky",
-              "resume": "Ben Tossell compare chaque tâche confiée à un agent à un trou creusé sur la plage : chaque « oui » a une taxe cachée, mieux vaut un seul chantier bien choisi que dix à surveiller. Dans les brèves : Claude peut rejoindre tes réunions (bêta Team/Enterprise) et Vercel publie UI SDK, des briques d'interface pour agents.",
-              "url": "https://www.bensbites.com/p/productiv-icky",
-              "source": "Ben's Bites",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : How the Claude Code team thinks about verification (188 pts, 155 com.)",
-              "resume": "L'équipe dit qu'environ 90 % de son code est écrit et relu par Claude ; le débat porte sur le coût en tokens des agents en parallèle et sur la vérification comme vrai goulot.",
-              "url": "https://news.ycombinator.com/item?id=50529612",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "Show HN : Alloy CSS, dialogs, menus et onglets qui marchent sans JavaScript (124 pts)",
-              "resume": "Composants CSS seuls, avec débat sur l'accessibilité (onglets annoncés comme boutons radio) et le retour aux API natives dialog/popover.",
-              "url": "https://news.ycombinator.com/item?id=50532385",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : What is the best harness for each model? (231 pts)",
-              "resume": "Comparatif des outils (Claude Code, Codex, Cursor…) selon le modèle utilisé : utile pour choisir où faire tourner GPT-6.2 ou Opus.",
-              "url": "https://news.ycombinator.com/item?id=50532191",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "They Are Coming : du projection mapping dans le navigateur pour une sortie techno",
-              "resume": "Patrick Heintzmann transforme un cube blanc sur scène noire en visuel de release, entièrement en web.",
-              "url": "https://tympanus.net/codrops/?p=125689",
-              "source": "Codrops",
-              "important": false
-            },
-            {
-              "titre": "Hear It Before You Read It : le making-of de DKTON, site d'un sound designer",
-              "resume": "Comment le son guide la navigation et le motion d'un portfolio, bonne source d'idées pour un site créatif.",
-              "url": "https://tympanus.net/codrops/?p=125819",
-              "source": "Codrops",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Sydopia",
-              "resume": "Catégorie non indiquée — ajouté le 17/11/2026 (fiche : https://www.siteinspire.com/website/13686-sydopia)",
-              "url": "https://sydopia.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "maximale",
-              "resume": "Catégorie non indiquée — ajouté le 17/11/2026 (fiche : https://www.siteinspire.com/website/13687-maximale)",
-              "url": "https://www.maximalestudio.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Martin Foucaut",
-              "resume": "Catégorie non indiquée — ajouté le 17/11/2026 (fiche : https://www.siteinspire.com/website/13685-martin-foucaut)",
-              "url": "https://www.martinfoucaut.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Husk",
-              "resume": "Catégorie non indiquée — ajouté le 14/11/2026 (fiche : https://www.siteinspire.com/website/9116-husk)",
-              "url": "http://www.madebyhusk.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "KOLFEST",
-              "resume": "Catégorie non indiquée — ajouté le 12/11/2026 (fiche : https://www.siteinspire.com/website/13684-kolfest)",
-              "url": "https://kolfest.bermet.design/",
-              "source": "Siteinspire",
               "important": false
             }
           ]
