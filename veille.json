@@ -1,6 +1,153 @@
 {
-  "maj": "2026-11-25T07:51:00+04:00",
+  "maj": "2026-11-26T07:50:09+04:00",
   "jours": [
+    {
+      "date": "2026-11-26",
+      "titre": "Veille front — jeudi 26 novembre — Intrusion chez 1Password · WP 7.2 prêt pour PHP 8.6",
+      "sections": [
+        {
+          "id": "stack",
+          "label": "Ta stack",
+          "items": [
+            {
+              "titre": "WordPress 7.2 RC3 sortie, désormais compatible PHP 8.6",
+              "resume": "La RC3 est sortie le 24/11 (RC4 le 1er décembre, finale prévue le 8) et le core passe tous ses tests sous PHP 8.6 depuis la beta 5. Rebondissement sur la mise en garde du 20/11 : tu pourras viser PHP 8.6 avec WP 7.2, mais vérifie Timber, Block Studio et les plugins de chaque client avant de migrer un hébergement.",
+              "url": "https://make.wordpress.org/hosting/2026/11/25/hosting-team-meeting-agenda-2026-11-25/",
+              "source": "Make WordPress (Hosting)",
+              "important": false
+            },
+            {
+              "titre": "Faux plugin WordPress qui contourne la 2FA et injecte du JS chez les visiteurs",
+              "resume": "Wordfence décrit (24/11) un plugin aux noms générés aléatoirement, trouvé lors de deux incidents, qui permet de se connecter sans 2FA et sert du JavaScript malveillant aux visiteurs non connectés. Sur les sites clients, cherche les plugins inconnus dans wp-content/plugins et purge les sessions admin actives en plus de changer les mots de passe.",
+              "url": "https://cybersecuritynews.com/fake-wordpress-plugin/",
+              "source": "Wordfence / Cybersecurity News",
+              "important": true
+            }
+          ]
+        },
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "1Password : intrusion via le GitHub d'un employé, noms et e-mails clients copiés",
+              "resume": "Le 19/11, un attaquant a pris un compte GitHub interne, accédé au code source et au CI/CD, puis exfiltré noms, e-mails et métadonnées d'une partie des comptes ; coffres, mots de passe et Secret Key ne sont pas touchés. Rien à changer côté compte, mais méfie-toi des faux e-mails d'invitation ou de récupération 1Password ces prochaines semaines.",
+              "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+              "source": "1Password",
+              "important": true
+            },
+            {
+              "titre": "npm : 5 400 paquets malveillants analysés, et 58 nouvelles alertes rien que le 25/11",
+              "resume": "L'étude Databricks (23/11) montre que les paquets légitimes compromis ne font que 7 % des cas mais plus de 99 % des téléchargements, et que bloquer les scripts d'installation arrête environ la moitié des malwares. Pour tes projets Vite/Astro : lockfile, npm ci et ignore-scripts par défaut restent le meilleur rapport effort/protection.",
+              "url": "https://www.databricks.com/blog/what-5400-malicious-npm-packages-reveal-about-software-supply-chain-risk-2026",
+              "source": "Databricks",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : contourner la limite 60 FPS de Safari iOS (395 pts, 132 com.)",
+              "resume": "Scroll natif utilisé comme « manette » à 120 Hz et OffscreenCanvas pour dessiner hors du rendu principal : de quoi rendre fluides des interactions canvas/WebGL sur iPhone, avec le risque qu'Apple ferme la porte.",
+              "url": "https://news.ycombinator.com/item?id=50637890",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "Show HN : vieilles démos techniques Nvidia et ATI, relancées dans le navigateur (293 pts)",
+              "resume": "Une galerie de démos GPU des années 2000 portées pour le web, bonne source d'idées shaders.",
+              "url": "https://news.ycombinator.com/item?id=50638503",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : GitHub en service dégradé ce matin (157 pts)",
+              "resume": "Incident en cours sur plusieurs produits GitHub : si tes déploiements ou Actions coincent, regarde githubstatus.com avant de chercher dans ton code.",
+              "url": "https://news.ycombinator.com/item?id=50643720",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "Style Queries as Conditional Modifiers",
+              "resume": "Kevin Powell montre comment les style queries CSS remplacent des classes modificatrices quand une condition doit agir sur plusieurs éléments à la fois.",
+              "url": "https://css-tricks.com/css-style-queries-as-conditional-modifiers/",
+              "source": "CSS-Tricks",
+              "important": false
+            },
+            {
+              "titre": "Button Sounds, la banque de clics de Josh Comeau (748 pts sur HN)",
+              "resume": "Une collection de sons de boutons enregistrés en studio, prête pour des micro-interactions sonores sur tes sites créatifs.",
+              "url": "https://buttons.joshwcomeau.com/",
+              "source": "Josh W. Comeau",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "Berry eReader",
+              "resume": "Catégorie non indiquée — 23/11/2026 (fiche : https://www.siteinspire.com/website/13688-berry-ereader)",
+              "url": "https://berryreader.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Stripe Press",
+              "resume": "Catégorie non indiquée — 19/11/2026 (fiche : https://www.siteinspire.com/website/10454-stripe-press)",
+              "url": "https://stripe.press/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Sydopia",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13686-sydopia)",
+              "url": "https://sydopia.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "maximale",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13687-maximale)",
+              "url": "https://www.maximalestudio.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Martin Foucaut",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13685-martin-foucaut)",
+              "url": "https://www.martinfoucaut.com/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz / bad buzz",
+          "items": [
+            {
+              "titre": "OpenAI publie une preuve ω = 9/4 sur la multiplication de matrices (HN, 922 pts)",
+              "resume": "Nouveau résultat mathématique obtenu avec l'IA après Riemann ; Google publie aussi ses papiers « Cogentic » sur la factorisation et des rumeurs non vérifiées circulent sur Reddit.",
+              "url": "https://news.ycombinator.com/item?id=50637220",
+              "source": "Hacker News / OpenAI",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-25",
       "titre": "Veille front — mercredi 25 novembre — Riemann prouvé en Lean · Quad9 quitte la France",
@@ -703,287 +850,6 @@
               "titre": "Frostbite : une architecture CPU découverte, conçue et vérifiée par une IA (HN, 578 pts)",
               "resume": "Architect Labs affirme avoir laissé l'IA mener tout le cycle ; les commentaires restent sceptiques sur la portée réelle.",
               "url": "https://news.ycombinator.com/item?id=50572503",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "titre": "Veille front — vendredi 20 novembre — PHP 8.6 sorti · Anthropic en Bourse",
-      "sections": [
-        {
-          "id": "stack",
-          "label": "Ta stack",
-          "items": [
-            {
-              "titre": "PHP 8.6 est sorti (19 novembre)",
-              "resume": "Nouvelle version majeure : application partielle de fonctions, clamp(), classe Duration, defaults readonly. Côté WordPress/Timber, n'upgrade pas encore les hébergements clients : le core fait encore échouer ses tests sous 8.6 et les sessions passent en SameSite=Lax/HttpOnly/strict mode par défaut, ce qui peut casser certains plugins.",
-              "url": "https://www.php.net/releases/8.6/en.php",
-              "source": "php.net",
-              "important": true
-            }
-          ]
-        },
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "Chrome : les fonctions IA consomment des centaines de Go par mois",
-              "resume": "Jeff Starr (Perishable Press) a vu sa conso de données exploser à cause des fonctions IA « On-device » de Chrome, actives par défaut ; tout désactiver dans Paramètres > AI innovations a coupé le trafic immédiatement. À vérifier sur ta machine si ta connexion est limitée.",
-              "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
-              "source": "Perishable Press",
-              "important": false
-            },
-            {
-              "titre": "Journée calme sur le reste de ta stack",
-              "resume": "Rien de majeur côté Vite/VoidZero, Astro, Sanity, Shopify, GSAP ou Lenis depuis hier ; pas de nouvel article Ben's Bites.",
-              "url": "https://astro.build/blog/",
-              "source": "Astro, VoidZero, Sanity, Shopify",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : What's New in PHP 8.6 (232 pts, 107 com.)",
-              "resume": "Le fil discute surtout l'application partielle et la vague de dépréciations.",
-              "url": "https://news.ycombinator.com/item?id=50557870",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "Launch HN : Onlook, éditeur visuel open source pour designers",
-              "resume": "Les designers éditent directement une app Next.js/Tailwind et le code suit ; débat sur la qualité du code généré.",
-              "url": "https://news.ycombinator.com/item?id=50562320",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : des zines de 8 pages pliables depuis une feuille A4, dans le navigateur (149 pts)",
-              "resume": "Joli outil d'impression/pliage web, bonne idée pour un site éditorial ou culturel.",
-              "url": "https://news.ycombinator.com/item?id=50559719",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "scroll-state() : changer le CSS selon l'état du scroll",
-              "resume": "Nouvelle fiche de l'almanach CSS-Tricks : header collé, carrousel snappé ou zone défilable stylés sans JS.",
-              "url": "https://css-tricks.com/almanac/functions/s/scroll-state/",
-              "source": "CSS-Tricks",
-              "important": false
-            },
-            {
-              "titre": "Échelonner des animations au scroll avec animation-range-start",
-              "resume": "Lee Meyer pilote un effet karaoké entier par une seule progression : alternative CSS native à certains ScrollTrigger.",
-              "url": "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/",
-              "source": "CSS-Tricks",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Stripe Press",
-              "resume": "Catégorie non indiquée — 19/11/2026 (fiche : https://www.siteinspire.com/website/10454-stripe-press)",
-              "url": "https://stripe.press/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Sydopia",
-              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13686-sydopia)",
-              "url": "https://sydopia.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "maximale",
-              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13687-maximale)",
-              "url": "https://www.maximalestudio.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Martin Foucaut",
-              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13685-martin-foucaut)",
-              "url": "https://www.martinfoucaut.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Husk",
-              "resume": "Catégorie non indiquée — 14/11/2026 (fiche : https://www.siteinspire.com/website/9116-husk)",
-              "url": "http://www.madebyhusk.com/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz / bad buzz",
-          "items": [
-            {
-              "titre": "Anthropic entre en Bourse sur le Nasdaq (ticker ANT)",
-              "resume": "Premier jour de cotation le 19 novembre ; Reuters titre sur une valorisation de 2 000 milliards de dollars. En tête de Hacker News (300 pts, 422 com.).",
-              "url": "https://news.ycombinator.com/item?id=50562754",
-              "source": "Reuters / Hacker News",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-19",
-      "titre": "Veille front — jeudi 19 novembre — Faille RCE NGINX HTTP/2 · Gemini 4 Neon",
-      "sections": [
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "NGINX : deux failles HTTP/2 permettent d'exécuter du code sans authentification",
-              "resume": "CVE-2026-123633 et CVE-2026-123007 (CVSS 9.2) touchent tout NGINX avec HTTP/2 activé, même pour servir des fichiers statiques ; F5 a publié les correctifs le 18 novembre. Vérifie tes serveurs et VPS clients (OVH notamment) : mets NGINX à jour, ou coupe http2 en attendant.",
-              "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-              "source": "Wiz Research / Hacker News",
-              "important": true
-            },
-            {
-              "titre": "Google lance Gemini 4 Neon, orienté code et tâches multi-étapes",
-              "resume": "Contexte d'1 M de tokens à 3 $ / 15 $ le million de tokens, 3e de l'Artificial Analysis Intelligence Index ; Google annonce un coût par tâche 32 à 80 % plus bas que la concurrence. À comparer à Opus 5.5 sur tes tâches de thème, d'autant qu'un benchmark HN juge Gemini 4 Carbon très lent en correction de bugs.",
-              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-              "source": "Google",
-              "important": false
-            },
-            {
-              "titre": "Journée calme sur ta stack",
-              "resume": "Rien de majeur côté Vite/VoidZero, Astro (7.4.12 reste la dernière), Sanity, Shopify, WordPress, GSAP ou Lenis depuis hier.",
-              "url": "https://astro.build/blog/",
-              "source": "Astro, VoidZero, Sanity",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : All About Berlin a perdu 75 % de son trafic à cause des AI Overviews (751 pts)",
-              "resume": "Témoignage relayé avec une étude randomisée : les AI Overviews réduisent d'environ 40 % les clics organiques. Utile pour cadrer les attentes SEO/GEO de tes clients.",
-              "url": "https://news.ycombinator.com/item?id=50542705",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : Gemini 4 Carbon met près d'une heure sur des bugs qu'Opus et Astra règlent en minutes (262 pts)",
-              "resume": "Benchmark privé de Kernel qui attribue l'écart à une inférence lente : à garder en tête avant de basculer un agent dessus.",
-              "url": "https://news.ycombinator.com/item?id=50541790",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : le domaine codeberg.org a disparu de son compte registrar (295 pts)",
-              "resume": "Site hors ligne sans renouvellement oublié ni connexion suspecte : rappel de verrouiller les domaines clients (registrar lock, 2FA).",
-              "url": "https://news.ycombinator.com/item?id=50544261",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "From One Drop of Blue Ink to a Complete Brand",
-              "resume": "Darius Dan construit une marque d'encre fictive, de la tache d'encre au logo, aux motifs et aux textures shader dans Paper.",
-              "url": "https://tympanus.net/codrops/2026/11/18/blue-ink-brand/",
-              "source": "Codrops",
-              "important": false
-            },
-            {
-              "titre": "Voyager : explorateur 3D interactif des sondes, jusqu'aux puces mémoire (HN, 140 pts)",
-              "resume": "Expérience web 3D avec positions en temps réel et zoom très profond : bonne référence pour un configurateur/visionneuse 3D.",
-              "url": "https://news.ycombinator.com/item?id=50548161",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Sydopia",
-              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13686-sydopia)",
-              "url": "https://sydopia.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "maximale",
-              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13687-maximale)",
-              "url": "https://www.maximalestudio.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Martin Foucaut",
-              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13685-martin-foucaut)",
-              "url": "https://www.martinfoucaut.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Husk",
-              "resume": "Catégorie non indiquée — 14/11/2026 (fiche : https://www.siteinspire.com/website/9116-husk)",
-              "url": "http://www.madebyhusk.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "KOLFEST",
-              "resume": "Catégorie non indiquée — 12/11/2026 (fiche : https://www.siteinspire.com/website/13684-kolfest)",
-              "url": "https://kolfest.bermet.design/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz / bad buzz",
-          "items": [
-            {
-              "titre": "Le paquet PyPI agent-framework de Microsoft compromis",
-              "resume": "Les versions 1.26.1 et 1.26.2 publiées le 17 novembre volaient identifiants et jetons cloud à chaque démarrage de Python ; elles sont en quarantaine.",
-              "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
-              "source": "The Hacker News",
-              "important": false
-            },
-            {
-              "titre": "Des faux GPTBot et ClaudeBot scannent les sites à la recherche de clés IA (HN)",
-              "resume": "Trois scanners se font passer pour des crawlers IA pour trouver des clés exposées : vérifie qu'aucun .env ni fichier de config n'est servi publiquement.",
-              "url": "https://news.ycombinator.com/item?id=50550461",
               "source": "Hacker News",
               "important": false
             }
