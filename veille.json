@@ -1,6 +1,140 @@
 {
-  "maj": "2026-11-26T07:50:09+04:00",
+  "maj": "2026-11-27T07:37:28+04:00",
   "jours": [
+    {
+      "date": "2026-11-27",
+      "titre": "Veille front — vendredi 27 novembre — Googlebot : 249 fichiers max · Workspace via MCP",
+      "sections": [
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "Googlebot ne rend que 249 fichiers par page",
+              "resume": "Franz Enzenhofer a mesuré (23/11) que le rendu Google s'arrête aux 249 premières ressources découvertes (CSS, JS, images, polices, fetch/XHR, lazy compris) et ignore le reste, avec une coche verte dans Search Console. Pour tes sites Vite/Astro et grilles produits Shopify : modulepreload des chunks, moins d'URL distinctes, appels API groupés, contenu dans le HTML ; vérifie via Inspection d'URL > Ressources de la page.",
+              "url": "https://www.fullstackoptimization.com/a/googlebot-249-file-rendering-limit",
+              "source": "Full Stack Optimization",
+              "important": true
+            },
+            {
+              "titre": "Google impose ses serveurs MCP aux agents IA sur Workspace au 1er février 2027",
+              "resume": "Les 8 serveurs MCP Workspace sont GA depuis le 24/11 ; le serveur Gmail public ne peut ni envoyer ni répondre (réservé aux partenaires), Drive ne peut ni déplacer ni partager, et les index/embeddings tirés des données sont plafonnés à 30 jours. Un script perso ou client qui branche un LLM sur Gmail/Drive via l'API REST devra migrer.",
+              "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+              "source": "Tech Stackups",
+              "important": false
+            },
+            {
+              "titre": "OpenAI resserre les quotas GPT-6.2",
+              "resume": "Après une « erreur de facturation » au lancement, Astra atteint ses limites 40 % plus vite et Sol 25 % ; ChatGPT et Codex vont aussi partager un même compteur. Si tu utilises Codex en complément de Claude, ton budget fond plus vite.",
+              "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+              "source": "OpenAI (X)",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : « AI made self-hosting fun again » (261 pts)",
+              "resume": "Infra dans Git, les agents de code gèrent Docker Compose et NixOS : le self-hosting redevient un plaisir.",
+              "url": "https://news.ycombinator.com/item?id=50660180",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "Show HN : trois VM Linux dans un onglet, chacune avec un navigateur différent",
+              "resume": "Expérience en WebAssembly qui fait tourner trois navigateurs côte à côte dans une seule page.",
+              "url": "https://news.ycombinator.com/item?id=50656036",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : Patrick McKenzie, « Multiagent coding is the future »",
+              "resume": "Orchestrer des dizaines d'agents Claude Code serait un changement aussi grand que les LLM eux-mêmes.",
+              "url": "https://news.ycombinator.com/item?id=50645541",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "69 guides de style UI préservés, du Lisa (1980) à Android",
+              "resume": "Marcin Wichary archive les guidelines d'interface d'Amiga, NeXTSTEP, Palm, iOS, GNOME… : mine d'or de références (410 pts sur HN).",
+              "url": "https://aresluna.org/ui-style-guides/",
+              "source": "aresluna.org",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "Berry eReader",
+              "resume": "Catégorie non indiquée — 23/11/2026 (fiche : https://www.siteinspire.com/website/13688-berry-ereader)",
+              "url": "https://berryreader.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Stripe Press",
+              "resume": "Catégorie non indiquée — 19/11/2026 (fiche : https://www.siteinspire.com/website/10454-stripe-press)",
+              "url": "https://stripe.press/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Sydopia",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13686-sydopia)",
+              "url": "https://sydopia.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "maximale",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13687-maximale)",
+              "url": "https://www.maximalestudio.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Martin Foucaut",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13685-martin-foucaut)",
+              "url": "https://www.martinfoucaut.com/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz / bad buzz",
+          "items": [
+            {
+              "titre": "Le NYT déconseille à ses photographes de mettre à jour Photoshop",
+              "resume": "En cause, les nouvelles fonctions IA d'Adobe ; sujet très commenté sur HN.",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+              "source": "The Verge",
+              "important": false
+            },
+            {
+              "titre": "Scott Aaronson face à l'avalanche de résultats mathématiques obtenus avec l'IA",
+              "resume": "Son billet « Holy shit… » est resté n°1 de Hacker News toute la journée.",
+              "url": "https://scottaaronson.blog/?p=10379",
+              "source": "Shtetl-Optimized",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-26",
       "titre": "Veille front — jeudi 26 novembre — Intrusion chez 1Password · WP 7.2 prêt pour PHP 8.6",
