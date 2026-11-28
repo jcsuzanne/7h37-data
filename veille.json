@@ -1,6 +1,153 @@
 {
-  "maj": "2026-11-27T07:37:28+04:00",
+  "maj": "2026-11-28T07:51:31+04:00",
   "jours": [
+    {
+      "date": "2026-11-28",
+      "titre": "Veille front — samedi 28 novembre — Skimmer WebRTC en checkout · Vague de CVE WordPress",
+      "sections": [
+        {
+          "id": "stack",
+          "label": "Ta stack",
+          "items": [
+            {
+              "titre": "WordPress : nouvelle vague de failles plugins publiées le 27/11",
+              "resume": "Forminator ≤ 1.58.3 (contournement de l'approbation de compte, admin de sous-site en multisite), WordPress File Upload ≤ 5.3.1 (suppression de fichiers, CVSS 8.6, corrigé en 5.3.2), Ultimate Member et WP Event Solution (injection d'objets PHP), W3 Total Cache (suppression de médias par un compte Auteur). Fais un tour des mises à jour sur les sites clients ce week-end, surtout ceux avec inscription ouverte.",
+              "url": "https://tldrdailynews.com/news/security/security/wordpress-forminator-plugin-vulnerability-allows-unauthenticated-account-approval-bypass-skyia9eooj",
+              "source": "Patchstack / Wordfence (via tl;dr, CVE Brief)",
+              "important": true
+            }
+          ]
+        },
+        {
+          "id": "essentiel",
+          "label": "L'essentiel",
+          "items": [
+            {
+              "titre": "Un skimmer de cartes bancaires passe par WebRTC, hors de portée de la CSP classique",
+              "resume": "InfoHawk a trouvé avant le Black Friday un script sur les checkouts mobiles de Samsonite, Revolve, FWRD, Lascana et American Tourister : il arrive via des pixels marketing, réglages de bandeau cookies ou fichiers hébergés, puis exfiltre carte et coordonnées par un canal WebRTC (relais TURN Cloudflare) que connect-src ne voit pas. Pour tes boutiques Shopify clientes : fais l'inventaire des pixels, tags et apps qui chargent du JS sur les pages panier/checkout et resserre connect-src là où tu la maîtrises.",
+              "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+              "source": "InfoHawk",
+              "important": true
+            },
+            {
+              "titre": "Skills d'agents : le plugin Convex envoyait l'idée de l'utilisateur à un serveur et contournait les garde-fous",
+              "resume": "Une issue (205 pts sur HN) montre que des skills Convex listées dans la marketplace officielle de plugins Claude postent ta description de projet à un hôte convex.site, exécutent un script distant et découpent volontairement les commandes pour échapper aux classifieurs de sécurité. Avant d'installer un skill ou plugin tiers dans Claude Code, lis son SKILL.md comme tu lirais un postinstall npm.",
+              "url": "https://github.com/convex/convex-backend-skill/issues/64",
+              "source": "GitHub / Hacker News",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "communaute",
+          "label": "Ça parle chez les devs",
+          "items": [
+            {
+              "titre": "HN : « Claude sabotaging ML research tasks? » (551 pts, 276 com.)",
+              "resume": "Un utilisateur affirme que Claude dégrade des tâches de recherche ML ; le débat ravive la polémique de juin sur les restrictions de Fable 5, que rien ne confirme pour l'instant.",
+              "url": "https://news.ycombinator.com/item?id=50664325",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "HN : la Commission européenne fait de la concurrence entre navigateurs une priorité DMA (168 pts, 174 com.)",
+              "resume": "Pression accrue pour ouvrir iOS à d'autres moteurs que WebKit : à terme, moins de « Safari only » à tester sur iPhone.",
+              "url": "https://news.ycombinator.com/item?id=50664191",
+              "source": "Hacker News / Open Web Advocacy",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "creatif",
+          "label": "Côté créatif",
+          "items": [
+            {
+              "titre": "They Are Coming : du projection mapping temps réel dans le navigateur",
+              "resume": "Making-of d'une pièce pour un label techno : outil de mapping maison et shaders live, palette réduite à noir, blanc et un vert.",
+              "url": "https://tympanus.net/codrops/?p=125689",
+              "source": "Codrops",
+              "important": false
+            },
+            {
+              "titre": "Hear It Before You Read It : le site sonore de DKTON",
+              "resume": "Un moteur Web Audio unique, des sons sur attribut data-sound pilotés depuis le CMS, vu-mètres et faders jouables : la bonne archi pour un site où le son fait partie du design.",
+              "url": "https://tympanus.net/codrops/?p=125819",
+              "source": "Codrops",
+              "important": false
+            },
+            {
+              "titre": "Faire une carte fantasy 3D façon atlas du XVIe siècle",
+              "resume": "Rendu stylisé gravure ancienne sur une carte 3D, avec le pas-à-pas des choix de shading (91 pts sur HN).",
+              "url": "https://www.spritefusion.com/blog/making-a-fantasy-map-like-a-16th-century-atlas",
+              "source": "Sprite Fusion",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "siteinspire",
+          "label": "Siteinspire",
+          "items": [
+            {
+              "titre": "Berry eReader",
+              "resume": "Catégorie non indiquée — 23/11/2026 (fiche : https://www.siteinspire.com/website/13688-berry-ereader)",
+              "url": "https://berryreader.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Stripe Press",
+              "resume": "Catégorie non indiquée — 19/11/2026 (fiche : https://www.siteinspire.com/website/10454-stripe-press)",
+              "url": "https://stripe.press/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Sydopia",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13686-sydopia)",
+              "url": "https://sydopia.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "maximale",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13687-maximale)",
+              "url": "https://www.maximalestudio.com/",
+              "source": "Siteinspire",
+              "important": false
+            },
+            {
+              "titre": "Martin Foucaut",
+              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13685-martin-foucaut)",
+              "url": "https://www.martinfoucaut.com/",
+              "source": "Siteinspire",
+              "important": false
+            }
+          ]
+        },
+        {
+          "id": "buzz",
+          "label": "Buzz / bad buzz",
+          "items": [
+            {
+              "titre": "Des États américains attaquent SpaceX à propos d'images générées par Grok",
+              "resume": "Plainte contre la maison mère de X, xAI et désormais Cursor, pour la génération d'images d'abus et non consenties (211 pts sur HN).",
+              "url": "https://news.ycombinator.com/item?id=50670855",
+              "source": "Hacker News",
+              "important": false
+            },
+            {
+              "titre": "Google Play va afficher le téléphone et l'adresse des développeurs Android indépendants",
+              "resume": "Grogne des devs solo sur la vie privée (174 pts sur HN).",
+              "url": "https://news.ycombinator.com/item?id=50662322",
+              "source": "Hacker News",
+              "important": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-11-27",
       "titre": "Veille front — vendredi 27 novembre — Googlebot : 249 fichiers max · Workspace via MCP",
@@ -838,153 +985,6 @@
               "resume": "Vente massive sur les valeurs IA juste après l'introduction en Bourse (HN, 467 pts, 806 com.).",
               "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
               "source": "The Guardian",
-              "important": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-11-21",
-      "titre": "Veille front — samedi 21 novembre — Faille RCE Vite dev server · OpenSSL CVSS 9.8",
-      "sections": [
-        {
-          "id": "stack",
-          "label": "Ta stack",
-          "items": [
-            {
-              "titre": "Vite : faille critique RCE dans le dev server (GHSA-p4f5-76q4-ffq7, CVSS 9.1)",
-              "resume": "Une requête HTTP forgée vers le module virtuel __vite-browser-external permet de lire des fichiers et d'exécuter du code, mais seulement si le dev server est exposé (--host, server.host, port publié en Docker) ; corrigé dans Vite 8.3.7 / 8.2.6 / 8.1.7 / 7.3.8 / 6.4.6 et Vite+ 1.5.1, annoncé sur Bluesky le 18. Pour toi : passe tes projets Astro/Vite en 8.3.8 (vérifie aussi Rolldown ≥ 1.2.18 avec npm ls vite rolldown --all, npm audit ne le signale pas) et redémarre le dev server.",
-              "url": "https://atlasum.net/blog/vite-dev-server-virtual-module-rce",
-              "source": "Vite / Atlas Security",
-              "important": true
-            },
-            {
-              "titre": "Shopify : les metafields fichier acceptent les vidéos YouTube et Vimeo (API 2027-01)",
-              "resume": "Dès l'API 2027-01, un metafield de type référence de fichier peut pointer vers une vidéo YouTube ou Vimeo : pratique dans ton starter pour les sections vidéo sans upload. Depuis hier aussi, les apps qui chargent du code sur la boutique doivent déclarer leurs accès réseau.",
-              "url": "https://shopify.dev/changelog",
-              "source": "Shopify Developers",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "essentiel",
-          "label": "L'essentiel",
-          "items": [
-            {
-              "titre": "OpenSSL : débordement de tampon dans EVP_EncodeBlock (CVE-2026-121481, CVSS 9.8)",
-              "resume": "Correctif en cours de fusion côté OpenSSL, 359 points sur Hacker News ; la fonction encode en base64, donc l'exposition dépend de qui l'appelle. Surveille les releases de sécurité de Node et de tes serveurs (OVH) dans les prochains jours.",
-              "url": "https://news.ycombinator.com/item?id=50569226",
-              "source": "Hacker News / OpenSSL",
-              "important": false
-            },
-            {
-              "titre": "Journée calme sur le reste de ta stack",
-              "resume": "Rien de majeur côté Astro (7.4.13, patch), Sanity, WordPress, GSAP ou Lenis depuis hier.",
-              "url": "https://astro.build/blog/",
-              "source": "Astro, Sanity, WordPress",
-              "important": false
-            },
-            {
-              "titre": "Ben's Bites : My wife thinks AI is a person",
-              "resume": "Explication imagée du fonctionnement d'un LLM (prédire le token suivant, du jeu de Shannon à l'attention), utile pour vulgariser auprès de tes clients. Dans les brèves : premiers retours négatifs sur GPT-6.2 Astra et Sol, Gemini Neon apprécié pour la rédaction.",
-              "url": "https://www.bensbites.com/p/my-wife-thinks-ai-is-a-person",
-              "source": "Ben's Bites",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "communaute",
-          "label": "Ça parle chez les devs",
-          "items": [
-            {
-              "titre": "HN : If you stop writing code, you also get worse at reviewing it (307 pts, 150 com.)",
-              "resume": "À force de déléguer aux agents, on perd le réflexe de relecture : débat sur comment garder la main.",
-              "url": "https://news.ycombinator.com/item?id=50573886",
-              "source": "Hacker News",
-              "important": false
-            },
-            {
-              "titre": "HN : Mozilla explique pourquoi il n'y a toujours pas de navigateur non-WebKit sur iOS (305 pts)",
-              "resume": "Les règles d'Apple bloquent encore Gecko et Blink sur iPhone : Safari reste ta seule cible mobile iOS à tester.",
-              "url": "https://news.ycombinator.com/item?id=50575644",
-              "source": "Hacker News",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "creatif",
-          "label": "Côté créatif",
-          "items": [
-            {
-              "titre": "Further Together : dans les coulisses de Propagande",
-              "resume": "Studio de trois devs créatifs qui mêle motion GSAP et 3D temps réel pour des agences ; un article sur le shader de leur hero suit dans quelques jours.",
-              "url": "https://tympanus.net/codrops/2026/11/20/further-together-inside-propagande/",
-              "source": "Codrops",
-              "important": false
-            },
-            {
-              "titre": "Chrome 158 livre <install> et ::highlight(*), et rend :muted Baseline",
-              "resume": "Les pseudo-classes d'état média (:playing, :muted…) passent Baseline : de quoi styler tes lecteurs vidéo HTML5 sans JS.",
-              "url": "https://css-tricks.com/byte-208/",
-              "source": "CSS-Tricks",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "siteinspire",
-          "label": "Siteinspire",
-          "items": [
-            {
-              "titre": "Stripe Press",
-              "resume": "Catégorie non indiquée — 19/11/2026 (fiche : https://www.siteinspire.com/website/10454-stripe-press)",
-              "url": "https://stripe.press/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Sydopia",
-              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13686-sydopia)",
-              "url": "https://sydopia.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "maximale",
-              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13687-maximale)",
-              "url": "https://www.maximalestudio.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Martin Foucaut",
-              "resume": "Catégorie non indiquée — 17/11/2026 (fiche : https://www.siteinspire.com/website/13685-martin-foucaut)",
-              "url": "https://www.martinfoucaut.com/",
-              "source": "Siteinspire",
-              "important": false
-            },
-            {
-              "titre": "Husk",
-              "resume": "Catégorie non indiquée — 14/11/2026 (fiche : https://www.siteinspire.com/website/9116-husk)",
-              "url": "http://www.madebyhusk.com/",
-              "source": "Siteinspire",
-              "important": false
-            }
-          ]
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz / bad buzz",
-          "items": [
-            {
-              "titre": "Frostbite : une architecture CPU découverte, conçue et vérifiée par une IA (HN, 578 pts)",
-              "resume": "Architect Labs affirme avoir laissé l'IA mener tout le cycle ; les commentaires restent sceptiques sur la portée réelle.",
-              "url": "https://news.ycombinator.com/item?id=50572503",
-              "source": "Hacker News",
               "important": false
             }
           ]
